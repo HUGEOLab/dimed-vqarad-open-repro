@@ -4,3 +4,4 @@ __pycache__/
 *.tar.gz
 *.bin
 !provenance/training_args.bin
+work/from_base/
