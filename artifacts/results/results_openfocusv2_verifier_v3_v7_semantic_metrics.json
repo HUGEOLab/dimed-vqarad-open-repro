@@ -1,0 +1,48 @@
+{
+  "judge": "Qwen3-VL-8B-Instruct local deterministic semantic judge",
+  "decision_policy": "accept synonyms, abbreviations, singular/plural and harmless articles; reject wrong laterality, anatomy, location, modality/sequence, measurement, polarity, or missing required findings",
+  "primary_open_metric": {
+    "protocol": "original VQA-RAD answer_type label",
+    "correct": 132,
+    "total": 179,
+    "accuracy": 0.7374301675977654
+  },
+  "secondary_non_yesno_proxy_not_official_open": {
+    "correct": 147,
+    "total": 200,
+    "accuracy": 0.735,
+    "warning": "Includes 21 original CLOSED forced-choice questions whose answers are not yes/no. Do not report as the official VQA-RAD OPEN score."
+  },
+  "primary_open_exact": {
+    "correct": 110,
+    "total": 179,
+    "accuracy": 0.6145251396648045
+  },
+  "secondary_non_yesno_proxy_exact": {
+    "correct": 124,
+    "total": 200,
+    "accuracy": 0.62
+  },
+  "primary_open_semantic_but_not_exact": 22,
+  "secondary_proxy_semantic_but_not_exact": 23,
+  "official_label_semantic_summary": {
+    "OPEN": {
+      "correct": 132,
+      "total": 179,
+      "accuracy": 0.7374301675977654
+    },
+    "CLOSED": {
+      "correct": 233,
+      "total": 272,
+      "accuracy": 0.8566176470588235
+    },
+    "OVERALL": {
+      "correct": 365,
+      "total": 451,
+      "accuracy": 0.8093126385809313
+    },
+    "scoring_method": "Semantic judge for all 200 non-yes/no answers (179 OPEN plus 21 CLOSED forced-choice); normalized exact match for 251 yes/no CLOSED answers."
+  },
+  "exact_rejected_by_judge": 0,
+  "noncanonical_judge_outputs": 0
+}

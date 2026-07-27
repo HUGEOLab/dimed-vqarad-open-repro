@@ -1,0 +1,121 @@
+{
+  "train_only": true,
+  "grouping": "5-fold by image_name",
+  "candidate_rows": 265,
+  "candidate_examples": 630,
+  "positive_candidate_rate": 0.01904761904761905,
+  "best": {
+    "C": 1.0,
+    "threshold": 0.9,
+    "margin": 0.0,
+    "changes": 15,
+    "fixed": 5,
+    "broke": 9,
+    "correct": 246,
+    "net": -4
+  },
+  "top10": [
+    {
+      "C": 1.0,
+      "threshold": 0.9,
+      "margin": 0.0,
+      "changes": 15,
+      "fixed": 5,
+      "broke": 9,
+      "correct": 246,
+      "net": -4
+    },
+    {
+      "C": 3.0,
+      "threshold": 0.9,
+      "margin": 0.0,
+      "changes": 15,
+      "fixed": 5,
+      "broke": 9,
+      "correct": 246,
+      "net": -4
+    },
+    {
+      "C": 10.0,
+      "threshold": 0.9,
+      "margin": 0.0,
+      "changes": 15,
+      "fixed": 5,
+      "broke": 9,
+      "correct": 246,
+      "net": -4
+    },
+    {
+      "C": 0.1,
+      "threshold": 0.9,
+      "margin": 0.0,
+      "changes": 15,
+      "fixed": 2,
+      "broke": 12,
+      "correct": 240,
+      "net": -10
+    },
+    {
+      "C": 0.3,
+      "threshold": 0.9,
+      "margin": 0.0,
+      "changes": 17,
+      "fixed": 3,
+      "broke": 14,
+      "correct": 239,
+      "net": -11
+    },
+    {
+      "C": 10.0,
+      "threshold": 0.8,
+      "margin": 0.0,
+      "changes": 25,
+      "fixed": 6,
+      "broke": 18,
+      "correct": 238,
+      "net": -12
+    },
+    {
+      "C": 3.0,
+      "threshold": 0.7,
+      "margin": 0.0,
+      "changes": 29,
+      "fixed": 6,
+      "broke": 21,
+      "correct": 235,
+      "net": -15
+    },
+    {
+      "C": 10.0,
+      "threshold": 0.7,
+      "margin": 0.0,
+      "changes": 29,
+      "fixed": 6,
+      "broke": 22,
+      "correct": 234,
+      "net": -16
+    },
+    {
+      "C": 3.0,
+      "threshold": 0.8,
+      "margin": 0.0,
+      "changes": 27,
+      "fixed": 5,
+      "broke": 21,
+      "correct": 234,
+      "net": -16
+    },
+    {
+      "C": 10.0,
+      "threshold": 0.6,
+      "margin": 0.0,
+      "changes": 32,
+      "fixed": 6,
+      "broke": 24,
+      "correct": 232,
+      "net": -18
+    }
+  ],
+  "test_local_rows": 60,
+  "test_changes_without_gold_selection": 13
+}

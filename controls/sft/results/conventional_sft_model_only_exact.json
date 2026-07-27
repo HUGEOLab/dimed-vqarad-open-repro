@@ -1,0 +1,17 @@
+{
+  "protocol": "classic VQA-RAD original answer_type; normalized exact match",
+  "total": 451,
+  "counts": {
+    "CLOSED": 272,
+    "OPEN": 179
+  },
+  "correct": {
+    "CLOSED": 210,
+    "OPEN": 32
+  },
+  "accuracy": {
+    "CLOSED": 0.7720588235294118,
+    "OPEN": 0.1787709497206704
+  },
+  "overall_exact": 0.5365853658536586
+}

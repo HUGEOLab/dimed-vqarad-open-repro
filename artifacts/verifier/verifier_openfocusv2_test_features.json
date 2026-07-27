@@ -1,0 +1,4699 @@
+[
+  {
+    "qid": 302,
+    "split": "test",
+    "image_name": "synpic18319.jpg",
+    "question": "Describe the lung abnormalities?",
+    "answer": "Pulmonary nodules",
+    "answer_type": "OPEN",
+    "baseline_response": "Pulmonary nodules",
+    "clinical_term": "lung abnormality",
+    "boxes": [
+      [
+        585,
+        241,
+        804,
+        421
+      ],
+      [
+        657,
+        421,
+        879,
+        601
+      ],
+      [
+        585,
+        421,
+        804,
+        601
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Pulmonary nodules",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.20135478675365448,
+        "grounded": -0.6838175058364868,
+        "removed": -0.36392834782600403,
+        "visual_support": -0.3198891580104828
+      },
+      {
+        "answer": "Consolidation",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -1.7665839195251465,
+        "grounded": -0.8863641619682312,
+        "removed": -1.980276107788086,
+        "visual_support": 1.0939119458198547
+      },
+      {
+        "answer": "Nodular opacities",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -0.3956573009490967,
+        "grounded": -0.5508753061294556,
+        "removed": -0.8312596678733826,
+        "visual_support": 0.280384361743927
+      },
+      {
+        "answer": "Adenopathy",
+        "source": "contrastive_generation",
+        "similarity": null,
+        "full": -1.1269117593765259,
+        "grounded": -2.4245333671569824,
+        "removed": -2.9378247261047363,
+        "visual_support": 0.5132913589477539
+      },
+      {
+        "answer": "Bilateral",
+        "source": "same_image_train",
+        "similarity": 0.1612384939481242,
+        "source_qid": 2367,
+        "source_question": "Which lung are the nodules located in?",
+        "full": -2.565300226211548,
+        "grounded": -2.7303383350372314,
+        "removed": -3.6304447650909424,
+        "visual_support": 0.9001064300537109
+      },
+      {
+        "answer": "Ring-enhancing lesions",
+        "source": "global_train",
+        "similarity": 0.7918804787374363,
+        "source_qid": 428,
+        "source_question": "How would you describe the abnormalities?",
+        "full": -4.761443138122559,
+        "grounded": -5.740032196044922,
+        "removed": -5.548502445220947,
+        "visual_support": -0.1915297508239746
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 304,
+    "split": "test",
+    "image_name": "synpic18319.jpg",
+    "question": "What abnormalities are seen within the lungs?",
+    "answer": "Pulmonary nodules",
+    "answer_type": "OPEN",
+    "baseline_response": "Pulmonary nodules",
+    "clinical_term": "lung",
+    "boxes": [
+      [
+        585,
+        241,
+        804,
+        421
+      ],
+      [
+        145,
+        0,
+        367,
+        180
+      ],
+      [
+        657,
+        421,
+        879,
+        601
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Pulmonary nodules",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.0865398645401001,
+        "grounded": -0.09228283166885376,
+        "removed": -0.014292987994849682,
+        "visual_support": -0.07798984367400408
+      },
+      {
+        "answer": "nodules",
+        "source": "contrastive_generation",
+        "similarity": null,
+        "full": -0.8287569880485535,
+        "grounded": -2.2306385040283203,
+        "removed": -2.666189193725586,
+        "visual_support": 0.4355506896972656
+      },
+      {
+        "answer": "Bilateral",
+        "source": "same_image_train",
+        "similarity": 0.13000578724643652,
+        "source_qid": 2367,
+        "source_question": "Which lung are the nodules located in?",
+        "full": -4.542571544647217,
+        "grounded": -4.514283657073975,
+        "removed": -5.41055965423584,
+        "visual_support": 0.8962759971618652
+      },
+      {
+        "answer": "bilateral pleural effusion",
+        "source": "global_train",
+        "similarity": 0.4115248543117759,
+        "source_qid": 3384,
+        "source_question": "What abnormality is seen in this image?",
+        "full": -3.0329742431640625,
+        "grounded": -1.8581618070602417,
+        "removed": -2.6152963638305664,
+        "visual_support": 0.7571345567703247
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 306,
+    "split": "test",
+    "image_name": "synpic32933.jpg",
+    "question": "What is under the right hemidiaphragm?",
+    "answer": "Free air",
+    "answer_type": "OPEN",
+    "baseline_response": "Stomach bubble",
+    "clinical_term": "right hemidiaphragm",
+    "boxes": [
+      [
+        585,
+        0,
+        804,
+        156
+      ],
+      [
+        73,
+        0,
+        292,
+        234
+      ],
+      [
+        366,
+        233,
+        585,
+        467
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Stomach bubble",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.22624002397060394,
+        "grounded": -0.008706554770469666,
+        "removed": -0.20421923696994781,
+        "visual_support": 0.19551268219947815
+      },
+      {
+        "answer": "Free air",
+        "source": "same_image_train",
+        "similarity": 0.5795518875123619,
+        "source_qid": 307,
+        "source_question": "What is/are the hypointensity near/in the R hemidiaphragm?",
+        "full": -1.0771045684814453,
+        "grounded": -2.298553228378296,
+        "removed": -1.438993215560913,
+        "visual_support": -0.8595600128173828
+      },
+      {
+        "answer": "R hemidiaphragm",
+        "source": "same_image_train",
+        "similarity": 0.018269576985034536,
+        "source_qid": 2440,
+        "source_question": "Where is the abnormality located?",
+        "full": -2.649697780609131,
+        "grounded": -3.3052308559417725,
+        "removed": -2.6105873584747314,
+        "visual_support": -0.694643497467041
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 319,
+    "split": "test",
+    "image_name": "synpic40464.jpg",
+    "question": "How would you describe the spleen abnormality",
+    "answer": "hypodense lesion",
+    "answer_type": "OPEN",
+    "baseline_response": "Asymmetric",
+    "clinical_term": "spleen",
+    "boxes": [
+      [
+        657,
+        280,
+        879,
+        562
+      ],
+      [
+        293,
+        1122,
+        512,
+        1310
+      ],
+      [
+        657,
+        561,
+        879,
+        843
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Asymmetric",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.6298398971557617,
+        "grounded": -0.5325455665588379,
+        "removed": -0.19085121154785156,
+        "visual_support": -0.34169435501098633
+      },
+      {
+        "answer": "Asymmetrically enlarged",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -1.596440076828003,
+        "grounded": -1.527435541152954,
+        "removed": -1.248944878578186,
+        "visual_support": -0.27849066257476807
+      },
+      {
+        "answer": "Splenomegaly",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -0.638344943523407,
+        "grounded": -0.9771530032157898,
+        "removed": -0.9613434672355652,
+        "visual_support": -0.01580953598022461
+      },
+      {
+        "answer": "Splenule",
+        "source": "contrastive_generation",
+        "similarity": null,
+        "full": -0.6055594682693481,
+        "grounded": -0.9202415347099304,
+        "removed": -1.435558795928955,
+        "visual_support": 0.5153172612190247
+      },
+      {
+        "answer": "hypodense lesion",
+        "source": "same_image_train",
+        "similarity": 0.7447759036440816,
+        "source_qid": 320,
+        "source_question": "How would you describe the abnormality?",
+        "full": -1.9920341968536377,
+        "grounded": -1.8493983745574951,
+        "removed": -1.8594356775283813,
+        "visual_support": 0.01003730297088623
+      },
+      {
+        "answer": "one",
+        "source": "same_image_train",
+        "similarity": 0.31302996058454347,
+        "source_qid": 403,
+        "source_question": "How many spleen lesions are present/visualized in the image?",
+        "full": -14.006023406982422,
+        "grounded": -13.484443664550781,
+        "removed": -15.939398765563965,
+        "visual_support": 2.4549551010131836
+      },
+      {
+        "answer": "Diffuse",
+        "source": "global_train",
+        "similarity": 0.7447759036440816,
+        "source_qid": 342,
+        "source_question": "How would you describe the abnormality?",
+        "full": -4.378243923187256,
+        "grounded": -4.117528915405273,
+        "removed": -4.610864639282227,
+        "visual_support": 0.4933357238769531
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 321,
+    "split": "test",
+    "image_name": "synpic40464.jpg",
+    "question": "What is abnormal about the spleen?",
+    "answer": "hypodense lesion",
+    "answer_type": "OPEN",
+    "baseline_response": "Nothing",
+    "clinical_term": "spleen",
+    "boxes": [
+      [
+        657,
+        280,
+        879,
+        562
+      ],
+      [
+        293,
+        1122,
+        512,
+        1310
+      ],
+      [
+        657,
+        561,
+        879,
+        843
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Nothing",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.44286343455314636,
+        "grounded": -0.5689007043838501,
+        "removed": -0.8585895895957947,
+        "visual_support": 0.2896888852119446
+      },
+      {
+        "answer": "one",
+        "source": "same_image_train",
+        "similarity": 0.2530232846717893,
+        "source_qid": 403,
+        "source_question": "How many spleen lesions are present/visualized in the image?",
+        "full": -18.31786346435547,
+        "grounded": -18.06890106201172,
+        "removed": -21.15546417236328,
+        "visual_support": 3.0865631103515625
+      },
+      {
+        "answer": "hypodense lesion",
+        "source": "same_image_train",
+        "similarity": 0.16989479167078078,
+        "source_qid": 320,
+        "source_question": "How would you describe the abnormality?",
+        "full": -3.1770665645599365,
+        "grounded": -2.716754198074341,
+        "removed": -2.7981135845184326,
+        "visual_support": 0.0813593864440918
+      },
+      {
+        "answer": "White matter plaques",
+        "source": "global_train",
+        "similarity": 0.6697792028709045,
+        "source_qid": 2636,
+        "source_question": "What is abnormal about the image?",
+        "full": -5.30667781829834,
+        "grounded": -5.015293598175049,
+        "removed": -5.888178825378418,
+        "visual_support": 0.8728852272033691
+      },
+      {
+        "answer": "Enlarged",
+        "source": "global_train",
+        "similarity": 0.5421866353561107,
+        "source_qid": 394,
+        "source_question": "What is abnormal about the hila?",
+        "full": -1.6061396598815918,
+        "grounded": -2.0649795532226562,
+        "removed": -2.578101634979248,
+        "visual_support": 0.5131220817565918
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 413,
+    "split": "test",
+    "image_name": "synpic40314.jpg",
+    "question": "What is abnormal about the pancreas?",
+    "answer": "Enlarged",
+    "answer_type": "OPEN",
+    "baseline_response": "fatty infiltration",
+    "clinical_term": "pancrea",
+    "boxes": [
+      [
+        365,
+        274,
+        476,
+        358
+      ],
+      [
+        292,
+        138,
+        403,
+        219
+      ],
+      [
+        292,
+        192,
+        403,
+        276
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "fatty infiltration",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.01630074717104435,
+        "grounded": -0.023536305874586105,
+        "removed": -0.014396948739886284,
+        "visual_support": -0.009139357134699821
+      },
+      {
+        "answer": "Pancreas",
+        "source": "same_image_train",
+        "similarity": 0.21826037933730708,
+        "source_qid": 358,
+        "source_question": "Where is/are the abnormality located?",
+        "full": -3.997169017791748,
+        "grounded": -3.9274377822875977,
+        "removed": -3.9391579627990723,
+        "visual_support": 0.01172018051147461
+      },
+      {
+        "answer": "White matter plaques",
+        "source": "global_train",
+        "similarity": 0.6257809092494185,
+        "source_qid": 2636,
+        "source_question": "What is abnormal about the image?",
+        "full": -6.889215469360352,
+        "grounded": -6.389139652252197,
+        "removed": -6.872281551361084,
+        "visual_support": 0.4831418991088867
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 414,
+    "split": "test",
+    "image_name": "synpic40314.jpg",
+    "question": "Why is the pancreas abnormal?",
+    "answer": "Enlarged",
+    "answer_type": "OPEN",
+    "baseline_response": "fatty infiltration",
+    "clinical_term": "pancrea",
+    "boxes": [
+      [
+        365,
+        274,
+        476,
+        358
+      ],
+      [
+        292,
+        138,
+        403,
+        219
+      ],
+      [
+        292,
+        192,
+        403,
+        276
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "fatty infiltration",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.03252693638205528,
+        "grounded": -0.13614460825920105,
+        "removed": -0.06442847847938538,
+        "visual_support": -0.07171612977981567
+      },
+      {
+        "answer": "It is not",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -2.0647618770599365,
+        "grounded": -1.3784596920013428,
+        "removed": -1.768856406211853,
+        "visual_support": 0.39039671421051025
+      },
+      {
+        "answer": "Pancreas",
+        "source": "same_image_train",
+        "similarity": 0.22497456884255798,
+        "source_qid": 358,
+        "source_question": "Where is/are the abnormality located?",
+        "full": -5.062017917633057,
+        "grounded": -3.5939748287200928,
+        "removed": -5.077570915222168,
+        "visual_support": 1.4835960865020752
+      },
+      {
+        "answer": "Right cerebellum",
+        "source": "global_train",
+        "similarity": 0.49059394234723996,
+        "source_qid": 1380,
+        "source_question": "What area is abnormal?",
+        "full": -7.076119422912598,
+        "grounded": -6.6272382736206055,
+        "removed": -6.796234130859375,
+        "visual_support": 0.16899585723876953
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 415,
+    "split": "test",
+    "image_name": "synpic31400.jpg",
+    "question": "What abnormalities are in the lung apices?",
+    "answer": "Nodular opacities",
+    "answer_type": "OPEN",
+    "baseline_response": "Nodular opacities",
+    "clinical_term": "apice",
+    "boxes": [
+      [
+        145,
+        0,
+        367,
+        186
+      ],
+      [
+        73,
+        0,
+        292,
+        186
+      ],
+      [
+        585,
+        93,
+        804,
+        372
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Nodular opacities",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.0010307756019756198,
+        "grounded": -0.0008241471368819475,
+        "removed": -0.0017068882007151842,
+        "visual_support": 0.0008827410638332367
+      },
+      {
+        "answer": "Right upper lobe",
+        "source": "same_image_train",
+        "similarity": 0.3199833626223636,
+        "source_qid": 361,
+        "source_question": "where is the abnormality?",
+        "full": -5.135364532470703,
+        "grounded": -4.77819299697876,
+        "removed": -4.557719707489014,
+        "visual_support": -0.2204732894897461
+      },
+      {
+        "answer": "Bilateral",
+        "source": "global_train",
+        "similarity": 0.5494892693163002,
+        "source_qid": 372,
+        "source_question": "Where are the abnormalities?",
+        "full": -8.304438591003418,
+        "grounded": -7.921880722045898,
+        "removed": -7.753175258636475,
+        "visual_support": -0.16870546340942383
+      },
+      {
+        "answer": "Pulmonary nodules",
+        "source": "global_train",
+        "similarity": 0.5124784894089783,
+        "source_qid": 305,
+        "source_question": "What is/are the abnormalities  near/in the lung?",
+        "full": -2.292414426803589,
+        "grounded": -2.214470863342285,
+        "removed": -1.986798644065857,
+        "visual_support": -0.22767221927642822
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 417,
+    "split": "test",
+    "image_name": "synpic31400.jpg",
+    "question": "What is seen in the lung apices?",
+    "answer": "Nodular opacities",
+    "answer_type": "OPEN",
+    "baseline_response": "Nodular opacities",
+    "clinical_term": "apice",
+    "boxes": [
+      [
+        145,
+        0,
+        367,
+        186
+      ],
+      [
+        73,
+        0,
+        292,
+        186
+      ],
+      [
+        585,
+        93,
+        804,
+        372
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Nodular opacities",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.0025358563289046288,
+        "grounded": -0.002258664695546031,
+        "removed": -0.0025890464894473553,
+        "visual_support": 0.00033038179390132427
+      },
+      {
+        "answer": "Right upper lobe",
+        "source": "same_image_train",
+        "similarity": 0.024194312697359145,
+        "source_qid": 361,
+        "source_question": "where is the abnormality?",
+        "full": -4.4698166847229,
+        "grounded": -4.0162200927734375,
+        "removed": -4.403409957885742,
+        "visual_support": 0.3871898651123047
+      },
+      {
+        "answer": "emphysema",
+        "source": "global_train",
+        "similarity": 0.27146729090942273,
+        "source_qid": 2519,
+        "source_question": "The cystic findings in the bilateral apices are consistent with what pathology?",
+        "full": -4.2218756675720215,
+        "grounded": -4.0543532371521,
+        "removed": -3.9881367683410645,
+        "visual_support": -0.06621646881103516
+      },
+      {
+        "answer": "Right lung",
+        "source": "global_train",
+        "similarity": 0.2601708536513684,
+        "source_qid": 558,
+        "source_question": "Where is the lung lesion located?",
+        "full": -10.839628219604492,
+        "grounded": -10.748946189880371,
+        "removed": -10.176372528076172,
+        "visual_support": -0.5725736618041992
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 431,
+    "split": "test",
+    "image_name": "synpic56799.jpg",
+    "question": "What lobe is the lesion located in?",
+    "answer": "right temporal lobe",
+    "answer_type": "OPEN",
+    "baseline_response": "Right temporal lobe",
+    "clinical_term": "lobe",
+    "boxes": [
+      [
+        239,
+        270,
+        356,
+        435
+      ],
+      [
+        356,
+        651,
+        476,
+        759
+      ],
+      [
+        1,
+        53,
+        118,
+        218
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right temporal lobe",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.1758306324481964,
+        "grounded": -0.27790284156799316,
+        "removed": -0.5783399939537048,
+        "visual_support": 0.30043715238571167
+      },
+      {
+        "answer": "Right occipital lobe",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -0.763200044631958,
+        "grounded": -0.26887911558151245,
+        "removed": -0.6149165630340576,
+        "visual_support": 0.34603744745254517
+      },
+      {
+        "answer": "Right",
+        "source": "same_image_train",
+        "similarity": 0.4593580089935631,
+        "source_qid": 2433,
+        "source_question": "Where is/are the lesion located?",
+        "full": -0.07025209069252014,
+        "grounded": -0.14327603578567505,
+        "removed": -0.11315380036830902,
+        "visual_support": -0.030122235417366028
+      },
+      {
+        "answer": "Upper right lobe",
+        "source": "global_train",
+        "similarity": 0.8710916845271622,
+        "source_qid": 731,
+        "source_question": "Which lobe is the lesion located in?",
+        "full": -5.248577117919922,
+        "grounded": -5.7203755378723145,
+        "removed": -5.4906415939331055,
+        "visual_support": -0.22973394393920898
+      },
+      {
+        "answer": "Right frontal lobe",
+        "source": "global_train",
+        "similarity": 0.8472462203907222,
+        "source_qid": 1462,
+        "source_question": "What lobe of the brain is the lesion located in?",
+        "full": -0.26956743001937866,
+        "grounded": -0.5591413974761963,
+        "removed": -0.17207539081573486,
+        "visual_support": -0.3870660066604614
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 472,
+    "split": "test",
+    "image_name": "synpic49914.jpg",
+    "question": "Which lung is abnormal?",
+    "answer": "Right lung",
+    "answer_type": "OPEN",
+    "baseline_response": "Right",
+    "clinical_term": "lung",
+    "boxes": [
+      [
+        73,
+        1109,
+        292,
+        1295
+      ],
+      [
+        0,
+        1109,
+        219,
+        1295
+      ],
+      [
+        220,
+        1109,
+        439,
+        1295
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.17992003262043,
+        "grounded": -0.05551278591156006,
+        "removed": -0.10033630579710007,
+        "visual_support": 0.04482351988554001
+      },
+      {
+        "answer": "Volume loss",
+        "source": "same_image_train",
+        "similarity": 0.4822474040181627,
+        "source_qid": 398,
+        "source_question": "What is/are abnormal right lung ?",
+        "full": -8.591316223144531,
+        "grounded": -8.654473304748535,
+        "removed": -8.770343780517578,
+        "visual_support": 0.11587047576904297
+      },
+      {
+        "answer": "Right lung",
+        "source": "same_image_train",
+        "similarity": 0.2836425248388042,
+        "source_qid": 471,
+        "source_question": "Where is/are the abnormality located?",
+        "full": -2.2221601009368896,
+        "grounded": -2.0984439849853516,
+        "removed": -2.120803117752075,
+        "visual_support": 0.022359132766723633
+      },
+      {
+        "answer": "Left",
+        "source": "global_train",
+        "similarity": 0.7744532960062865,
+        "source_qid": 1371,
+        "source_question": "Which side is abnormal?",
+        "full": -10.304920196533203,
+        "grounded": -7.93051290512085,
+        "removed": -10.350336074829102,
+        "visual_support": 2.419823169708252
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 595,
+    "split": "test",
+    "image_name": "synpic34449.jpg",
+    "question": "Which side is more clearly visualized?",
+    "answer": "Left",
+    "answer_type": "OPEN",
+    "baseline_response": "Right",
+    "clinical_term": "side",
+    "boxes": [
+      [
+        657,
+        749,
+        879,
+        1028
+      ],
+      [
+        73,
+        280,
+        292,
+        562
+      ],
+      [
+        220,
+        654,
+        439,
+        936
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.5806933045387268,
+        "grounded": -0.23003645241260529,
+        "removed": -0.43466463685035706,
+        "visual_support": 0.20462818443775177
+      },
+      {
+        "answer": "Left",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -5.830693244934082,
+        "grounded": -2.605036497116089,
+        "removed": -2.059664726257324,
+        "visual_support": -0.5453717708587646
+      },
+      {
+        "answer": "right side",
+        "source": "contrastive_generation",
+        "similarity": null,
+        "full": -0.8858892917633057,
+        "grounded": -1.4330588579177856,
+        "removed": -1.4459607601165771,
+        "visual_support": 0.012901902198791504
+      },
+      {
+        "answer": "High on the image",
+        "source": "same_image_train",
+        "similarity": 0.01694607251031724,
+        "source_qid": 552,
+        "source_question": "Where in the image are the calcifications located?",
+        "full": -7.08994722366333,
+        "grounded": -6.939708709716797,
+        "removed": -7.183200836181641,
+        "visual_support": 0.24349212646484375
+      },
+      {
+        "answer": "On the right shoulder.",
+        "source": "same_image_train",
+        "similarity": 0.004834042352008849,
+        "source_qid": 710,
+        "source_question": "Where is/are the subcutaneous air collection? ",
+        "full": -6.040874004364014,
+        "grounded": -5.573209285736084,
+        "removed": -6.230218410491943,
+        "visual_support": 0.6570091247558594
+      },
+      {
+        "answer": "Heart \tlungs",
+        "source": "same_image_train",
+        "similarity": 0.004570464704501619,
+        "source_qid": 597,
+        "source_question": "What are the two major organs present in this image?",
+        "full": -7.119377613067627,
+        "grounded": -6.348836898803711,
+        "removed": -6.80281925201416,
+        "visual_support": 0.4539823532104492
+      },
+      {
+        "answer": "Gastrointestinal",
+        "source": "global_train",
+        "similarity": 0.5658383005781145,
+        "source_qid": 635,
+        "source_question": "What is the organ system visualized?",
+        "full": -10.618767738342285,
+        "grounded": -9.702371597290039,
+        "removed": -9.400382995605469,
+        "visual_support": -0.3019886016845703
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 596,
+    "split": "test",
+    "image_name": "synpic34449.jpg",
+    "question": "Which lung is clearer?",
+    "answer": "Left",
+    "answer_type": "OPEN",
+    "baseline_response": "Left",
+    "clinical_term": "lung",
+    "boxes": [
+      [
+        657,
+        94,
+        879,
+        373
+      ],
+      [
+        732,
+        94,
+        951,
+        373
+      ],
+      [
+        73,
+        94,
+        292,
+        373
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Left",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.008499400690197945,
+        "grounded": -0.014262759126722813,
+        "removed": -0.009613881818950176,
+        "visual_support": -0.004648877307772636
+      },
+      {
+        "answer": "Heart \tlungs",
+        "source": "same_image_train",
+        "similarity": 0.009062957896140792,
+        "source_qid": 597,
+        "source_question": "What are the two major organs present in this image?",
+        "full": -8.030168533325195,
+        "grounded": -8.299324035644531,
+        "removed": -7.958373069763184,
+        "visual_support": -0.34095096588134766
+      },
+      {
+        "answer": "High on the image",
+        "source": "same_image_train",
+        "similarity": 0.00679902794101179,
+        "source_qid": 552,
+        "source_question": "Where in the image are the calcifications located?",
+        "full": -7.6807403564453125,
+        "grounded": -7.33367395401001,
+        "removed": -7.9281005859375,
+        "visual_support": 0.5944266319274902
+      },
+      {
+        "answer": "On the right shoulder.",
+        "source": "same_image_train",
+        "similarity": 0.006445253441063906,
+        "source_qid": 710,
+        "source_question": "Where is/are the subcutaneous air collection? ",
+        "full": -7.10046911239624,
+        "grounded": -7.115142822265625,
+        "removed": -7.032851696014404,
+        "visual_support": -0.0822911262512207
+      },
+      {
+        "answer": "Right upper lobe",
+        "source": "global_train",
+        "similarity": 0.48411673462592963,
+        "source_qid": 560,
+        "source_question": "Which lobe of the lung is the lesion located in?",
+        "full": -6.594450950622559,
+        "grounded": -6.0362749099731445,
+        "removed": -6.5142974853515625,
+        "visual_support": 0.47802257537841797
+      },
+      {
+        "answer": "Bilateral",
+        "source": "global_train",
+        "similarity": 0.4481939725208851,
+        "source_qid": 2367,
+        "source_question": "Which lung are the nodules located in?",
+        "full": -9.592894554138184,
+        "grounded": -9.297480583190918,
+        "removed": -9.566251754760742,
+        "visual_support": 0.2687711715698242
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 648,
+    "split": "test",
+    "image_name": "synpic41050.jpg",
+    "question": "Where is the ascending colon?",
+    "answer": "Posterior to the appendix",
+    "answer_type": "OPEN",
+    "baseline_response": "Posterior to the appendix",
+    "clinical_term": "ascending colon",
+    "boxes": [
+      [
+        732,
+        328,
+        951,
+        466
+      ],
+      [
+        585,
+        280,
+        804,
+        421
+      ],
+      [
+        657,
+        560,
+        879,
+        654
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Posterior to the appendix",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.12128148227930069,
+        "grounded": -0.34660670161247253,
+        "removed": -0.20047417283058167,
+        "visual_support": -0.14613252878189087
+      },
+      {
+        "answer": "Right",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -2.4605393409729004,
+        "grounded": -1.3277252912521362,
+        "removed": -2.467618465423584,
+        "visual_support": 1.1398931741714478
+      },
+      {
+        "answer": "Periappendiceal fluid and fat stranding",
+        "source": "same_image_train",
+        "similarity": 0.06224965970055736,
+        "source_qid": 566,
+        "source_question": "What indicates that appendicitis is present?",
+        "full": -1.2573848962783813,
+        "grounded": -1.4276982545852661,
+        "removed": -1.2479056119918823,
+        "visual_support": -0.1797926425933838
+      },
+      {
+        "answer": "In the bowels",
+        "source": "same_image_train",
+        "similarity": 0.04876820566604537,
+        "source_qid": 2649,
+        "source_question": "Is there contrast in the bowels?",
+        "full": -4.504925727844238,
+        "grounded": -4.5888824462890625,
+        "removed": -4.031339168548584,
+        "visual_support": -0.5575432777404785
+      },
+      {
+        "answer": "Diverticuli",
+        "source": "global_train",
+        "similarity": 0.36115467969743814,
+        "source_qid": 2884,
+        "source_question": "What are the findings in the sigmoid colon?",
+        "full": -2.870540142059326,
+        "grounded": -2.6696324348449707,
+        "removed": -2.6862730979919434,
+        "visual_support": 0.016640663146972656
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 709,
+    "split": "test",
+    "image_name": "synpic34449.jpg",
+    "question": "Where is the subcutaneous air collection?",
+    "answer": "On the right shoulder.",
+    "answer_type": "OPEN",
+    "baseline_response": "On the right shoulder.",
+    "clinical_term": "air collection",
+    "boxes": [
+      [
+        657,
+        94,
+        879,
+        373
+      ],
+      [
+        878,
+        94,
+        1024,
+        373
+      ],
+      [
+        732,
+        94,
+        951,
+        373
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "On the right shoulder.",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.008653958328068256,
+        "grounded": -0.013496979139745235,
+        "removed": -0.008149412460625172,
+        "visual_support": -0.005347566679120064
+      },
+      {
+        "answer": "High on the image",
+        "source": "same_image_train",
+        "similarity": 0.05705128841226426,
+        "source_qid": 552,
+        "source_question": "Where in the image are the calcifications located?",
+        "full": -5.4360671043396,
+        "grounded": -5.73160982131958,
+        "removed": -5.58689022064209,
+        "visual_support": -0.14471960067749023
+      },
+      {
+        "answer": "Superior",
+        "source": "same_image_train",
+        "similarity": 0.023017340378196912,
+        "source_qid": 551,
+        "source_question": "Are the calcifications superior or inferior to the diaphragm?",
+        "full": -10.831073760986328,
+        "grounded": -10.490697860717773,
+        "removed": -10.922049522399902,
+        "visual_support": 0.4313516616821289
+      },
+      {
+        "answer": "Right lung base",
+        "source": "global_train",
+        "similarity": 0.4905953846605178,
+        "source_qid": 672,
+        "source_question": "Where is the largest air collection in this image?",
+        "full": -6.688986778259277,
+        "grounded": -6.579531669616699,
+        "removed": -6.383312225341797,
+        "visual_support": -0.19621944427490234
+      },
+      {
+        "answer": "Right side",
+        "source": "global_train",
+        "similarity": 0.3734868854108393,
+        "source_qid": 671,
+        "source_question": "Is the largest air collection on the patient's left or the right side?",
+        "full": -5.087808132171631,
+        "grounded": -4.148750305175781,
+        "removed": -5.162998676300049,
+        "visual_support": 1.0142483711242676
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 735,
+    "split": "test",
+    "image_name": "synpic45557.jpg",
+    "question": "Is the heart size in this image smaller or larger than if the image was taken AP?",
+    "answer": "Smaller",
+    "answer_type": "CLOSED",
+    "baseline_response": "Larger",
+    "clinical_term": "heart size",
+    "boxes": [
+      [
+        805,
+        561,
+        1024,
+        840
+      ],
+      [
+        73,
+        654,
+        292,
+        933
+      ],
+      [
+        732,
+        0,
+        951,
+        186
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Larger",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.05758238211274147,
+        "grounded": -0.07088173180818558,
+        "removed": -0.05420684814453125,
+        "visual_support": -0.016674883663654327
+      },
+      {
+        "answer": "Right lung base",
+        "source": "same_image_train",
+        "similarity": 0.11950980656864303,
+        "source_qid": 740,
+        "source_question": "Where on the image is most obscured?",
+        "full": -7.68068265914917,
+        "grounded": -8.136870384216309,
+        "removed": -8.337724685668945,
+        "visual_support": 0.20085430145263672
+      },
+      {
+        "answer": "In the midline",
+        "source": "same_image_train",
+        "similarity": 0.030345350243307652,
+        "source_qid": 2748,
+        "source_question": "Is the trachea midline?",
+        "full": -5.405795097351074,
+        "grounded": -5.411092281341553,
+        "removed": -5.695688247680664,
+        "visual_support": 0.28459596633911133
+      },
+      {
+        "answer": "None",
+        "source": "same_image_train",
+        "similarity": 0.02192420967472901,
+        "source_qid": 545,
+        "source_question": "What lesions are present in the lungs?",
+        "full": -9.802094459533691,
+        "grounded": -10.016468048095703,
+        "removed": -10.045736312866211,
+        "visual_support": 0.029268264770507812
+      },
+      {
+        "answer": "X-ray",
+        "source": "global_train",
+        "similarity": 0.42274240825991605,
+        "source_qid": 725,
+        "source_question": "How was this image taken?",
+        "full": -6.798366069793701,
+        "grounded": -6.299463748931885,
+        "removed": -6.811476230621338,
+        "visual_support": 0.5120124816894531
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 754,
+    "split": "test",
+    "image_name": "synpic53978.jpg",
+    "question": "What structures are visible in this image?",
+    "answer": "Skull \tcartilage and medulla",
+    "answer_type": "OPEN",
+    "baseline_response": "cerebellum",
+    "clinical_term": "structure",
+    "boxes": [
+      [
+        223,
+        80,
+        316,
+        203
+      ],
+      [
+        128,
+        80,
+        221,
+        203
+      ],
+      [
+        128,
+        41,
+        221,
+        161
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "cerebellum",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.04172505438327789,
+        "grounded": -0.11897845566272736,
+        "removed": -0.16252993047237396,
+        "visual_support": 0.043551474809646606
+      },
+      {
+        "answer": "Pons",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -1.4765164852142334,
+        "grounded": -0.6890721321105957,
+        "removed": -0.6998658776283264,
+        "visual_support": 0.010793745517730713
+      },
+      {
+        "answer": "brain",
+        "source": "global_train",
+        "similarity": 0.5935768811717588,
+        "source_qid": 2225,
+        "source_question": "What is the structure in the image?",
+        "full": -9.012016296386719,
+        "grounded": -8.248950958251953,
+        "removed": -8.267595291137695,
+        "visual_support": 0.018644332885742188
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 830,
+    "split": "test",
+    "image_name": "synpic42307.jpg",
+    "question": "What bright white structures form an X?",
+    "answer": "lateral ventricles",
+    "answer_type": "OPEN",
+    "baseline_response": "lateral ventricles",
+    "clinical_term": "bright white structure",
+    "boxes": [
+      [
+        244,
+        305,
+        316,
+        398
+      ],
+      [
+        145,
+        183,
+        220,
+        276
+      ],
+      [
+        145,
+        305,
+        220,
+        398
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "lateral ventricles",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.0024239306803792715,
+        "grounded": -0.01428786851465702,
+        "removed": -0.0015135090798139572,
+        "visual_support": -0.012774359434843063
+      },
+      {
+        "answer": "Abscess",
+        "source": "same_image_train",
+        "similarity": 0.044493436122213875,
+        "source_qid": 878,
+        "source_question": "Is this an abscess or cancer?",
+        "full": -7.476715087890625,
+        "grounded": -6.685909748077393,
+        "removed": -7.307732582092285,
+        "visual_support": 0.6218228340148926
+      },
+      {
+        "answer": "brain",
+        "source": "global_train",
+        "similarity": 0.44121897324119563,
+        "source_qid": 2225,
+        "source_question": "What is the structure in the image?",
+        "full": -16.568317413330078,
+        "grounded": -12.846338272094727,
+        "removed": -16.005817413330078,
+        "visual_support": 3.1594791412353516
+      },
+      {
+        "answer": "cerebellum",
+        "source": "global_train",
+        "similarity": 0.3331041129494183,
+        "source_qid": 1457,
+        "source_question": "Brain structure shown in this image?",
+        "full": -6.373502254486084,
+        "grounded": -5.677825927734375,
+        "removed": -6.266160011291504,
+        "visual_support": 0.5883340835571289
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 832,
+    "split": "test",
+    "image_name": "synpic42307.jpg",
+    "question": "What are the bright white structures, almost forming an X\"?\"",
+    "answer": "lateral ventricles",
+    "answer_type": "OPEN",
+    "baseline_response": "lateral ventricles",
+    "clinical_term": "bright white structure",
+    "boxes": [
+      [
+        244,
+        305,
+        316,
+        398
+      ],
+      [
+        145,
+        183,
+        220,
+        276
+      ],
+      [
+        145,
+        305,
+        220,
+        398
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "lateral ventricles",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.007319967728108168,
+        "grounded": -0.028533756732940674,
+        "removed": -0.010215003043413162,
+        "visual_support": -0.01831875368952751
+      },
+      {
+        "answer": "White matter",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -1.8312972784042358,
+        "grounded": -1.1314502954483032,
+        "removed": -1.7143816947937012,
+        "visual_support": 0.582931399345398
+      },
+      {
+        "answer": "Abscess",
+        "source": "same_image_train",
+        "similarity": 0.03997053201258754,
+        "source_qid": 878,
+        "source_question": "Is this an abscess or cancer?",
+        "full": -7.074820518493652,
+        "grounded": -7.626763820648193,
+        "removed": -6.4310078620910645,
+        "visual_support": -1.195755958557129
+      },
+      {
+        "answer": "brain",
+        "source": "global_train",
+        "similarity": 0.4060027256631371,
+        "source_qid": 2225,
+        "source_question": "What is the structure in the image?",
+        "full": -15.09744644165039,
+        "grounded": -11.69743537902832,
+        "removed": -14.300176620483398,
+        "visual_support": 2.602741241455078
+      },
+      {
+        "answer": "cerebellum",
+        "source": "global_train",
+        "similarity": 0.296654202364317,
+        "source_qid": 1457,
+        "source_question": "Brain structure shown in this image?",
+        "full": -6.307281017303467,
+        "grounded": -6.019224166870117,
+        "removed": -6.327424049377441,
+        "visual_support": 0.3081998825073242
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 844,
+    "split": "test",
+    "image_name": "synpic40096.jpg",
+    "question": "Is this supratentorial or infratentorial?",
+    "answer": "supratentorial",
+    "answer_type": "CLOSED",
+    "baseline_response": "Supratentorial",
+    "clinical_term": "supratentorial",
+    "boxes": [
+      [
+        83,
+        38,
+        167,
+        155
+      ],
+      [
+        112,
+        38,
+        193,
+        155
+      ],
+      [
+        27,
+        387,
+        111,
+        504
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Supratentorial",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.06846581399440765,
+        "grounded": -0.03714023157954216,
+        "removed": -0.05394349247217178,
+        "visual_support": 0.016803260892629623
+      },
+      {
+        "answer": "Chronic sinusitis vs. hemorrhage",
+        "source": "same_image_train",
+        "similarity": 0.1616418609450805,
+        "source_qid": 2615,
+        "source_question": "What is on the differential?",
+        "full": -3.6758244037628174,
+        "grounded": -4.063421249389648,
+        "removed": -3.942368745803833,
+        "visual_support": -0.12105250358581543
+      },
+      {
+        "answer": "fluid",
+        "source": "global_train",
+        "similarity": 0.21124667410359876,
+        "source_qid": 2457,
+        "source_question": "The increased signal is a result of what material?",
+        "full": -13.898512840270996,
+        "grounded": -16.148204803466797,
+        "removed": -14.402976036071777,
+        "visual_support": -1.7452287673950195
+      },
+      {
+        "answer": "Fat",
+        "source": "global_train",
+        "similarity": 0.17202442842328422,
+        "source_qid": 1863,
+        "source_question": "What material is the peripheral hypodensity?",
+        "full": -13.273512840270996,
+        "grounded": -15.273204803466797,
+        "removed": -12.902976036071777,
+        "visual_support": -2.3702287673950195
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 918,
+    "split": "test",
+    "image_name": "synpic47196.jpg",
+    "question": "What hypoattenuated tissue is between the abdominal wall and skin?",
+    "answer": "fat",
+    "answer_type": "OPEN",
+    "baseline_response": "fat",
+    "clinical_term": "hypoattenuated tissue",
+    "boxes": [
+      [
+        0,
+        499,
+        219,
+        581
+      ],
+      [
+        73,
+        499,
+        292,
+        581
+      ],
+      [
+        657,
+        167,
+        879,
+        290
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "fat",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.006740451790392399,
+        "grounded": -0.004631625022739172,
+        "removed": -0.0059498813934624195,
+        "visual_support": 0.0013182563707232475
+      },
+      {
+        "answer": "Psoas muscles",
+        "source": "same_image_train",
+        "similarity": 0.28179791939145876,
+        "source_qid": 3223,
+        "source_question": "What are the hypoattenuated round structures surrounding the veterbral column?",
+        "full": -3.840423822402954,
+        "grounded": -4.676424980163574,
+        "removed": -4.008436679840088,
+        "visual_support": -0.6679883003234863
+      },
+      {
+        "answer": "A bit",
+        "source": "global_train",
+        "similarity": 0.3461575899150949,
+        "source_qid": 799,
+        "source_question": "Is the renal mass distending the abdominal wall?",
+        "full": -12.471315383911133,
+        "grounded": -13.693915367126465,
+        "removed": -12.641555786132812,
+        "visual_support": -1.0523595809936523
+      },
+      {
+        "answer": "Atherosclerotic calcification",
+        "source": "global_train",
+        "similarity": 0.3060262453812417,
+        "source_qid": 375,
+        "source_question": "What is the brightness in the abdominal aorta?",
+        "full": -3.464475631713867,
+        "grounded": -3.7460944652557373,
+        "removed": -3.5838210582733154,
+        "visual_support": -0.16227340698242188
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1108,
+    "split": "test",
+    "image_name": "synpic51872.jpg",
+    "question": "what is the location of the cavitary lesion",
+    "answer": "Right upper lobe",
+    "answer_type": "OPEN",
+    "baseline_response": "Right upper lobe",
+    "clinical_term": "cavitary lesion",
+    "boxes": [
+      [
+        878,
+        1070,
+        1024,
+        1248
+      ],
+      [
+        878,
+        446,
+        1024,
+        713
+      ],
+      [
+        0,
+        357,
+        146,
+        624
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right upper lobe",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.00700814463198185,
+        "grounded": -0.004901411477476358,
+        "removed": -0.010418679565191269,
+        "visual_support": 0.0055172680877149105
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1110,
+    "split": "test",
+    "image_name": "synpic51872.jpg",
+    "question": "Where is the cavitary lesion located?",
+    "answer": "Right upper lobe",
+    "answer_type": "OPEN",
+    "baseline_response": "Right upper lobe",
+    "clinical_term": "cavitary lesion",
+    "boxes": [
+      [
+        878,
+        1070,
+        1024,
+        1248
+      ],
+      [
+        878,
+        446,
+        1024,
+        713
+      ],
+      [
+        0,
+        357,
+        146,
+        624
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right upper lobe",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.008612625300884247,
+        "grounded": -0.004275310784578323,
+        "removed": -0.009683867916464806,
+        "visual_support": 0.005408557131886482
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1205,
+    "split": "test",
+    "image_name": "synpic55286.jpg",
+    "question": "What lobe of the brain is the lesion located in?",
+    "answer": "Right frontal lobe",
+    "answer_type": "OPEN",
+    "baseline_response": "Right frontal lobe",
+    "clinical_term": "lobe",
+    "boxes": [
+      [
+        272,
+        743,
+        407,
+        867
+      ],
+      [
+        91,
+        186,
+        226,
+        372
+      ],
+      [
+        180,
+        124,
+        318,
+        310
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right frontal lobe",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.1366529017686844,
+        "grounded": -0.15894433856010437,
+        "removed": -0.011628974229097366,
+        "visual_support": -0.147315364331007
+      },
+      {
+        "answer": "Right parietal",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -0.7304732799530029,
+        "grounded": -0.37783512473106384,
+        "removed": -1.8554093837738037,
+        "visual_support": 1.4775742590427399
+      },
+      {
+        "answer": "Right occipital lobe",
+        "source": "contrastive_generation",
+        "similarity": null,
+        "full": -0.3619620203971863,
+        "grounded": -0.5852153301239014,
+        "removed": -1.7787445783615112,
+        "visual_support": 1.1935292482376099
+      },
+      {
+        "answer": "Right temporal lobe",
+        "source": "global_train",
+        "similarity": 0.8872750044798592,
+        "source_qid": 2379,
+        "source_question": "In what lobe of the brain is the lesion located?",
+        "full": -0.543009877204895,
+        "grounded": -0.5027204155921936,
+        "removed": -1.5429519414901733,
+        "visual_support": 1.0402315258979797
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1264,
+    "split": "test",
+    "image_name": "synpic16520.jpg",
+    "question": "In which two ventricles can calcifications be seen on this CT scan?",
+    "answer": "The 3rd ventricle and the lateral ventricles",
+    "answer_type": "OPEN",
+    "baseline_response": "0ptic nerve",
+    "clinical_term": "calcification",
+    "boxes": [
+      [
+        207,
+        0,
+        273,
+        50
+      ],
+      [
+        207,
+        150,
+        273,
+        228
+      ],
+      [
+        0,
+        0,
+        46,
+        50
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "0ptic nerve",
+        "source": "baseline",
+        "similarity": null,
+        "full": -1.1489695310592651,
+        "grounded": -1.4148086309432983,
+        "removed": -1.5365233421325684,
+        "visual_support": 0.12171471118927002
+      },
+      {
+        "answer": "3rd and 4th ventricle",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -0.3962076008319855,
+        "grounded": -0.4178113043308258,
+        "removed": -0.5004065632820129,
+        "visual_support": 0.08259525895118713
+      },
+      {
+        "answer": "0rbitofrontal \u00a0and \u00a0thalamic \u00a0ventricles",
+        "source": "contrastive_generation",
+        "similarity": null,
+        "full": -0.45763853192329407,
+        "grounded": -0.5609703063964844,
+        "removed": -0.822472095489502,
+        "visual_support": 0.2615017890930176
+      },
+      {
+        "answer": "Non-contrast CT",
+        "source": "same_image_train",
+        "similarity": 0.0746228970107623,
+        "source_qid": 1248,
+        "source_question": "Is this a contrast CT or a non-contrast CT?",
+        "full": -3.3123793601989746,
+        "grounded": -3.2405474185943604,
+        "removed": -3.0557026863098145,
+        "visual_support": -0.1848447322845459
+      },
+      {
+        "answer": "High on the image",
+        "source": "global_train",
+        "similarity": 0.5110935417401455,
+        "source_qid": 552,
+        "source_question": "Where in the image are the calcifications located?",
+        "full": -3.6088805198669434,
+        "grounded": -3.9696903228759766,
+        "removed": -3.167489528656006,
+        "visual_support": -0.8022007942199707
+      },
+      {
+        "answer": "Aorta",
+        "source": "global_train",
+        "similarity": 0.4597890791147056,
+        "source_qid": 2975,
+        "source_question": "In which vessel is calcification present?",
+        "full": -10.151800155639648,
+        "grounded": -10.92483139038086,
+        "removed": -9.46536922454834,
+        "visual_support": -1.4594621658325195
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1284,
+    "split": "test",
+    "image_name": "synpic41119.jpg",
+    "question": "Where does the L renal vein connect to",
+    "answer": "IVC",
+    "answer_type": "OPEN",
+    "baseline_response": "IVC",
+    "clinical_term": "l renal vein",
+    "boxes": [
+      [
+        439,
+        185,
+        658,
+        461
+      ],
+      [
+        73,
+        369,
+        292,
+        645
+      ],
+      [
+        732,
+        460,
+        951,
+        739
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "IVC",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.0002827536372933537,
+        "grounded": -0.00041939885704778135,
+        "removed": -0.00030670242267660797,
+        "visual_support": -0.00011269643437117338
+      },
+      {
+        "answer": "Left",
+        "source": "same_image_train",
+        "similarity": 0.08111195232212617,
+        "source_qid": 1369,
+        "source_question": "Where is the aorta located relative to the midline?",
+        "full": -15.750036239624023,
+        "grounded": -15.812544822692871,
+        "removed": -15.312540054321289,
+        "visual_support": -0.500004768371582
+      },
+      {
+        "answer": "Varicocele",
+        "source": "global_train",
+        "similarity": 0.3234654910159122,
+        "source_qid": 1909,
+        "source_question": "If the mass compressed the left renal vein in a male\twhat else might you expect to see?",
+        "full": -7.1866278648376465,
+        "grounded": -6.8613810539245605,
+        "removed": -7.203631401062012,
+        "visual_support": 0.34225034713745117
+      },
+      {
+        "answer": "A bit",
+        "source": "global_train",
+        "similarity": 0.21578748345663237,
+        "source_qid": 799,
+        "source_question": "Is the renal mass distending the abdominal wall?",
+        "full": -17.621200561523438,
+        "grounded": -17.29277229309082,
+        "removed": -17.69629669189453,
+        "visual_support": 0.40352439880371094
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1286,
+    "split": "test",
+    "image_name": "synpic41119.jpg",
+    "question": "Where does the L renal vein drain into?",
+    "answer": "IVC",
+    "answer_type": "OPEN",
+    "baseline_response": "IVC",
+    "clinical_term": "l renal vein",
+    "boxes": [
+      [
+        439,
+        185,
+        658,
+        461
+      ],
+      [
+        73,
+        369,
+        292,
+        645
+      ],
+      [
+        732,
+        460,
+        951,
+        739
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "IVC",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.0001535278424853459,
+        "grounded": -0.000181949493708089,
+        "removed": -0.00012950957170687616,
+        "visual_support": -5.2439922001212835e-05
+      },
+      {
+        "answer": "Left",
+        "source": "same_image_train",
+        "similarity": 0.06523869935914532,
+        "source_qid": 1370,
+        "source_question": "Where is/are the aorta located?",
+        "full": -10.750091552734375,
+        "grounded": -11.5625638961792,
+        "removed": -11.250052452087402,
+        "visual_support": -0.3125114440917969
+      },
+      {
+        "answer": "Right superior cavoatrial junction",
+        "source": "global_train",
+        "similarity": 0.3720299127636377,
+        "source_qid": 501,
+        "source_question": "Where does the catheter tip extend into?",
+        "full": -5.510382652282715,
+        "grounded": -5.632025241851807,
+        "removed": -5.416962146759033,
+        "visual_support": -0.21506309509277344
+      },
+      {
+        "answer": "Varicocele",
+        "source": "global_train",
+        "similarity": 0.26186663553213085,
+        "source_qid": 1909,
+        "source_question": "If the mass compressed the left renal vein in a male\twhat else might you expect to see?",
+        "full": -6.156789779663086,
+        "grounded": -6.011760711669922,
+        "removed": -6.404000282287598,
+        "visual_support": 0.3922395706176758
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1311,
+    "split": "test",
+    "image_name": "synpic53033.jpg",
+    "question": "Is the lesion on the left or right side of the brain?",
+    "answer": "Left",
+    "answer_type": "CLOSED",
+    "baseline_response": "Left side",
+    "clinical_term": "right side",
+    "boxes": [
+      [
+        207,
+        105,
+        297,
+        213
+      ],
+      [
+        238,
+        354,
+        325,
+        459
+      ],
+      [
+        238,
+        0,
+        325,
+        70
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Left side",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.4489813446998596,
+        "grounded": -1.9614490270614624,
+        "removed": -1.1903455257415771,
+        "visual_support": -0.7711035013198853
+      },
+      {
+        "answer": "Left",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -0.7139054536819458,
+        "grounded": -2.695924758911133,
+        "removed": -1.3219293355941772,
+        "visual_support": -1.3739954233169556
+      },
+      {
+        "answer": "Right",
+        "source": "global_train",
+        "similarity": 1.0000000000000002,
+        "source_qid": 2432,
+        "source_question": "Is the lesion on the right or left side of the brain?",
+        "full": -0.7139054536819458,
+        "grounded": -0.07092470675706863,
+        "removed": -0.32192930579185486,
+        "visual_support": 0.2510045990347862
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1348,
+    "split": "test",
+    "image_name": "synpic40520.jpg",
+    "question": "Where is there evidence of a pleural effusion?",
+    "answer": "Right side",
+    "answer_type": "OPEN",
+    "baseline_response": "Right side",
+    "clinical_term": "pleural effusion",
+    "boxes": [
+      [
+        0,
+        805,
+        142,
+        1048
+      ],
+      [
+        0,
+        726,
+        142,
+        966
+      ],
+      [
+        0,
+        402,
+        142,
+        645
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right side",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.12611207365989685,
+        "grounded": -0.6749827265739441,
+        "removed": -0.10497631132602692,
+        "visual_support": -0.5700064152479172
+      },
+      {
+        "answer": "Right costophrenic angle",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -0.6062372922897339,
+        "grounded": -0.22588561475276947,
+        "removed": -0.8697015643119812,
+        "visual_support": 0.6438159495592117
+      },
+      {
+        "answer": "Fluid in the pleural space",
+        "source": "global_train",
+        "similarity": 0.754673336892217,
+        "source_qid": 3262,
+        "source_question": "What is a pleural effusion",
+        "full": -4.2052106857299805,
+        "grounded": -4.328804016113281,
+        "removed": -3.8484787940979004,
+        "visual_support": -0.48032522201538086
+      },
+      {
+        "answer": "costophrenic angle blunting",
+        "source": "global_train",
+        "similarity": 0.6503670647135921,
+        "source_qid": 3261,
+        "source_question": "What indicates a pleural effusion?",
+        "full": -2.038649082183838,
+        "grounded": -2.313575267791748,
+        "removed": -2.3601748943328857,
+        "visual_support": 0.046599626541137695
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1350,
+    "split": "test",
+    "image_name": "synpic40520.jpg",
+    "question": "Where is the pleural effusion located?",
+    "answer": "Right side",
+    "answer_type": "OPEN",
+    "baseline_response": "Right side",
+    "clinical_term": "pleural effusion",
+    "boxes": [
+      [
+        0,
+        805,
+        142,
+        1048
+      ],
+      [
+        0,
+        726,
+        142,
+        966
+      ],
+      [
+        0,
+        402,
+        142,
+        645
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right side",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.2348482757806778,
+        "grounded": -0.29833441972732544,
+        "removed": -0.13290080428123474,
+        "visual_support": -0.1654336154460907
+      },
+      {
+        "answer": "Fluid in the pleural space",
+        "source": "global_train",
+        "similarity": 0.9082269683449596,
+        "source_qid": 3262,
+        "source_question": "What is a pleural effusion",
+        "full": -3.7289836406707764,
+        "grounded": -4.280498504638672,
+        "removed": -3.595606565475464,
+        "visual_support": -0.684891939163208
+      },
+      {
+        "answer": "costophrenic angle blunting",
+        "source": "global_train",
+        "similarity": 0.7168796255487768,
+        "source_qid": 3261,
+        "source_question": "What indicates a pleural effusion?",
+        "full": -4.089062213897705,
+        "grounded": -4.109755516052246,
+        "removed": -3.944124221801758,
+        "visual_support": -0.16563129425048828
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1384,
+    "split": "test",
+    "image_name": "synpic54802.jpg",
+    "question": "Where are the acute infarcts?",
+    "answer": "R frontal lobe",
+    "answer_type": "OPEN",
+    "baseline_response": "R frontal lobe",
+    "clinical_term": "acute infarct",
+    "boxes": [
+      [
+        190,
+        152,
+        286,
+        266
+      ],
+      [
+        95,
+        114,
+        191,
+        228
+      ],
+      [
+        190,
+        76,
+        286,
+        190
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "R frontal lobe",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.008100810460746288,
+        "grounded": -0.19973061978816986,
+        "removed": -0.6096622347831726,
+        "visual_support": 0.40993161499500275
+      },
+      {
+        "answer": "Bilateral thalamus and left midbrain",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -3.1397781372070312,
+        "grounded": -1.6150273084640503,
+        "removed": -3.2513720989227295,
+        "visual_support": 1.6363447904586792
+      },
+      {
+        "answer": "Bilateral",
+        "source": "same_image_train",
+        "similarity": 0.4962049162355724,
+        "source_qid": 1296,
+        "source_question": "Where are the infarcts seen?",
+        "full": -2.575209617614746,
+        "grounded": -0.8658302426338196,
+        "removed": -2.9433674812316895,
+        "visual_support": 2.07753723859787
+      },
+      {
+        "answer": "Right Cerebellum",
+        "source": "global_train",
+        "similarity": 0.5424469603429788,
+        "source_qid": 1390,
+        "source_question": "Where are the infarcts located?",
+        "full": -3.450930118560791,
+        "grounded": -3.8584282398223877,
+        "removed": -2.0237395763397217,
+        "visual_support": -1.834688663482666
+      },
+      {
+        "answer": "diffuse",
+        "source": "global_train",
+        "similarity": 0.5424469603429788,
+        "source_qid": 3111,
+        "source_question": "Where are the infarcts located?",
+        "full": -4.636983394622803,
+        "grounded": -5.42488431930542,
+        "removed": -4.4423017501831055,
+        "visual_support": -0.9825825691223145
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1386,
+    "split": "test",
+    "image_name": "synpic54802.jpg",
+    "question": "Where do you see acute infarcts?",
+    "answer": "R frontal lobe",
+    "answer_type": "OPEN",
+    "baseline_response": "R frontal lobe",
+    "clinical_term": "acute infarct",
+    "boxes": [
+      [
+        190,
+        152,
+        286,
+        266
+      ],
+      [
+        95,
+        114,
+        191,
+        228
+      ],
+      [
+        190,
+        76,
+        286,
+        190
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "R frontal lobe",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.0677511915564537,
+        "grounded": -0.15468207001686096,
+        "removed": -0.8109522461891174,
+        "visual_support": 0.6562701761722565
+      },
+      {
+        "answer": "Left hemisphere",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -5.570442199707031,
+        "grounded": -3.2371106147766113,
+        "removed": -6.284830570220947,
+        "visual_support": 3.047719955444336
+      },
+      {
+        "answer": "Bilateral",
+        "source": "same_image_train",
+        "similarity": 0.445299025223499,
+        "source_qid": 1296,
+        "source_question": "Where are the infarcts seen?",
+        "full": -4.005975246429443,
+        "grounded": -1.2511112689971924,
+        "removed": -4.728362560272217,
+        "visual_support": 3.4772512912750244
+      },
+      {
+        "answer": "punctate",
+        "source": "global_train",
+        "similarity": 0.4992817219261228,
+        "source_qid": 2995,
+        "source_question": "How would you describe the infarcts?",
+        "full": -6.2479071617126465,
+        "grounded": -5.358094692230225,
+        "removed": -5.8159027099609375,
+        "visual_support": 0.4578080177307129
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1476,
+    "split": "test",
+    "image_name": "synpic32970.jpg",
+    "question": "What is the location of the lesion?",
+    "answer": "right lower lateral lung field",
+    "answer_type": "OPEN",
+    "baseline_response": "Right lung",
+    "clinical_term": "lesion",
+    "boxes": [
+      [
+        585,
+        267,
+        804,
+        534
+      ],
+      [
+        0,
+        0,
+        146,
+        267
+      ],
+      [
+        0,
+        978,
+        146,
+        1245
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right lung",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.30708667635917664,
+        "grounded": -0.6133385896682739,
+        "removed": -0.479738712310791,
+        "visual_support": -0.1335998773574829
+      },
+      {
+        "answer": "Right lung hilum",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -1.0804027318954468,
+        "grounded": -0.7165439128875732,
+        "removed": -1.111139178276062,
+        "visual_support": 0.39459526538848877
+      },
+      {
+        "answer": "right lower lateral lung field",
+        "source": "same_image_train",
+        "similarity": 0.40964357180138544,
+        "source_qid": 1479,
+        "source_question": "Where is/are the lesion  located?",
+        "full": -1.9642082452774048,
+        "grounded": -1.4573910236358643,
+        "removed": -2.021709680557251,
+        "visual_support": 0.5643186569213867
+      },
+      {
+        "answer": "Abdomen and pelvis",
+        "source": "global_train",
+        "similarity": 1.0,
+        "source_qid": 1997,
+        "source_question": "What is the location of the lesion?",
+        "full": -2.8099067211151123,
+        "grounded": -2.618417978286743,
+        "removed": -2.7163798809051514,
+        "visual_support": 0.0979619026184082
+      },
+      {
+        "answer": "anterior to the transverse colon",
+        "source": "global_train",
+        "similarity": 0.7048764844194899,
+        "source_qid": 1002,
+        "source_question": "What is the location of the mass",
+        "full": -4.040046215057373,
+        "grounded": -3.8580286502838135,
+        "removed": -3.998237133026123,
+        "visual_support": 0.14020848274230957
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1478,
+    "split": "test",
+    "image_name": "synpic32970.jpg",
+    "question": "Where is the lesion located?",
+    "answer": "right lower lateral lung field",
+    "answer_type": "OPEN",
+    "baseline_response": "Right lung",
+    "clinical_term": "lesion",
+    "boxes": [
+      [
+        585,
+        267,
+        804,
+        534
+      ],
+      [
+        0,
+        0,
+        146,
+        267
+      ],
+      [
+        0,
+        978,
+        146,
+        1245
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right lung",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.26273417472839355,
+        "grounded": -0.5980774164199829,
+        "removed": -0.29231497645378113,
+        "visual_support": -0.3057624399662018
+      },
+      {
+        "answer": "right lower lateral lung field",
+        "source": "same_image_train",
+        "similarity": 0.8826793310810698,
+        "source_qid": 1479,
+        "source_question": "Where is/are the lesion  located?",
+        "full": -2.1137893199920654,
+        "grounded": -1.7288179397583008,
+        "removed": -2.1113362312316895,
+        "visual_support": 0.38251829147338867
+      },
+      {
+        "answer": "Right",
+        "source": "global_train",
+        "similarity": 1.0,
+        "source_qid": 1875,
+        "source_question": "Where is the lesion located?",
+        "full": -0.14267529547214508,
+        "grounded": -0.983942449092865,
+        "removed": -0.15307524800300598,
+        "visual_support": -0.830867201089859
+      },
+      {
+        "answer": "Left occipital lobe",
+        "source": "global_train",
+        "similarity": 1.0,
+        "source_qid": 1815,
+        "source_question": "Where is the lesion located?",
+        "full": -3.9766175746917725,
+        "grounded": -3.9501357078552246,
+        "removed": -4.014451503753662,
+        "visual_support": 0.0643157958984375
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1480,
+    "split": "test",
+    "image_name": "synpic17738.jpg",
+    "question": "How large is the mass in the right upper quadrant?",
+    "answer": "3.4 cm",
+    "answer_type": "OPEN",
+    "baseline_response": "3.4 cm",
+    "clinical_term": "right upper quadrant",
+    "boxes": [
+      [
+        585,
+        165,
+        804,
+        414
+      ],
+      [
+        657,
+        165,
+        879,
+        414
+      ],
+      [
+        585,
+        249,
+        804,
+        495
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "3.4 cm",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.006918489467352629,
+        "grounded": -0.003269833978265524,
+        "removed": -0.002249816432595253,
+        "visual_support": -0.001020017545670271
+      },
+      {
+        "answer": "Right upper lobe",
+        "source": "same_image_train",
+        "similarity": 0.11655838520395387,
+        "source_qid": 1631,
+        "source_question": "Where is/are the abnormal mass  located?",
+        "full": -3.8641202449798584,
+        "grounded": -4.104478359222412,
+        "removed": -3.8701205253601074,
+        "visual_support": -0.2343578338623047
+      },
+      {
+        "answer": "Gallstones",
+        "source": "global_train",
+        "similarity": 0.8607163498760424,
+        "source_qid": 441,
+        "source_question": "What is in the right upper quadrant?",
+        "full": -10.591415405273438,
+        "grounded": -9.201896667480469,
+        "removed": -10.847372055053711,
+        "visual_support": 1.6454753875732422
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1482,
+    "split": "test",
+    "image_name": "synpic17738.jpg",
+    "question": "Size of the mass in the right upper quadrant?",
+    "answer": "3.4 cm",
+    "answer_type": "OPEN",
+    "baseline_response": "3.4 cm",
+    "clinical_term": "right upper quadrant",
+    "boxes": [
+      [
+        585,
+        165,
+        804,
+        414
+      ],
+      [
+        657,
+        165,
+        879,
+        414
+      ],
+      [
+        585,
+        249,
+        804,
+        495
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "3.4 cm",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.0023667372297495604,
+        "grounded": -0.0021473513916134834,
+        "removed": -0.0017698202282190323,
+        "visual_support": -0.00037753116339445114
+      },
+      {
+        "answer": "Right upper lobe",
+        "source": "same_image_train",
+        "similarity": 0.1170104835824659,
+        "source_qid": 1631,
+        "source_question": "Where is/are the abnormal mass  located?",
+        "full": -3.082690715789795,
+        "grounded": -3.2819695472717285,
+        "removed": -3.029836416244507,
+        "visual_support": -0.2521331310272217
+      },
+      {
+        "answer": "Gallstones",
+        "source": "global_train",
+        "similarity": 0.8720552130966364,
+        "source_qid": 441,
+        "source_question": "What is in the right upper quadrant?",
+        "full": -11.59504508972168,
+        "grounded": -9.6387300491333,
+        "removed": -11.337985038757324,
+        "visual_support": 1.6992549896240234
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1512,
+    "split": "test",
+    "image_name": "synpic51426.jpg",
+    "question": "The hemorrhage is adjacent to what structures?",
+    "answer": "Left thalamus and basal ganglia",
+    "answer_type": "OPEN",
+    "baseline_response": "Left thalamus and basal ganglia",
+    "clinical_term": "structure",
+    "boxes": [
+      [
+        183,
+        55,
+        237,
+        109
+      ],
+      [
+        19,
+        72,
+        73,
+        129
+      ],
+      [
+        55,
+        37,
+        109,
+        91
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Left thalamus and basal ganglia",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.005379131529480219,
+        "grounded": -0.005926351994276047,
+        "removed": -0.010837916284799576,
+        "visual_support": 0.004911564290523529
+      },
+      {
+        "answer": "lateral ventricles",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -2.4042320251464844,
+        "grounded": -2.1343517303466797,
+        "removed": -2.281848907470703,
+        "visual_support": 0.14749717712402344
+      },
+      {
+        "answer": "Axial",
+        "source": "same_image_train",
+        "similarity": 0.06775309781534289,
+        "source_qid": 1586,
+        "source_question": "In what plane is the image above captured?",
+        "full": -8.507745742797852,
+        "grounded": -8.177447319030762,
+        "removed": -7.900218486785889,
+        "visual_support": -0.27722883224487305
+      },
+      {
+        "answer": "Subarachnoid",
+        "source": "global_train",
+        "similarity": 0.5211863094817888,
+        "source_qid": 2909,
+        "source_question": "What is the hemorrhage?",
+        "full": -2.6128902435302734,
+        "grounded": -2.510366201400757,
+        "removed": -2.477186918258667,
+        "visual_support": -0.033179283142089844
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1514,
+    "split": "test",
+    "image_name": "synpic51426.jpg",
+    "question": "What structures are located near the hemorrhage shown?",
+    "answer": "Left thalamus and basal ganglia",
+    "answer_type": "OPEN",
+    "baseline_response": "Left thalamus and basal ganglia",
+    "clinical_term": "structure",
+    "boxes": [
+      [
+        183,
+        55,
+        237,
+        109
+      ],
+      [
+        19,
+        72,
+        73,
+        129
+      ],
+      [
+        55,
+        37,
+        109,
+        91
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Left thalamus and basal ganglia",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.007093911059200764,
+        "grounded": -0.009723098017275333,
+        "removed": -0.007958291098475456,
+        "visual_support": -0.0017648069187998772
+      },
+      {
+        "answer": "Axial",
+        "source": "same_image_train",
+        "similarity": 0.06751429036981697,
+        "source_qid": 1586,
+        "source_question": "In what plane is the image above captured?",
+        "full": -8.730154037475586,
+        "grounded": -8.331623077392578,
+        "removed": -8.558159828186035,
+        "visual_support": 0.22653675079345703
+      },
+      {
+        "answer": "Subarachnoid",
+        "source": "global_train",
+        "similarity": 0.6919565728984876,
+        "source_qid": 2908,
+        "source_question": "What type of hemorrhage is shown?",
+        "full": -2.693934679031372,
+        "grounded": -2.563384771347046,
+        "removed": -2.8903045654296875,
+        "visual_support": 0.3269197940826416
+      },
+      {
+        "answer": "Right Sylvian Fissure",
+        "source": "global_train",
+        "similarity": 0.5926283816627684,
+        "source_qid": 2833,
+        "source_question": "Where is the hemorrhage located?",
+        "full": -3.232273817062378,
+        "grounded": -3.0046310424804688,
+        "removed": -2.8882129192352295,
+        "visual_support": -0.11641812324523926
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1529,
+    "split": "test",
+    "image_name": "synpic60254.jpg",
+    "question": "What major artery of the brain may be affected by the lesion seen in the above image?",
+    "answer": "Basilar artery",
+    "answer_type": "OPEN",
+    "baseline_response": "Basilar artery",
+    "clinical_term": "affected",
+    "boxes": [
+      [
+        158,
+        274,
+        278,
+        412
+      ],
+      [
+        198,
+        184,
+        318,
+        319
+      ],
+      [
+        120,
+        411,
+        237,
+        549
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Basilar artery",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.0020328927785158157,
+        "grounded": -0.012076113373041153,
+        "removed": -0.16996964812278748,
+        "visual_support": 0.15789353474974632
+      },
+      {
+        "answer": "Oculomotor nerve (CN III) and Trigeminal nerves (CN V)",
+        "source": "same_image_train",
+        "similarity": 0.5805493449381516,
+        "source_qid": 1516,
+        "source_question": "What cranial nerves may be affected by the lesion seen in the above image?",
+        "full": -0.9788567423820496,
+        "grounded": -1.1766973733901978,
+        "removed": -1.4229810237884521,
+        "visual_support": 0.2462836503982544
+      },
+      {
+        "answer": "basal ganglia (caudate and putamen)",
+        "source": "global_train",
+        "similarity": 0.4113444086343689,
+        "source_qid": 3394,
+        "source_question": "What brain structures would be affected by the lesion in the right frontal area of the brain?",
+        "full": -2.3649137020111084,
+        "grounded": -0.9158713221549988,
+        "removed": -1.0932197570800781,
+        "visual_support": 0.17734843492507935
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1578,
+    "split": "test",
+    "image_name": "synpic53287.jpg",
+    "question": "In which brain area is the lesion located?",
+    "answer": "Right cerebellopontine angle",
+    "answer_type": "OPEN",
+    "baseline_response": "Right cerebellopontine angle",
+    "clinical_term": "lesion",
+    "boxes": [
+      [
+        475,
+        89,
+        555,
+        221
+      ],
+      [
+        0,
+        487,
+        80,
+        619
+      ],
+      [
+        475,
+        43,
+        555,
+        178
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right cerebellopontine angle",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.042673856019973755,
+        "grounded": -0.3450091779232025,
+        "removed": -0.034647323191165924,
+        "visual_support": -0.3103618547320366
+      },
+      {
+        "answer": "4th ventricle",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -1.7609084844589233,
+        "grounded": -0.0792328342795372,
+        "removed": -1.5135716199874878,
+        "visual_support": 1.4343387857079506
+      },
+      {
+        "answer": "Right frontal lobe",
+        "source": "global_train",
+        "similarity": 0.7146804804781907,
+        "source_qid": 1464,
+        "source_question": "Where is the brain lesion located?",
+        "full": -3.2260143756866455,
+        "grounded": -3.237527370452881,
+        "removed": -3.093024253845215,
+        "visual_support": -0.14450311660766602
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1580,
+    "split": "test",
+    "image_name": "synpic53287.jpg",
+    "question": "Where is the lesion located?",
+    "answer": "Right cerebellopontine angle",
+    "answer_type": "OPEN",
+    "baseline_response": "Right cerebellopontine angle",
+    "clinical_term": "lesion",
+    "boxes": [
+      [
+        475,
+        89,
+        555,
+        221
+      ],
+      [
+        0,
+        487,
+        80,
+        619
+      ],
+      [
+        475,
+        43,
+        555,
+        178
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right cerebellopontine angle",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.025073988363146782,
+        "grounded": -0.1587616354227066,
+        "removed": -0.022175919264554977,
+        "visual_support": -0.13658571615815163
+      },
+      {
+        "answer": "Right cerebellum",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -0.5448199510574341,
+        "grounded": -0.3424965441226959,
+        "removed": -0.6329910159111023,
+        "visual_support": 0.29049447178840637
+      },
+      {
+        "answer": "4th ventricle",
+        "source": "same_image_train",
+        "similarity": 0.19071183681294587,
+        "source_qid": 1562,
+        "source_question": "What is/are the ventricle compressed by the lesion ?",
+        "full": -1.7897652387619019,
+        "grounded": -0.43747302889823914,
+        "removed": -1.6801607608795166,
+        "visual_support": 1.2426877319812775
+      },
+      {
+        "answer": "Right",
+        "source": "global_train",
+        "similarity": 1.0,
+        "source_qid": 1875,
+        "source_question": "Where is the lesion located?",
+        "full": -0.04841538891196251,
+        "grounded": -0.609014093875885,
+        "removed": -0.06299444288015366,
+        "visual_support": -0.5460196509957314
+      },
+      {
+        "answer": "Left occipital lobe",
+        "source": "global_train",
+        "similarity": 1.0,
+        "source_qid": 1815,
+        "source_question": "Where is the lesion located?",
+        "full": -2.540849447250366,
+        "grounded": -2.081847906112671,
+        "removed": -2.4501657485961914,
+        "visual_support": 0.3683178424835205
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1632,
+    "split": "test",
+    "image_name": "synpic17738.jpg",
+    "question": "Where is the abnormal mass located with respect to the lungs?",
+    "answer": "Right upper lobe",
+    "answer_type": "OPEN",
+    "baseline_response": "Right superior cavoatrial junction",
+    "clinical_term": "lung",
+    "boxes": [
+      [
+        878,
+        82,
+        1024,
+        331
+      ],
+      [
+        878,
+        165,
+        1024,
+        414
+      ],
+      [
+        0,
+        414,
+        219,
+        660
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right superior cavoatrial junction",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.2505938708782196,
+        "grounded": -1.1814740896224976,
+        "removed": -0.2303009182214737,
+        "visual_support": -0.9511731714010239
+      },
+      {
+        "answer": "Anterior",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -1.0723426342010498,
+        "grounded": -0.7115965485572815,
+        "removed": -1.2426376342773438,
+        "visual_support": 0.5310410857200623
+      },
+      {
+        "answer": "Right upper lobe",
+        "source": "same_image_train",
+        "similarity": 0.48750589245152404,
+        "source_qid": 1633,
+        "source_question": "Where is/are the abnormal mass  located?",
+        "full": -0.4681856036186218,
+        "grounded": -2.1935670375823975,
+        "removed": -0.48654139041900635,
+        "visual_support": -1.7070256471633911
+      },
+      {
+        "answer": "emphysema",
+        "source": "same_image_train",
+        "similarity": 0.11903432342584389,
+        "source_qid": 2519,
+        "source_question": "The cystic findings in the bilateral apices are consistent with what pathology?",
+        "full": -5.239643573760986,
+        "grounded": -4.455503463745117,
+        "removed": -5.509724140167236,
+        "visual_support": 1.0542206764221191
+      },
+      {
+        "answer": "Pineal gland",
+        "source": "global_train",
+        "similarity": 0.3786683834776451,
+        "source_qid": 1337,
+        "source_question": "Where is the mass located?",
+        "full": -5.562134265899658,
+        "grounded": -5.452399253845215,
+        "removed": -5.4720048904418945,
+        "visual_support": 0.019605636596679688
+      },
+      {
+        "answer": "Lateral ventricles",
+        "source": "global_train",
+        "similarity": 0.3786683834776451,
+        "source_qid": 1711,
+        "source_question": "Where is the mass located?",
+        "full": -4.080452919006348,
+        "grounded": -4.289910793304443,
+        "removed": -4.549553394317627,
+        "visual_support": 0.2596426010131836
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1701,
+    "split": "test",
+    "image_name": "synpic22791.jpg",
+    "question": "What is the hypodensity in the liver?",
+    "answer": "Gallbladder",
+    "answer_type": "OPEN",
+    "baseline_response": "Gallbladder",
+    "clinical_term": "liver",
+    "boxes": [
+      [
+        147,
+        109,
+        255,
+        220
+      ],
+      [
+        182,
+        109,
+        293,
+        220
+      ],
+      [
+        257,
+        74,
+        365,
+        182
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Gallbladder",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.005861280485987663,
+        "grounded": -0.1677931398153305,
+        "removed": -0.040025122463703156,
+        "visual_support": -0.12776801735162735
+      },
+      {
+        "answer": "Ribs",
+        "source": "same_image_train",
+        "similarity": 0.18974006824226938,
+        "source_qid": 1706,
+        "source_question": "What is/are the hyperdensities near/in the left side?",
+        "full": -7.360012054443359,
+        "grounded": -4.273791790008545,
+        "removed": -5.639537811279297,
+        "visual_support": 1.365746021270752
+      },
+      {
+        "answer": "Fat accumulations",
+        "source": "global_train",
+        "similarity": 0.7681613099162421,
+        "source_qid": 810,
+        "source_question": "What are these hypodensities in the liver?",
+        "full": -5.6445465087890625,
+        "grounded": -3.621332883834839,
+        "removed": -4.789758205413818,
+        "visual_support": 1.1684253215789795
+      },
+      {
+        "answer": "Right lobe of the liver",
+        "source": "global_train",
+        "similarity": 0.6909748505145774,
+        "source_qid": 483,
+        "source_question": "Where is the hypodensity located?",
+        "full": -2.519592761993408,
+        "grounded": -1.8385515213012695,
+        "removed": -2.055091142654419,
+        "visual_support": 0.21653962135314941
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1874,
+    "split": "test",
+    "image_name": "synpic20375.jpg",
+    "question": "What side is the lesion on?",
+    "answer": "Right",
+    "answer_type": "OPEN",
+    "baseline_response": "Right",
+    "clinical_term": "side",
+    "boxes": [
+      [
+        520,
+        244,
+        715,
+        487
+      ],
+      [
+        520,
+        324,
+        715,
+        570
+      ],
+      [
+        585,
+        488,
+        780,
+        731
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.004365201108157635,
+        "grounded": -6.147942066192627,
+        "removed": -0.004258374217897654,
+        "visual_support": -6.143683691974729
+      },
+      {
+        "answer": "Left",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -11.504364967346191,
+        "grounded": -0.022942112758755684,
+        "removed": -10.504258155822754,
+        "visual_support": 10.481316043063998
+      },
+      {
+        "answer": "Almost entire right side",
+        "source": "same_image_train",
+        "similarity": 0.3984586359048314,
+        "source_qid": 2449,
+        "source_question": "What is the size of the lesion",
+        "full": -6.087895393371582,
+        "grounded": -5.568625450134277,
+        "removed": -5.956362724304199,
+        "visual_support": 0.3877372741699219
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 1886,
+    "split": "test",
+    "image_name": "synpic47974.jpg",
+    "question": "What are the hyperdense opacities located around the periphery?",
+    "answer": "Ribs",
+    "answer_type": "OPEN",
+    "baseline_response": "Ribs",
+    "clinical_term": "hyperdense opacity",
+    "boxes": [
+      [
+        73,
+        409,
+        292,
+        562
+      ],
+      [
+        145,
+        460,
+        367,
+        613
+      ],
+      [
+        145,
+        358,
+        367,
+        511
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Ribs",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.00023773369321133941,
+        "grounded": -0.0004769152728840709,
+        "removed": -0.000892486481461674,
+        "visual_support": 0.0004155712085776031
+      },
+      {
+        "answer": "Posterior lung seen in the image section",
+        "source": "same_image_train",
+        "similarity": 0.027093728132309654,
+        "source_qid": 3431,
+        "source_question": "Why is there air seen in the bottom of the image?",
+        "full": -3.1311357021331787,
+        "grounded": -3.6617586612701416,
+        "removed": -3.1731600761413574,
+        "visual_support": -0.4885985851287842
+      },
+      {
+        "answer": "Contrast in the intestines",
+        "source": "global_train",
+        "similarity": 0.4119127637311941,
+        "source_qid": 743,
+        "source_question": "What are the opacities to the left?",
+        "full": -3.343052864074707,
+        "grounded": -3.7270092964172363,
+        "removed": -2.825198173522949,
+        "visual_support": -0.9018111228942871
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2001,
+    "split": "test",
+    "image_name": "synpic47020.jpg",
+    "question": "What is wrong with the ventricles?",
+    "answer": "Lateral and third ventricular hydrocephalus",
+    "answer_type": "OPEN",
+    "baseline_response": "Lateral and third ventricular hydrocephalus",
+    "clinical_term": "ventricle",
+    "boxes": [
+      [
+        204,
+        168,
+        279,
+        270
+      ],
+      [
+        101,
+        67,
+        179,
+        169
+      ],
+      [
+        177,
+        1,
+        255,
+        100
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Lateral and third ventricular hydrocephalus",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.007608579937368631,
+        "grounded": -0.05702362582087517,
+        "removed": -0.02375166304409504,
+        "visual_support": -0.03327196277678013
+      },
+      {
+        "answer": "Lateral ventricular hydrocephalus",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -0.4636994004249573,
+        "grounded": -0.154370978474617,
+        "removed": -0.3207823932170868,
+        "visual_support": 0.1664114147424698
+      },
+      {
+        "answer": "Pineal region",
+        "source": "same_image_train",
+        "similarity": 0.06870502062609071,
+        "source_qid": 2047,
+        "source_question": "What is the location of the mass?",
+        "full": -4.684309959411621,
+        "grounded": -4.974636077880859,
+        "removed": -3.934246063232422,
+        "visual_support": -1.0403900146484375
+      },
+      {
+        "answer": "It is enlarged with prominence of the aortic knob",
+        "source": "global_train",
+        "similarity": 0.5290638513378391,
+        "source_qid": 3466,
+        "source_question": "What is/are wrong with the aorta ?",
+        "full": -4.102802276611328,
+        "grounded": -4.0947794914245605,
+        "removed": -4.056910514831543,
+        "visual_support": -0.03786897659301758
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2143,
+    "split": "test",
+    "image_name": "synpic24967.jpg",
+    "question": "What are the bright specks in the gallbladder",
+    "answer": "Gallstones",
+    "answer_type": "OPEN",
+    "baseline_response": "Gallstones",
+    "clinical_term": "gallbladder",
+    "boxes": [
+      [
+        366,
+        138,
+        585,
+        276
+      ],
+      [
+        657,
+        323,
+        879,
+        461
+      ],
+      [
+        732,
+        415,
+        951,
+        553
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Gallstones",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.24691614508628845,
+        "grounded": -0.18016605079174042,
+        "removed": -0.09219502657651901,
+        "visual_support": -0.0879710242152214
+      },
+      {
+        "answer": "Roux-en-Y anastomosis",
+        "source": "contrastive_generation",
+        "similarity": null,
+        "full": -0.6602275371551514,
+        "grounded": -1.049742341041565,
+        "removed": -0.9443960785865784,
+        "visual_support": -0.10534626245498657
+      },
+      {
+        "answer": "Pericholecystic fluid",
+        "source": "same_image_train",
+        "similarity": 0.5711798882436407,
+        "source_qid": 2234,
+        "source_question": "What is the lighter substance around the gallbladder",
+        "full": -1.4732086658477783,
+        "grounded": -1.575823187828064,
+        "removed": -1.619629144668579,
+        "visual_support": 0.04380595684051514
+      },
+      {
+        "answer": "Axial",
+        "source": "same_image_train",
+        "similarity": 0.06930445391413874,
+        "source_qid": 2251,
+        "source_question": "What plane are we in?",
+        "full": -4.33852481842041,
+        "grounded": -4.082258701324463,
+        "removed": -4.639486312866211,
+        "visual_support": 0.557227611541748
+      },
+      {
+        "answer": "nipple location",
+        "source": "global_train",
+        "similarity": 0.27843386399026027,
+        "source_qid": 2118,
+        "source_question": "What are the two bright dots?",
+        "full": -7.6665358543396,
+        "grounded": -7.750291347503662,
+        "removed": -7.886342525482178,
+        "visual_support": 0.13605117797851562
+      },
+      {
+        "answer": "Hip bones",
+        "source": "global_train",
+        "similarity": 0.229399552746381,
+        "source_qid": 2317,
+        "source_question": "What are the two bright images on either side",
+        "full": -7.56779670715332,
+        "grounded": -7.504353046417236,
+        "removed": -7.976316452026367,
+        "visual_support": 0.47196340560913086
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2310,
+    "split": "test",
+    "image_name": "synpic42210.jpg",
+    "question": "What are the two humps\" at the base on the image signifying?\"",
+    "answer": "Diaphragm",
+    "answer_type": "OPEN",
+    "baseline_response": "The diaphragm",
+    "clinical_term": "base",
+    "boxes": [
+      [
+        585,
+        0,
+        804,
+        164
+      ],
+      [
+        220,
+        0,
+        439,
+        164
+      ],
+      [
+        732,
+        0,
+        951,
+        246
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "The diaphragm",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.3752661943435669,
+        "grounded": -0.39984801411628723,
+        "removed": -0.5849822759628296,
+        "visual_support": 0.18513426184654236
+      },
+      {
+        "answer": "Scoliosis",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -1.729814052581787,
+        "grounded": -2.2342004776000977,
+        "removed": -1.8907464742660522,
+        "visual_support": -0.3434540033340454
+      },
+      {
+        "answer": "nipple location",
+        "source": "same_image_train",
+        "similarity": 0.2670877296107447,
+        "source_qid": 2120,
+        "source_question": "What are the two dots?",
+        "full": -2.5134339332580566,
+        "grounded": -2.014209270477295,
+        "removed": -2.045058012008667,
+        "visual_support": 0.03084874153137207
+      },
+      {
+        "answer": "Black",
+        "source": "global_train",
+        "similarity": 0.37989735473223396,
+        "source_qid": 2530,
+        "source_question": "What does the black area signify?",
+        "full": -7.777152061462402,
+        "grounded": -7.859186172485352,
+        "removed": -8.98685073852539,
+        "visual_support": 1.127664566040039
+      },
+      {
+        "answer": "nodules",
+        "source": "global_train",
+        "similarity": 0.37338032384458253,
+        "source_qid": 2264,
+        "source_question": "What is at the base of the right lung?",
+        "full": -4.7664899826049805,
+        "grounded": -4.716907024383545,
+        "removed": -4.502107620239258,
+        "visual_support": -0.2147994041442871
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2413,
+    "split": "test",
+    "image_name": "synpic33481.jpg",
+    "question": "Which lung lobe has the least opacities?",
+    "answer": "Upper left",
+    "answer_type": "OPEN",
+    "baseline_response": "Upper lobes",
+    "clinical_term": "opacity",
+    "boxes": [
+      [
+        78,
+        428,
+        192,
+        500
+      ],
+      [
+        192,
+        428,
+        309,
+        500
+      ],
+      [
+        462,
+        0,
+        540,
+        72
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Upper lobes",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.037361495196819305,
+        "grounded": -1.1322182416915894,
+        "removed": -0.01993349939584732,
+        "visual_support": -1.112284742295742
+      },
+      {
+        "answer": "Right upper lobe",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -1.5059731006622314,
+        "grounded": -0.06674998253583908,
+        "removed": -1.4356176853179932,
+        "visual_support": 1.368867702782154
+      },
+      {
+        "answer": "Lateral film as well as PA",
+        "source": "same_image_train",
+        "similarity": 0.0059006310153317575,
+        "source_qid": 1805,
+        "source_question": "What else do you need in order to localize lesions on a CXR?",
+        "full": -5.265986919403076,
+        "grounded": -5.82130765914917,
+        "removed": -5.541111469268799,
+        "visual_support": -0.2801961898803711
+      },
+      {
+        "answer": "Contrast in the intestines",
+        "source": "global_train",
+        "similarity": 0.40787022895413194,
+        "source_qid": 743,
+        "source_question": "What are the opacities to the left?",
+        "full": -4.951302528381348,
+        "grounded": -5.743548393249512,
+        "removed": -4.457540512084961,
+        "visual_support": -1.2860078811645508
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2481,
+    "split": "test",
+    "image_name": "synpic28378.jpg",
+    "question": "What is on the anterior wall of the right chest?",
+    "answer": "Mediport",
+    "answer_type": "OPEN",
+    "baseline_response": "A port",
+    "clinical_term": "anterior",
+    "boxes": [
+      [
+        657,
+        744,
+        879,
+        990
+      ],
+      [
+        73,
+        990,
+        292,
+        1156
+      ],
+      [
+        657,
+        825,
+        879,
+        1074
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "A port",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.8516324758529663,
+        "grounded": -1.912652850151062,
+        "removed": -0.7307425737380981,
+        "visual_support": -1.1819102764129639
+      },
+      {
+        "answer": "A circular, radiopaque object",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -2.2873733043670654,
+        "grounded": -1.5274156332015991,
+        "removed": -2.3716652393341064,
+        "visual_support": 0.8442496061325073
+      },
+      {
+        "answer": "A sternal wires and surgical skin closures",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -1.8015153408050537,
+        "grounded": -1.8771686553955078,
+        "removed": -1.8946855068206787,
+        "visual_support": 0.0175168514251709
+      },
+      {
+        "answer": "A Port-A-Cath",
+        "source": "contrastive_generation",
+        "similarity": null,
+        "full": -0.34554293751716614,
+        "grounded": -0.9828317761421204,
+        "removed": -0.32203221321105957,
+        "visual_support": -0.6607995629310608
+      },
+      {
+        "answer": "Mediport",
+        "source": "same_image_train",
+        "similarity": 0.40903014414067346,
+        "source_qid": 2482,
+        "source_question": "What is/are the hyperintense structure near/in the right side of the chest?",
+        "full": -1.123262643814087,
+        "grounded": -1.7755759954452515,
+        "removed": -1.2655019760131836,
+        "visual_support": -0.5100740194320679
+      },
+      {
+        "answer": "Female",
+        "source": "same_image_train",
+        "similarity": 0.06347576187971471,
+        "source_qid": 846,
+        "source_question": "What is the likely sex of this patient?",
+        "full": -12.919898986816406,
+        "grounded": -12.741969108581543,
+        "removed": -13.380290031433105,
+        "visual_support": 0.6383209228515625
+      },
+      {
+        "answer": "Thickening of bronchi",
+        "source": "same_image_train",
+        "similarity": 0.03163350314482314,
+        "source_qid": 3238,
+        "source_question": "What is meant by tram-track?",
+        "full": -4.708433628082275,
+        "grounded": -4.56101131439209,
+        "removed": -4.868894577026367,
+        "visual_support": 0.30788326263427734
+      },
+      {
+        "answer": "Exterior",
+        "source": "global_train",
+        "similarity": 0.3578694532569056,
+        "source_qid": 3437,
+        "source_question": "Are the lines seen on the exterior or interior of the patient?",
+        "full": -7.179372787475586,
+        "grounded": -8.286731719970703,
+        "removed": -7.119478225708008,
+        "visual_support": -1.1672534942626953
+      },
+      {
+        "answer": "Intestine",
+        "source": "global_train",
+        "similarity": 0.3264787952346342,
+        "source_qid": 1771,
+        "source_question": "What are the anterior circular hyperdensities?",
+        "full": -4.59599494934082,
+        "grounded": -3.7564589977264404,
+        "removed": -4.836834907531738,
+        "visual_support": 1.0803759098052979
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2554,
+    "split": "test",
+    "image_name": "synpic19605.jpg",
+    "question": "Are the structures in the pancreas cystic or solid?",
+    "answer": "Cystic",
+    "answer_type": "CLOSED",
+    "baseline_response": "Cystic",
+    "clinical_term": "solid",
+    "boxes": [
+      [
+        220,
+        125,
+        439,
+        251
+      ],
+      [
+        732,
+        501,
+        951,
+        585
+      ],
+      [
+        293,
+        376,
+        512,
+        502
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Cystic",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.024492314085364342,
+        "grounded": -0.03796181082725525,
+        "removed": -0.03344626724720001,
+        "visual_support": -0.004515543580055237
+      },
+      {
+        "answer": "Solid",
+        "source": "global_train",
+        "similarity": 0.5069944066770247,
+        "source_qid": 834,
+        "source_question": "Is this a solid or cystic lesion?",
+        "full": -6.323451042175293,
+        "grounded": -7.9888596534729,
+        "removed": -3.6003048419952393,
+        "visual_support": -4.388554811477661
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2623,
+    "split": "test",
+    "image_name": "synpic38263.jpg",
+    "question": "Where are the signals most intense?",
+    "answer": "Frontal and Occipital",
+    "answer_type": "OPEN",
+    "baseline_response": "White matter",
+    "clinical_term": "intense",
+    "boxes": [
+      [
+        257,
+        330,
+        365,
+        438
+      ],
+      [
+        219,
+        330,
+        330,
+        438
+      ],
+      [
+        292,
+        0,
+        403,
+        74
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "White matter",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.8450284004211426,
+        "grounded": -2.973865032196045,
+        "removed": -0.861402153968811,
+        "visual_support": -2.112462878227234
+      },
+      {
+        "answer": "Diffuse",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -1.1579842567443848,
+        "grounded": -0.3834342360496521,
+        "removed": -1.7371747493743896,
+        "visual_support": 1.3537405133247375
+      },
+      {
+        "answer": "Left cerebellum",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -2.9382452964782715,
+        "grounded": -0.9505712389945984,
+        "removed": -3.185147762298584,
+        "visual_support": 2.2345765233039856
+      },
+      {
+        "answer": "Frontal and Occipital",
+        "source": "same_image_train",
+        "similarity": 0.2900500019605156,
+        "source_qid": 2624,
+        "source_question": "Where is/are the hyperintense areas located?",
+        "full": -1.4781200885772705,
+        "grounded": -2.083198308944702,
+        "removed": -1.3558027744293213,
+        "visual_support": -0.7273955345153809
+      },
+      {
+        "answer": "lateral ventricles",
+        "source": "same_image_train",
+        "similarity": 0.0360741162591234,
+        "source_qid": 3254,
+        "source_question": "What is/are the Dark space near/in the center?",
+        "full": -0.9188365936279297,
+        "grounded": -1.5170488357543945,
+        "removed": -1.3626149892807007,
+        "visual_support": -0.15443384647369385
+      },
+      {
+        "answer": "Mixed intensity",
+        "source": "global_train",
+        "similarity": 0.5057155934455028,
+        "source_qid": 2374,
+        "source_question": "What is the signal intensity of the lesion?",
+        "full": -8.644739151000977,
+        "grounded": -7.951938629150391,
+        "removed": -7.818453788757324,
+        "visual_support": -0.1334848403930664
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2662,
+    "split": "test",
+    "image_name": "synpic16407.jpg",
+    "question": "Which side of the lungs are hyperinflated?",
+    "answer": "Bilateral lungs",
+    "answer_type": "OPEN",
+    "baseline_response": "Right lung",
+    "clinical_term": "lung",
+    "boxes": [
+      [
+        732,
+        0,
+        951,
+        120
+      ],
+      [
+        0,
+        481,
+        146,
+        661
+      ],
+      [
+        805,
+        0,
+        1024,
+        180
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right lung",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.8796712756156921,
+        "grounded": -1.0411865711212158,
+        "removed": -1.1921974420547485,
+        "visual_support": 0.15101087093353271
+      },
+      {
+        "answer": "Right",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -0.13518919050693512,
+        "grounded": -0.22598594427108765,
+        "removed": -0.15535594522953033,
+        "visual_support": -0.07062999904155731
+      },
+      {
+        "answer": "Right lungs",
+        "source": "contrastive_generation",
+        "similarity": null,
+        "full": -1.879671335220337,
+        "grounded": -2.728686571121216,
+        "removed": -3.567197322845459,
+        "visual_support": 0.8385107517242432
+      },
+      {
+        "answer": "Bilateral lungs",
+        "source": "same_image_train",
+        "similarity": 0.8089163263309428,
+        "source_qid": 2663,
+        "source_question": "Where is/are the hyperinflated lungs located?",
+        "full": -1.2456727027893066,
+        "grounded": -1.224905252456665,
+        "removed": -1.6804239749908447,
+        "visual_support": 0.4555187225341797
+      },
+      {
+        "answer": "Chest X-ray",
+        "source": "same_image_train",
+        "similarity": 0.04281496265365224,
+        "source_qid": 1438,
+        "source_question": "What type of image is this?",
+        "full": -6.1632208824157715,
+        "grounded": -5.682384490966797,
+        "removed": -5.971210956573486,
+        "visual_support": 0.28882646560668945
+      },
+      {
+        "answer": "both sides",
+        "source": "global_train",
+        "similarity": 0.5839516237395671,
+        "source_qid": 3436,
+        "source_question": "Is the lung hyperinflated on one or both sides?",
+        "full": -5.153234481811523,
+        "grounded": -4.365598678588867,
+        "removed": -3.9983832836151123,
+        "visual_support": -0.3672153949737549
+      },
+      {
+        "answer": "bilateral",
+        "source": "global_train",
+        "similarity": 0.3543731507295915,
+        "source_qid": 3435,
+        "source_question": "Is the hyperinflation unilateral or bilateral?",
+        "full": -2.9426114559173584,
+        "grounded": -2.8005130290985107,
+        "removed": -2.9527106285095215,
+        "visual_support": 0.15219759941101074
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2735,
+    "split": "test",
+    "image_name": "synpic25821.jpg",
+    "question": "Is the gastric bubble shown on the left or right side of the patient?",
+    "answer": "Right side",
+    "answer_type": "CLOSED",
+    "baseline_response": "Right",
+    "clinical_term": "right side",
+    "boxes": [
+      [
+        73,
+        0,
+        292,
+        219
+      ],
+      [
+        145,
+        0,
+        367,
+        219
+      ],
+      [
+        73,
+        0,
+        292,
+        146
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.020690441131591797,
+        "grounded": -0.028833534568548203,
+        "removed": -0.020165080204606056,
+        "visual_support": -0.008668454363942146
+      },
+      {
+        "answer": "Right side",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -0.46295031905174255,
+        "grounded": -0.1942848265171051,
+        "removed": -0.5397209525108337,
+        "visual_support": 0.34543612599372864
+      },
+      {
+        "answer": "Left",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -4.020690441131592,
+        "grounded": -3.6538336277008057,
+        "removed": -4.020164966583252,
+        "visual_support": 0.3663313388824463
+      },
+      {
+        "answer": "Underneath the right hemidiaphragm",
+        "source": "global_train",
+        "similarity": 0.6456123088045727,
+        "source_qid": 2808,
+        "source_question": "Where is the gastric bubble located?",
+        "full": -2.7228589057922363,
+        "grounded": -3.0077619552612305,
+        "removed": -2.7090344429016113,
+        "visual_support": -0.29872751235961914
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2741,
+    "split": "test",
+    "image_name": "synpic32962.jpg",
+    "question": "Where is the opacity located?",
+    "answer": "Right of the midline, superior to the right hilum",
+    "answer_type": "OPEN",
+    "baseline_response": "Right lung base",
+    "clinical_term": "opacity",
+    "boxes": [
+      [
+        0,
+        60,
+        146,
+        240
+      ],
+      [
+        0,
+        540,
+        146,
+        723
+      ],
+      [
+        585,
+        241,
+        804,
+        421
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Right lung base",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.5267904996871948,
+        "grounded": -0.587356686592102,
+        "removed": -0.9062951803207397,
+        "visual_support": 0.3189384937286377
+      },
+      {
+        "answer": "Right lung",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -0.4985707402229309,
+        "grounded": -0.22283770143985748,
+        "removed": -0.6540359258651733,
+        "visual_support": 0.43119822442531586
+      },
+      {
+        "answer": "Right lower lobe",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -0.46939393877983093,
+        "grounded": -0.621389627456665,
+        "removed": -0.32897940278053284,
+        "visual_support": -0.2924102246761322
+      },
+      {
+        "answer": "Right of the midline, superior to the right hilum",
+        "source": "same_image_train",
+        "similarity": 0.940304589691908,
+        "source_qid": 2742,
+        "source_question": "Where is/are the opacity located?",
+        "full": -1.048112154006958,
+        "grounded": -0.7431131601333618,
+        "removed": -1.0825426578521729,
+        "visual_support": 0.33942949771881104
+      },
+      {
+        "answer": "CXR",
+        "source": "same_image_train",
+        "similarity": 0.04767296696709196,
+        "source_qid": 1079,
+        "source_question": "What is the modality?",
+        "full": -9.004783630371094,
+        "grounded": -10.196203231811523,
+        "removed": -9.188252449035645,
+        "visual_support": -1.007950782775879
+      },
+      {
+        "answer": " superficial to the patient's skin",
+        "source": "global_train",
+        "similarity": 0.6876546119705823,
+        "source_qid": 3505,
+        "source_question": "Where is/are the circular opacity located?",
+        "full": -3.9720311164855957,
+        "grounded": -4.115362167358398,
+        "removed": -3.9264724254608154,
+        "visual_support": -0.188889741897583
+      },
+      {
+        "answer": "On top of the patient",
+        "source": "global_train",
+        "similarity": 0.6876546119705823,
+        "source_qid": 3503,
+        "source_question": "Where is/are the circular opacity located?",
+        "full": -0.9360641837120056,
+        "grounded": -2.0430800914764404,
+        "removed": -1.1949574947357178,
+        "visual_support": -0.8481225967407227
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2770,
+    "split": "test",
+    "image_name": "synpic38531.jpg",
+    "question": "Are pleural opacities located on the left, right, or both sides of the lung?",
+    "answer": "Both",
+    "answer_type": "CLOSED",
+    "baseline_response": "Both sides",
+    "clinical_term": "right",
+    "boxes": [
+      [
+        657,
+        250,
+        879,
+        436
+      ],
+      [
+        657,
+        186,
+        879,
+        375
+      ],
+      [
+        732,
+        125,
+        951,
+        311
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Both sides",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.39761990308761597,
+        "grounded": -2.0984978675842285,
+        "removed": -1.7162572145462036,
+        "visual_support": -0.3822406530380249
+      },
+      {
+        "answer": "Left",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -2.735781192779541,
+        "grounded": -2.659958839416504,
+        "removed": -3.7341012954711914,
+        "visual_support": 1.0741424560546875
+      },
+      {
+        "answer": "Right",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -2.485781192779541,
+        "grounded": -0.15995889902114868,
+        "removed": -0.2341012805700302,
+        "visual_support": 0.07414238154888153
+      },
+      {
+        "answer": "Normal",
+        "source": "same_image_train",
+        "similarity": 0.029538038564985852,
+        "source_qid": 3507,
+        "source_question": "Is the apical aeration normal or decreased?",
+        "full": -12.2670316696167,
+        "grounded": -13.128708839416504,
+        "removed": -12.765351295471191,
+        "visual_support": -0.3633575439453125
+      },
+      {
+        "answer": "Contrast in the intestines",
+        "source": "global_train",
+        "similarity": 0.4431676760376022,
+        "source_qid": 743,
+        "source_question": "What are the opacities to the left?",
+        "full": -3.320850133895874,
+        "grounded": -4.378830909729004,
+        "removed": -3.8248486518859863,
+        "visual_support": -0.5539822578430176
+      },
+      {
+        "answer": "Base",
+        "source": "global_train",
+        "similarity": 0.39156750784832445,
+        "source_qid": 2876,
+        "source_question": "Are the ground glass opacities located more in the apex or base of the lung?",
+        "full": -14.6420316696167,
+        "grounded": -15.378708839416504,
+        "removed": -15.484101295471191,
+        "visual_support": 0.1053924560546875
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2771,
+    "split": "test",
+    "image_name": "synpic38531.jpg",
+    "question": "Are the pleural opacities bilateral or unilateral?",
+    "answer": "Bilateral",
+    "answer_type": "CLOSED",
+    "baseline_response": "Bilateral",
+    "clinical_term": "bilateral",
+    "boxes": [
+      [
+        657,
+        186,
+        879,
+        375
+      ],
+      [
+        73,
+        186,
+        292,
+        375
+      ],
+      [
+        73,
+        373,
+        292,
+        562
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Bilateral",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.25190314650535583,
+        "grounded": -0.31775081157684326,
+        "removed": -0.2837774455547333,
+        "visual_support": -0.033973366022109985
+      },
+      {
+        "answer": "Unilateral",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -2.252004384994507,
+        "grounded": -1.567803978919983,
+        "removed": -2.0963170528411865,
+        "visual_support": 0.5285130739212036
+      },
+      {
+        "answer": "Normal",
+        "source": "same_image_train",
+        "similarity": 0.04258670115417172,
+        "source_qid": 3507,
+        "source_question": "Is the apical aeration normal or decreased?",
+        "full": -14.066263198852539,
+        "grounded": -13.885411262512207,
+        "removed": -13.848697662353516,
+        "visual_support": -0.036713600158691406
+      },
+      {
+        "answer": "contrast",
+        "source": "global_train",
+        "similarity": 0.4257593349048861,
+        "source_qid": 3337,
+        "source_question": "What are the hyperintensities seen in the bilateral kidneys?",
+        "full": -19.69126319885254,
+        "grounded": -18.83853530883789,
+        "removed": -18.583072662353516,
+        "visual_support": -0.255462646484375
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2940,
+    "split": "test",
+    "image_name": "synpic22828.jpg",
+    "question": "What are the hyperdense lesions noted at the edges of the aorta?",
+    "answer": "Calcified atherosclerosis",
+    "answer_type": "OPEN",
+    "baseline_response": "Calcification",
+    "clinical_term": "aorta",
+    "boxes": [
+      [
+        403,
+        0,
+        511,
+        74
+      ],
+      [
+        182,
+        438,
+        293,
+        512
+      ],
+      [
+        36,
+        438,
+        147,
+        512
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "Calcification",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.09472674876451492,
+        "grounded": -0.08189409971237183,
+        "removed": -0.10964147001504898,
+        "visual_support": 0.027747370302677155
+      },
+      {
+        "answer": "Calcified atherosclerosis",
+        "source": "same_image_train",
+        "similarity": 0.335678126503862,
+        "source_qid": 2943,
+        "source_question": "What are the hyperintensities surrounding the aorta?",
+        "full": -0.5139660835266113,
+        "grounded": -0.45849543809890747,
+        "removed": -0.44670677185058594,
+        "visual_support": -0.011788666248321533
+      },
+      {
+        "answer": "Axial",
+        "source": "same_image_train",
+        "similarity": 0.05316977954201797,
+        "source_qid": 2860,
+        "source_question": "What plane of the abdomen is this image?",
+        "full": -9.140411376953125,
+        "grounded": -8.875341415405273,
+        "removed": -8.861578941345215,
+        "visual_support": -0.013762474060058594
+      },
+      {
+        "answer": "Infarct",
+        "source": "global_train",
+        "similarity": 0.40144439566512885,
+        "source_qid": 2576,
+        "source_question": "What is the hyperdensity in the image?",
+        "full": -6.162551403045654,
+        "grounded": -5.714306831359863,
+        "removed": -6.4068922996521,
+        "visual_support": 0.6925854682922363
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 2951,
+    "split": "test",
+    "image_name": "synpic26764.jpg",
+    "question": "Is there hypoinflation or hyperinflation of the lung",
+    "answer": "Hyperinflation",
+    "answer_type": "CLOSED",
+    "baseline_response": "hypoinflation",
+    "clinical_term": "lung",
+    "boxes": [
+      [
+        145,
+        256,
+        367,
+        511
+      ],
+      [
+        220,
+        85,
+        439,
+        340
+      ],
+      [
+        220,
+        1022,
+        439,
+        1192
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "hypoinflation",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.1881542205810547,
+        "grounded": -0.3017875552177429,
+        "removed": -0.2466742992401123,
+        "visual_support": -0.055113255977630615
+      },
+      {
+        "answer": "Hyperinflation",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -0.4931156635284424,
+        "grounded": -1.1875511407852173,
+        "removed": -0.5120164752006531,
+        "visual_support": -0.6755346655845642
+      },
+      {
+        "answer": "On top of the patient",
+        "source": "same_image_train",
+        "similarity": 0.049038168297943566,
+        "source_qid": 3502,
+        "source_question": "Is the circular opacity (located in the middle of this image) found on top of the patient or within the patient?",
+        "full": -4.8592753410339355,
+        "grounded": -4.466187000274658,
+        "removed": -4.6799821853637695,
+        "visual_support": 0.21379518508911133
+      },
+      {
+        "answer": " superficial to the patient's skin",
+        "source": "same_image_train",
+        "similarity": 0.045612242482904276,
+        "source_qid": 3504,
+        "source_question": "Is the opacity located in the middle of the image inside the patient or superficial to the patient's skin?",
+        "full": -6.332973003387451,
+        "grounded": -6.455253601074219,
+        "removed": -6.332465171813965,
+        "visual_support": -0.1227884292602539
+      },
+      {
+        "answer": "Bilateral lungs",
+        "source": "global_train",
+        "similarity": 0.5509171131951247,
+        "source_qid": 2663,
+        "source_question": "Where is/are the hyperinflated lungs located?",
+        "full": -5.898085594177246,
+        "grounded": -5.386659622192383,
+        "removed": -5.762870788574219,
+        "visual_support": 0.37621116638183594
+      },
+      {
+        "answer": "bilateral",
+        "source": "global_train",
+        "similarity": 0.4972712311328574,
+        "source_qid": 3435,
+        "source_question": "Is the hyperinflation unilateral or bilateral?",
+        "full": -7.1113386154174805,
+        "grounded": -6.896816730499268,
+        "removed": -6.979550361633301,
+        "visual_support": 0.0827336311340332
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  },
+  {
+    "qid": 3015,
+    "split": "test",
+    "image_name": "synpic60543.jpg",
+    "question": "The image probably had what incidental finding?",
+    "answer": "cavum vergae",
+    "answer_type": "OPEN",
+    "baseline_response": "cavum vergae",
+    "clinical_term": "incidental finding",
+    "boxes": [
+      [
+        221,
+        148,
+        302,
+        256
+      ],
+      [
+        138,
+        293,
+        219,
+        404
+      ],
+      [
+        192,
+        110,
+        276,
+        221
+      ]
+    ],
+    "candidates": [
+      {
+        "answer": "cavum vergae",
+        "source": "baseline",
+        "similarity": null,
+        "full": -0.025117024779319763,
+        "grounded": -0.021505853161215782,
+        "removed": -0.006178323179483414,
+        "visual_support": -0.015327529981732368
+      },
+      {
+        "answer": "left thalamic cyst",
+        "source": "ground_generation",
+        "similarity": null,
+        "full": -2.0586633682250977,
+        "grounded": -1.7930816411972046,
+        "removed": -3.226379871368408,
+        "visual_support": 1.4332982301712036
+      },
+      {
+        "answer": "left subdural hematoma",
+        "source": "crop_generation",
+        "similarity": null,
+        "full": -1.0389575958251953,
+        "grounded": -0.9085887670516968,
+        "removed": -1.5150874853134155,
+        "visual_support": 0.6064987182617188
+      },
+      {
+        "answer": "left cva",
+        "source": "contrastive_generation",
+        "similarity": null,
+        "full": -4.345513343811035,
+        "grounded": -3.77081561088562,
+        "removed": -4.988671779632568,
+        "visual_support": 1.2178561687469482
+      },
+      {
+        "answer": "acute stroke",
+        "source": "same_image_train",
+        "similarity": 0.3751579532634101,
+        "source_qid": 2394,
+        "source_question": "What would be the most probably diagnosis for this patient?",
+        "full": -6.199385166168213,
+        "grounded": -5.270435810089111,
+        "removed": -5.691792011260986,
+        "visual_support": 0.421356201171875
+      },
+      {
+        "answer": "Right colon",
+        "source": "global_train",
+        "similarity": 0.35856973689119354,
+        "source_qid": 2064,
+        "source_question": "Where is the abnormal finding?",
+        "full": -10.033712387084961,
+        "grounded": -9.448814392089844,
+        "removed": -10.504302978515625,
+        "visual_support": 1.0554885864257812
+      },
+      {
+        "answer": "Congenital developmental disorder? History of surgery and past manipulation?",
+        "source": "global_train",
+        "similarity": 0.28862604676786063,
+        "source_qid": 1358,
+        "source_question": "What could cause this finding?",
+        "full": -5.338226318359375,
+        "grounded": -4.834174156188965,
+        "removed": -5.061075210571289,
+        "visual_support": 0.22690105438232422
+      }
+    ],
+    "gold_used_for_candidates_or_features": false
+  }
+]

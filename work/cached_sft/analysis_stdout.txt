@@ -1,0 +1,578 @@
+{
+  "metrics": {
+    "conventional_sft_exact": {
+      "protocol": "classic VQA-RAD original answer_type; normalized exact match",
+      "total": 451,
+      "counts": {
+        "CLOSED": 272,
+        "OPEN": 179
+      },
+      "correct": {
+        "CLOSED": 210,
+        "OPEN": 32
+      },
+      "accuracy": {
+        "CLOSED": 0.7720588235294118,
+        "OPEN": 0.1787709497206704
+      },
+      "overall_exact": 0.5365853658536586
+    },
+    "conventional_sft_semantic": {
+      "protocol": "official VQA-RAD answer_type labels",
+      "methods": {
+        "semantic_judged_non_yesno": 200,
+        "normalized_exact_yesno": 251
+      },
+      "counts": {
+        "CLOSED": 272,
+        "OPEN": 179
+      },
+      "correct": {
+        "CLOSED": 214,
+        "OPEN": 87
+      },
+      "accuracy": {
+        "CLOSED": 0.7867647058823529,
+        "OPEN": 0.4860335195530726
+      },
+      "overall_correct": 301,
+      "total": 451,
+      "overall_semantic": 0.6674057649667405
+    },
+    "matched_sft_stage1_exact": {
+      "protocol": "classic VQA-RAD original answer_type; normalized exact match",
+      "total": 451,
+      "counts": {
+        "CLOSED": 272,
+        "OPEN": 179
+      },
+      "correct": {
+        "CLOSED": 230,
+        "OPEN": 82
+      },
+      "accuracy": {
+        "CLOSED": 0.8455882352941176,
+        "OPEN": 0.4581005586592179
+      },
+      "overall_exact": 0.6917960088691796
+    },
+    "matched_sft_exact": {
+      "protocol": "classic VQA-RAD original answer_type; normalized exact match",
+      "total": 451,
+      "counts": {
+        "CLOSED": 272,
+        "OPEN": 179
+      },
+      "correct": {
+        "CLOSED": 232,
+        "OPEN": 84
+      },
+      "accuracy": {
+        "CLOSED": 0.8529411764705882,
+        "OPEN": 0.4692737430167598
+      },
+      "overall_exact": 0.7006651884700665
+    },
+    "matched_sft_semantic": {
+      "protocol": "official VQA-RAD answer_type labels",
+      "methods": {
+        "semantic_judged_non_yesno": 200,
+        "normalized_exact_yesno": 251
+      },
+      "counts": {
+        "CLOSED": 272,
+        "OPEN": 179
+      },
+      "correct": {
+        "CLOSED": 235,
+        "OPEN": 117
+      },
+      "accuracy": {
+        "CLOSED": 0.8639705882352942,
+        "OPEN": 0.6536312849162011
+      },
+      "overall_correct": 352,
+      "total": 451,
+      "overall_semantic": 0.7804878048780488
+    },
+    "method_model_only_exact": {
+      "protocol": "classic VQA-RAD original answer_type; normalized exact match",
+      "total": 451,
+      "counts": {
+        "CLOSED": 272,
+        "OPEN": 179
+      },
+      "correct": {
+        "CLOSED": 229,
+        "OPEN": 104
+      },
+      "accuracy": {
+        "CLOSED": 0.8419117647058824,
+        "OPEN": 0.5810055865921788
+      },
+      "overall_exact": 0.738359201773836
+    },
+    "method_model_only_semantic": {
+      "protocol": "official VQA-RAD answer_type labels",
+      "methods": {
+        "semantic_judged_non_yesno": 200,
+        "normalized_exact_yesno": 251
+      },
+      "counts": {
+        "CLOSED": 272,
+        "OPEN": 179
+      },
+      "correct": {
+        "CLOSED": 233,
+        "OPEN": 126
+      },
+      "accuracy": {
+        "CLOSED": 0.8566176470588235,
+        "OPEN": 0.7039106145251397
+      },
+      "overall_correct": 359,
+      "total": 451,
+      "overall_semantic": 0.7960088691796009
+    },
+    "method_verifier_exact": {
+      "protocol": "classic VQA-RAD original answer_type; normalized exact match",
+      "total": 451,
+      "counts": {
+        "CLOSED": 272,
+        "OPEN": 179
+      },
+      "correct": {
+        "CLOSED": 232,
+        "OPEN": 110
+      },
+      "accuracy": {
+        "CLOSED": 0.8529411764705882,
+        "OPEN": 0.6145251396648045
+      },
+      "overall_exact": 0.7583148558758315
+    },
+    "method_verifier_semantic": {
+      "protocol": "official VQA-RAD answer_type labels",
+      "methods": {
+        "semantic_judged_non_yesno": 200,
+        "normalized_exact_yesno": 251
+      },
+      "counts": {
+        "CLOSED": 272,
+        "OPEN": 179
+      },
+      "correct": {
+        "CLOSED": 233,
+        "OPEN": 132
+      },
+      "accuracy": {
+        "CLOSED": 0.8566176470588235,
+        "OPEN": 0.7374301675977654
+      },
+      "overall_correct": 365,
+      "total": 451,
+      "overall_semantic": 0.8093126385809313
+    }
+  },
+  "paired_matched_sft_vs_method_model_only": {
+    "exact": {
+      "OPEN": {
+        "both_correct": 75,
+        "both_wrong": 66,
+        "a_only_correct": 9,
+        "b_only_correct": 29,
+        "two_sided_exact_p": 0.0016580525261815637
+      },
+      "CLOSED": {
+        "both_correct": 216,
+        "both_wrong": 27,
+        "a_only_correct": 16,
+        "b_only_correct": 13,
+        "two_sided_exact_p": 0.711071103811264
+      },
+      "ALL": {
+        "both_correct": 291,
+        "both_wrong": 93,
+        "a_only_correct": 25,
+        "b_only_correct": 42,
+        "two_sided_exact_p": 0.049800114294728665
+      }
+    },
+    "semantic": {
+      "OPEN": {
+        "both_correct": 107,
+        "both_wrong": 43,
+        "a_only_correct": 10,
+        "b_only_correct": 19,
+        "two_sided_exact_p": 0.13604594767093658
+      },
+      "CLOSED": {
+        "both_correct": 220,
+        "both_wrong": 24,
+        "a_only_correct": 15,
+        "b_only_correct": 13,
+        "two_sided_exact_p": 0.8505540192127228
+      },
+      "ALL": {
+        "both_correct": 327,
+        "both_wrong": 67,
+        "a_only_correct": 25,
+        "b_only_correct": 32,
+        "two_sided_exact_p": 0.42704285650325524
+      }
+    },
+    "open_exact_fix_decomposition": {
+      "method_exact_fixes": 29,
+      "already_semantically_correct_for_sft": 11,
+      "semantic_or_factual_fixes": 18,
+      "items": [
+        {
+          "index": 39,
+          "question": "Describe the lung abnormalities?",
+          "reference": "Pulmonary nodules",
+          "matched_sft": "Multiple nodules",
+          "method": "Pulmonary nodules",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 40,
+          "question": "What abnormalities are seen within the lungs?",
+          "reference": "Pulmonary nodules",
+          "matched_sft": "Numerous nodules",
+          "method": "Pulmonary nodules",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 91,
+          "question": "Where is the ascending colon?",
+          "reference": "Posterior to the appendix",
+          "matched_sft": "Right",
+          "method": "Posterior to the appendix",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 97,
+          "question": "What is in the left apex?",
+          "reference": "A bullous lesion",
+          "matched_sft": "Pneumothorax",
+          "method": "A bullous lesion",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 99,
+          "question": "Where is the lesion located?",
+          "reference": "Anterior mediastinum",
+          "matched_sft": "Right lung hilum",
+          "method": "Anterior mediastinum",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 101,
+          "question": "Where are the kidney?",
+          "reference": "Not seen here",
+          "matched_sft": "Not see",
+          "method": "Not seen here",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 104,
+          "question": "Where is the colon most prominent from this view?",
+          "reference": "Left",
+          "matched_sft": "Left side",
+          "method": "Left",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 135,
+          "question": "What is the dark structure underneath the skin?",
+          "reference": "fat",
+          "matched_sft": "abdominal wall",
+          "method": "fat",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 172,
+          "question": "What lobe of the brain is the lesion located in?",
+          "reference": "Right frontal lobe",
+          "matched_sft": "Right parietal lobe",
+          "method": "Right frontal lobe",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 179,
+          "question": "What part of the body is being imaged here?",
+          "reference": "abdomen",
+          "matched_sft": "The abdomen",
+          "method": "Abdomen",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 199,
+          "question": "Where do you see acute infarcts?",
+          "reference": "R frontal lobe",
+          "matched_sft": "Right parietal and left frontal lobes",
+          "method": "R frontal lobe",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 205,
+          "question": "What type of imaging modality is used to acquire the above image?",
+          "reference": "MRI - T2 weighted",
+          "matched_sft": "MR - T2 weighted",
+          "method": "MRI - T2 Weighted",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 210,
+          "question": "How large is the mass in the right upper quadrant?",
+          "reference": "3.4 cm",
+          "matched_sft": "5 cm",
+          "method": "3.4 cm",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 211,
+          "question": "Size of the mass in the right upper quadrant?",
+          "reference": "3.4 cm",
+          "matched_sft": "5 cm",
+          "method": "3.4 cm",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 217,
+          "question": "What organ system is being imaged?",
+          "reference": "Brain",
+          "matched_sft": "CNS",
+          "method": "Brain",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 227,
+          "question": "In which brain area is the lesion located?",
+          "reference": "Right cerebellopontine angle",
+          "matched_sft": "Right cerebellum",
+          "method": "Right cerebellopontine angle",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 228,
+          "question": "Where is the lesion located?",
+          "reference": "Right cerebellopontine angle",
+          "matched_sft": "Right cerebellum",
+          "method": "Right cerebellopontine angle",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 231,
+          "question": "The lesion seen in the image above is isointense to what object that is normally found in the brain?",
+          "reference": "CSF",
+          "matched_sft": "cerebrospinal fluid",
+          "method": "CSF",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 232,
+          "question": "The lesion is isointense to what object normally found in the brain?",
+          "reference": "CSF",
+          "matched_sft": "cerebrospinal fluid",
+          "method": "CSF",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 237,
+          "question": "What organ system is visualized in the above image?",
+          "reference": "Brain",
+          "matched_sft": "the brain",
+          "method": "Brain",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 298,
+          "question": "What is the condition?",
+          "reference": "Diverticulitis",
+          "matched_sft": "Celiac and mesenteric lymphadenopathy",
+          "method": "Diverticulitis",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 299,
+          "question": "What is the pathology?",
+          "reference": "Diverticulitis",
+          "matched_sft": "soft tissue mass in the right lower quadrant with calcifications",
+          "method": "Diverticulitis",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 303,
+          "question": "What are the bright specks in the gallbladder",
+          "reference": "Gallstones",
+          "matched_sft": "Roux-en-Y anastomosis",
+          "method": "Gallstones",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 307,
+          "question": "What two tributaries of blood vessels are impacted?",
+          "reference": "left ACA and MCA",
+          "matched_sft": "left MCA and left ACA",
+          "method": "left ACA and MCA",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 308,
+          "question": "Which blood vessels are affected?",
+          "reference": "left ACA and MCA",
+          "matched_sft": "left MCA",
+          "method": "left ACA and MCA",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 313,
+          "question": "What organ system is shown?",
+          "reference": "brain",
+          "matched_sft": "CNS",
+          "method": "Brain",
+          "matched_sft_semantically_correct": true,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 314,
+          "question": "What structure is depicted?",
+          "reference": "brain",
+          "matched_sft": "Basal ganglia",
+          "method": "Brain",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 330,
+          "question": "What organ system is visualized?",
+          "reference": "chest",
+          "matched_sft": "cardiopulmonary",
+          "method": "Chest",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        },
+        {
+          "index": 436,
+          "question": "What was probably found incidentally on this image?",
+          "reference": "cavum vergae",
+          "matched_sft": "cysticercus",
+          "method": "cavum vergae",
+          "matched_sft_semantically_correct": false,
+          "method_semantically_correct": true
+        }
+      ]
+    }
+  },
+  "training_diagnostics": {
+    "conventional_sft": {
+      "global_step": 192,
+      "epoch": 1.0,
+      "first_logged_loss": 3.069373893737793,
+      "last_logged_loss": 0.6733563899993896,
+      "last_logged_grad_norm": 2.447389841079712
+    },
+    "matched_sft_stage1": {
+      "global_step": 1182,
+      "epoch": 6.1566579634464755,
+      "first_logged_loss": 2.133561897277832,
+      "last_logged_loss": 0.005558910965919495,
+      "last_logged_grad_norm": 0.039006203413009644
+    },
+    "matched_sft_stage2": {
+      "global_step": 250,
+      "epoch": 2.8158640226628897,
+      "first_logged_loss": 0.009230104833841324,
+      "last_logged_loss": 0.006096627190709114,
+      "last_logged_grad_norm": 0.2615506947040558
+    },
+    "method_e2": {
+      "global_step": 1182,
+      "epoch": 2.0,
+      "first_logged_loss": 2.233141326904297,
+      "last_logged_loss": 0.07494005560874939,
+      "last_logged_grad_norm": 2.4633519649505615
+    },
+    "method_openfocusv2": {
+      "global_step": 250,
+      "epoch": 1.0,
+      "first_logged_loss": 0.165774929523468,
+      "last_logged_loss": 0.12524151802062988,
+      "last_logged_grad_norm": 0.8272774815559387
+    }
+  },
+  "corpus_audit": {
+    "matched_sft_stage1": {
+      "rows": 3064,
+      "composition": {
+        "original": 3064
+      },
+      "effective_epochs_at_1182_steps": 6.157,
+      "open_rows_per_epoch": 1241,
+      "approx_effective_open_presentations": 7641
+    },
+    "method_e2_at_training_time": {
+      "rows": 9445,
+      "composition": {
+        "original": 3064,
+        "pattern_rewrite": 2822,
+        "ctgm_effective": 2964,
+        "semantic_negative": 595
+      },
+      "effective_epochs_at_1182_steps": 2.0,
+      "open_rows_per_epoch": 3573,
+      "effective_open_presentations": 7146,
+      "note": "Historical corpus count; CTGM artifacts were revised after this run."
+    },
+    "matched_sft_stage2": {
+      "rows": 1412,
+      "composition": {
+        "original_open_plus_10pct_closed_anchor": 1412
+      },
+      "effective_epochs_at_250_steps": 2.816
+    },
+    "method_openfocusv2": {
+      "rows": 3992,
+      "composition": {
+        "original_open_plus_10pct_closed_anchor": 1412,
+        "open_pattern": 1088,
+        "open_invariant_pair": 746,
+        "ctgm_grounded": 746
+      },
+      "effective_epochs_at_250_steps": 1.0
+    }
+  },
+  "interpretation_limits": [
+    "The comparison isolates the full augmented recipe, not CTGM alone.",
+    "Exact-match superiority is stronger than semantic superiority.",
+    "The paired semantic difference is not statistically significant at alpha=0.05.",
+    "The verifier includes same-image train retrieval and must be reported separately."
+  ]
+}
+WROTE controls/sft/sft_gap_analysis.json

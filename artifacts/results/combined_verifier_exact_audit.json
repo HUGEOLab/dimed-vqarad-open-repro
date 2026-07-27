@@ -1,0 +1,131 @@
+{
+  "changes": 15,
+  "counts": {
+    "fixed": 11,
+    "broke": 2,
+    "wrong_to_wrong": 2
+  },
+  "exact_net": 9,
+  "items": [
+    {
+      "qid": 306,
+      "question": "What is under the right hemidiaphragm?",
+      "gold": "Free air",
+      "before": "Stomach bubble",
+      "after": "Free air",
+      "outcome": "fixed"
+    },
+    {
+      "qid": 319,
+      "question": "How would you describe the spleen abnormality",
+      "gold": "hypodense lesion",
+      "before": "Asymmetric",
+      "after": "hypodense lesion",
+      "outcome": "fixed"
+    },
+    {
+      "qid": 431,
+      "question": "What lobe is the lesion located in?",
+      "gold": "right temporal lobe",
+      "before": "Right temporal lobe",
+      "after": "Right",
+      "outcome": "broke"
+    },
+    {
+      "qid": 1311,
+      "question": "Is the lesion on the left or right side of the brain?",
+      "gold": "Left",
+      "before": "Left side",
+      "after": "Left",
+      "outcome": "fixed"
+    },
+    {
+      "qid": 1478,
+      "question": "Where is the lesion located?",
+      "gold": "right lower lateral lung field",
+      "before": "Right lung",
+      "after": "right lower lateral lung field",
+      "outcome": "fixed"
+    },
+    {
+      "qid": 1549,
+      "question": "Where are the brain lesions located?",
+      "gold": "Right hemisphere",
+      "before": "Bilateral",
+      "after": "Right hemisphere",
+      "outcome": "fixed"
+    },
+    {
+      "qid": 1632,
+      "question": "Where is the abnormal mass located with respect to the lungs?",
+      "gold": "Right upper lobe",
+      "before": "Right superior cavoatrial junction",
+      "after": "Right upper lobe",
+      "outcome": "fixed"
+    },
+    {
+      "qid": 1874,
+      "question": "What side is the lesion on?",
+      "gold": "Right",
+      "before": "Right",
+      "after": "Almost entire right side",
+      "outcome": "broke"
+    },
+    {
+      "qid": 2481,
+      "question": "What is on the anterior wall of the right chest?",
+      "gold": "Mediport",
+      "before": "A port",
+      "after": "Mediport",
+      "outcome": "fixed"
+    },
+    {
+      "qid": 2623,
+      "question": "Where are the signals most intense?",
+      "gold": "Frontal and Occipital",
+      "before": "White matter",
+      "after": "Diffuse",
+      "outcome": "wrong_to_wrong"
+    },
+    {
+      "qid": 2662,
+      "question": "Which side of the lungs are hyperinflated?",
+      "gold": "Bilateral lungs",
+      "before": "Right lung",
+      "after": "Bilateral lungs",
+      "outcome": "fixed"
+    },
+    {
+      "qid": 2735,
+      "question": "Is the gastric bubble shown on the left or right side of the patient?",
+      "gold": "Right side",
+      "before": "Right",
+      "after": "Right side",
+      "outcome": "fixed"
+    },
+    {
+      "qid": 2741,
+      "question": "Where is the opacity located?",
+      "gold": "Right of the midline, superior to the right hilum",
+      "before": "Right lung base",
+      "after": "Right of the midline, superior to the right hilum",
+      "outcome": "fixed"
+    },
+    {
+      "qid": 2770,
+      "question": "Are pleural opacities located on the left, right, or both sides of the lung?",
+      "gold": "Both",
+      "before": "Both sides",
+      "after": "Right",
+      "outcome": "wrong_to_wrong"
+    },
+    {
+      "qid": 2951,
+      "question": "Is there hypoinflation or hyperinflation of the lung",
+      "gold": "Hyperinflation",
+      "before": "hypoinflation",
+      "after": "Hyperinflation",
+      "outcome": "fixed"
+    }
+  ]
+}

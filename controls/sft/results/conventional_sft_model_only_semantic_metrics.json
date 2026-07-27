@@ -1,0 +1,22 @@
+{
+  "protocol": "official VQA-RAD answer_type labels",
+  "methods": {
+    "semantic_judged_non_yesno": 200,
+    "normalized_exact_yesno": 251
+  },
+  "counts": {
+    "CLOSED": 272,
+    "OPEN": 179
+  },
+  "correct": {
+    "CLOSED": 214,
+    "OPEN": 87
+  },
+  "accuracy": {
+    "CLOSED": 0.7867647058823529,
+    "OPEN": 0.4860335195530726
+  },
+  "overall_correct": 301,
+  "total": 451,
+  "overall_semantic": 0.6674057649667405
+}

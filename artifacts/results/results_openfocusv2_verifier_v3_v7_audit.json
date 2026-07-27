@@ -1,0 +1,31 @@
+{
+  "calibration": {
+    "train_only": true,
+    "test_labels_used_for_selection": false,
+    "calibration_method": "TRAIN leave-one-question-out, same image",
+    "word_char_weight": [
+      0.6,
+      0.4
+    ],
+    "min_train_precision": 0.9,
+    "best": {
+      "threshold": 0.7599999999999999,
+      "coverage": 543,
+      "correct": 489,
+      "precision": 0.9005524861878453
+    },
+    "train_queries": 1318,
+    "test_changes": 1
+  },
+  "changed_items": [
+    {
+      "qid": 1549,
+      "question": "Where are the brain lesions located?",
+      "gold": "Right hemisphere",
+      "before": "Bilateral",
+      "after": "Right hemisphere",
+      "similarity": 0.9691414181365108,
+      "source_qid": 1550
+    }
+  ]
+}

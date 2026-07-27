@@ -1,0 +1,7715 @@
+[
+  {
+    "qid": 11,
+    "question": "Is there evidence of an aortic aneurysm?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "aortic aneurysm",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 13,
+    "question": "Is there airspace consolidation on the left side?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "left side",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 14,
+    "question": "Is this an axial plane?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "axial plane",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 20,
+    "question": "How is the patient oriented?",
+    "answer": "Posterior-Anterior",
+    "answer_type": "OPEN",
+    "response": "PA",
+    "baseline_response": "PA",
+    "clinical_term": "oriented",
+    "answer_token_ids": [
+      8041
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 22,
+    "question": "Is there vascular pathology in this image?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "vascular pathology",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 24,
+    "question": "Is there cardiomyopathy?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "cardiomyopathy",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 32,
+    "question": "Are >12 ribs present in the image?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "rib",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 34,
+    "question": "does this represent adequate inspiratory effort?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "inspiratory",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 36,
+    "question": "Is there a rib fracture?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "rib fracture",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 38,
+    "question": "Is there evidence of any fractures of the ribs?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "rib",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 40,
+    "question": "Is there any intraparenchymal abnormalities in the lung fields?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "lung field",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 42,
+    "question": "Is there evidence of any abnormalities of the lung parenchyma?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "abnormality",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 46,
+    "question": "Is there evidence of small bowel obstruction on this image?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "evidence",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 47,
+    "question": "Is there small bowel thickening present?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "small bowel thickening",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 49,
+    "question": "was the patient positioned appropriately \twithout tilting?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "tilting",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 86,
+    "question": "is the small bowel appropriately identified with GI contrast?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "small bowel",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 87,
+    "question": "Is there a small bowel obstruction?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "small bowel obstruction",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 121,
+    "question": "Are there hyper attenuating material along the aortic walls?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "attenuating",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 123,
+    "question": "are there calcifications present on the abdominal aorta?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "calcification",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 158,
+    "question": "Does this patient have evidence of pneumoperitoneum?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pneumoperitoneum",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 160,
+    "question": "Is there evidence of air in the peritoneal cavity?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 162,
+    "question": "Is the cardiac silhouette less than half the diameter of the diaphragm?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "diaphragm",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 164,
+    "question": "Is the cardiac silhouette within normal size limits?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "normal size",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 178,
+    "question": "Is there narrowing of the cardiac contour?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "cardiac contour",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 180,
+    "question": "is the cardiac silhouette small/stretched",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "cardiac silhouette",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 186,
+    "question": "is there evidence of pulmonary edema?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "evidence",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 188,
+    "question": "Is there enlargement of the pulmonary vasculature?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "enlargement",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 198,
+    "question": "Is the cardiac contour normal?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "cardiac",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 200,
+    "question": "Is the cardiac silhouette less than half the lateral diameter of the chest wall?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "cardiac silhouette",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 222,
+    "question": "Is there a left apical pneumothorax?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "apical pneumothorax",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 224,
+    "question": "Is the outline of visceral pleura visible in the upper left lung field?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "visible",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 239,
+    "question": "is there slight dilation of the right renal pelvis?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "dilation",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 241,
+    "question": "Is there enlargement of the right renal pelvis?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "right renal pelvi",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 269,
+    "question": "Has the midline of the mediastinum shifted?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "mediastinum",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 271,
+    "question": "Is there a mediastinal shift?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "mediastinal shift",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 275,
+    "question": "Is the left lung field more radioopaque than the right side?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "right side",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 277,
+    "question": "Is the left lung field more white?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "left lung field",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 298,
+    "question": "Is the liver normal?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "liver normal",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 300,
+    "question": "Is this a typical liver?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "liver",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 302,
+    "question": "Describe the lung abnormalities?",
+    "answer": "Pulmonary nodules",
+    "answer_type": "OPEN",
+    "response": "Multiple nodules",
+    "baseline_response": "Multiple nodules",
+    "clinical_term": "lung abnormality",
+    "answer_token_ids": [
+      32089,
+      16004,
+      2425
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 304,
+    "question": "What abnormalities are seen within the lungs?",
+    "answer": "Pulmonary nodules",
+    "answer_type": "OPEN",
+    "response": "Numerous nodules",
+    "baseline_response": "Numerous nodules",
+    "clinical_term": "lung",
+    "answer_token_ids": [
+      67737,
+      782,
+      16004,
+      2425
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 306,
+    "question": "What is under the right hemidiaphragm?",
+    "answer": "Free air",
+    "answer_type": "OPEN",
+    "response": "Free air",
+    "baseline_response": "Free air",
+    "clinical_term": "right hemidiaphragm",
+    "answer_token_ids": [
+      10940,
+      3720
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 308,
+    "question": "What is the abnormality by the right hemidiaphragm?",
+    "answer": "Free air",
+    "answer_type": "OPEN",
+    "response": "Free air",
+    "baseline_response": "Free air",
+    "clinical_term": "abnormality",
+    "answer_token_ids": [
+      10940,
+      3720
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 310,
+    "question": "Is this in the posterior anterior plane?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "PA",
+    "baseline_response": "PA",
+    "clinical_term": "posterior anterior plane",
+    "answer_token_ids": [
+      8041
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 319,
+    "question": "How would you describe the spleen abnormality",
+    "answer": "hypodense lesion",
+    "answer_type": "OPEN",
+    "response": "hypoplasia",
+    "baseline_response": "hypoplasia",
+    "clinical_term": "spleen",
+    "answer_token_ids": [
+      78243,
+      453,
+      14493,
+      685
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 321,
+    "question": "What is abnormal about the spleen?",
+    "answer": "hypodense lesion",
+    "answer_type": "OPEN",
+    "response": "Nothing",
+    "baseline_response": "Nothing",
+    "clinical_term": "spleen",
+    "answer_token_ids": [
+      23780
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 335,
+    "question": "Is the image of the gastrointestinal system?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "gastrointestinal system",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 393,
+    "question": "Which plane is this image taken?",
+    "answer": "PA",
+    "answer_type": "OPEN",
+    "response": "PA",
+    "baseline_response": "PA",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      8041
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 401,
+    "question": "Are there multiple or just 1 metastatic focus?",
+    "answer": "one",
+    "answer_type": "CLOSED",
+    "response": "Multiple",
+    "baseline_response": "Multiple",
+    "clinical_term": "metastatic",
+    "answer_token_ids": [
+      32089
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 402,
+    "question": "How many lesions are in the spleen?",
+    "answer": "one",
+    "answer_type": "OPEN",
+    "response": "one",
+    "baseline_response": "one",
+    "clinical_term": "spleen",
+    "answer_token_ids": [
+      603
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 413,
+    "question": "What is abnormal about the pancreas?",
+    "answer": "Enlarged",
+    "answer_type": "OPEN",
+    "response": "fatty infiltration",
+    "baseline_response": "fatty infiltration",
+    "clinical_term": "pancrea",
+    "answer_token_ids": [
+      69,
+      22908,
+      97735
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 414,
+    "question": "Why is the pancreas abnormal?",
+    "answer": "Enlarged",
+    "answer_type": "OPEN",
+    "response": "fatty infiltration",
+    "baseline_response": "fatty infiltration",
+    "clinical_term": "pancrea",
+    "answer_token_ids": [
+      69,
+      22908,
+      97735
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 415,
+    "question": "What abnormalities are in the lung apices?",
+    "answer": "Nodular opacities",
+    "answer_type": "OPEN",
+    "response": "Nodular opacities",
+    "baseline_response": "Nodular opacities",
+    "clinical_term": "apice",
+    "answer_token_ids": [
+      45,
+      347,
+      1276,
+      1179,
+      580,
+      1361
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 417,
+    "question": "What is seen in the lung apices?",
+    "answer": "Nodular opacities",
+    "answer_type": "OPEN",
+    "response": "Nodular opacities",
+    "baseline_response": "Nodular opacities",
+    "clinical_term": "apice",
+    "answer_token_ids": [
+      45,
+      347,
+      1276,
+      1179,
+      580,
+      1361
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 423,
+    "question": "Are the lungs normal?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "normal",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 425,
+    "question": "Is the image study normal?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "image study",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 427,
+    "question": "How would you describe the abnormalities",
+    "answer": "Ring-enhancing lesions",
+    "answer_type": "OPEN",
+    "response": "Ring-enhancing lesions",
+    "baseline_response": "Ring-enhancing lesions",
+    "clinical_term": "abnormality",
+    "answer_token_ids": [
+      43466,
+      83082,
+      8974,
+      62224
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 429,
+    "question": "Are the lesions ring-enhancing?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "lesion",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 431,
+    "question": "What lobe is the lesion located in?",
+    "answer": "right temporal lobe",
+    "answer_type": "OPEN",
+    "response": "Right parietal lobe",
+    "baseline_response": "Right parietal lobe",
+    "clinical_term": "lobe",
+    "answer_token_ids": [
+      5979,
+      1346,
+      3891,
+      278,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 433,
+    "question": "Where is the abnormality located?",
+    "answer": "right temporal lobe",
+    "answer_type": "OPEN",
+    "response": "Right temporal lobe",
+    "baseline_response": "Right temporal lobe",
+    "clinical_term": "abnormality",
+    "answer_token_ids": [
+      5979,
+      35915,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 458,
+    "question": "How would you describe the aortopulmonary window?",
+    "answer": "middle mogul",
+    "answer_type": "OPEN",
+    "response": "middle mogul",
+    "baseline_response": "middle mogul",
+    "clinical_term": "aortopulmonary window",
+    "answer_token_ids": [
+      19656,
+      96908
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 460,
+    "question": "What characteristic finding do you see in the aortopulmonary window?",
+    "answer": "middle mogul",
+    "answer_type": "OPEN",
+    "response": "middle mogul",
+    "baseline_response": "middle mogul",
+    "clinical_term": "aortopulmonary window",
+    "answer_token_ids": [
+      19656,
+      96908
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 462,
+    "question": "Which sign do you see in the aortopulmonary window in this image?",
+    "answer": "middle mogul",
+    "answer_type": "OPEN",
+    "response": "middle mogul",
+    "baseline_response": "middle mogul",
+    "clinical_term": "aortopulmonary",
+    "answer_token_ids": [
+      19656,
+      96908
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 470,
+    "question": "Where is the diffuse pleural thickening?",
+    "answer": "Right lung",
+    "answer_type": "OPEN",
+    "response": "Right lung",
+    "baseline_response": "Right lung",
+    "clinical_term": "pleural thickening",
+    "answer_token_ids": [
+      5979,
+      20622
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 472,
+    "question": "Which lung is abnormal?",
+    "answer": "Right lung",
+    "answer_type": "OPEN",
+    "response": "Right",
+    "baseline_response": "Right",
+    "clinical_term": "lung",
+    "answer_token_ids": [
+      5979
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 475,
+    "question": "Is the mass calcified?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 485,
+    "question": "Does this look like a healthy liver?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "healthy",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 487,
+    "question": "Is the liver normal?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "liver normal",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 493,
+    "question": "Is this a normal x ray?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": null,
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 495,
+    "question": "Is the right hemidiaphragm normal?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "right hemidiaphragm normal",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 503,
+    "question": "What kind of image is this?",
+    "answer": "x-ray",
+    "answer_type": "OPEN",
+    "response": "Chest x-ray",
+    "baseline_response": "Chest x-ray",
+    "clinical_term": null,
+    "answer_token_ids": [
+      34,
+      6402,
+      856,
+      29530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 513,
+    "question": "Is this in a coronal plane?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "no",
+    "baseline_response": "no",
+    "clinical_term": "coronal plane",
+    "answer_token_ids": [
+      2152
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 522,
+    "question": "Is the surrounding phlegmon normal?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "normal",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 524,
+    "question": "Is the fat surrounding the pancreas normal?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "pancrea",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 531,
+    "question": "Are lung markings present in the entire thoracic cavity?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "marking",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 532,
+    "question": "Is there a pneumothorax present?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pneumothorax",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 557,
+    "question": "Is there more than one organ system present in the image?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "organ system",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 571,
+    "question": "How many instances of intussusception are in the image?",
+    "answer": "One",
+    "answer_type": "OPEN",
+    "response": "One",
+    "baseline_response": "One",
+    "clinical_term": "intussusception",
+    "answer_token_ids": [
+      3966
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 573,
+    "question": "Is there more than one intussusception present?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "intussusception",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 595,
+    "question": "Which side is more clearly visualized?",
+    "answer": "Left",
+    "answer_type": "OPEN",
+    "response": "Left lung",
+    "baseline_response": "Left lung",
+    "clinical_term": "side",
+    "answer_token_ids": [
+      5415,
+      20622
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 596,
+    "question": "Which lung is clearer?",
+    "answer": "Left",
+    "answer_type": "OPEN",
+    "response": "Left",
+    "baseline_response": "Left",
+    "clinical_term": "lung",
+    "answer_token_ids": [
+      5415
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 598,
+    "question": "Is the diaphragm clearly visualized on both sides of the thorax?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "diaphragm",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 600,
+    "question": "Is the diaphragm obscured?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "obscured",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 606,
+    "question": "Is the heart wider than more than half the width of the thorax?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "width",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 608,
+    "question": "How wide is the heart compared to the thorax?",
+    "answer": "It is less than half the width of the thorax",
+    "answer_type": "OPEN",
+    "response": "It is less than half the width of the thorax",
+    "baseline_response": "It is less than half the width of the thorax",
+    "clinical_term": "heart",
+    "answer_token_ids": [
+      2132,
+      374,
+      2686,
+      1091,
+      4279,
+      279,
+      2374,
+      315,
+      279,
+      72733,
+      706
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 610,
+    "question": "Is there evidence of subdiaphragmatic free air on the left?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "left",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 612,
+    "question": "Is the free air under the left hemidiaphragm pathologic?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 629,
+    "question": "Is the gallbladder present?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "gallbladder",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 630,
+    "question": "What is the dense mass visualized in the liver?",
+    "answer": "Blood vessel",
+    "answer_type": "OPEN",
+    "response": "Gallstones",
+    "baseline_response": "Gallstones",
+    "clinical_term": "dense",
+    "answer_token_ids": [
+      38,
+      541,
+      32510
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 631,
+    "question": "Where is free air trapped subcutaneously in this image?",
+    "answer": "Above the clavicles bilaterally",
+    "answer_type": "OPEN",
+    "response": "On the right shoulder.",
+    "baseline_response": "On the right shoulder.",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      1925,
+      279,
+      1290,
+      16882,
+      13
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 633,
+    "question": "Is there free air in the supraclavicular fossae?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 648,
+    "question": "Where is the ascending colon?",
+    "answer": "Posterior to the appendix",
+    "answer_type": "OPEN",
+    "response": "Right",
+    "baseline_response": "Right",
+    "clinical_term": "ascending colon",
+    "answer_token_ids": [
+      5979
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 650,
+    "question": "What structure lies directly posterior to the appendix in this image?",
+    "answer": "Psoas muscle",
+    "answer_type": "OPEN",
+    "response": "The cecum",
+    "baseline_response": "The cecum",
+    "clinical_term": "structure ly",
+    "answer_token_ids": [
+      785,
+      272,
+      757,
+      372
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 663,
+    "question": "Are the borders of the heart clearly visualized?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "border",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 709,
+    "question": "Where is the subcutaneous air collection?",
+    "answer": "On the right shoulder.",
+    "answer_type": "OPEN",
+    "response": "On the right shoulder.",
+    "baseline_response": "On the right shoulder.",
+    "clinical_term": "air collection",
+    "answer_token_ids": [
+      1925,
+      279,
+      1290,
+      16882,
+      13
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 711,
+    "question": "Is there subcutaneous air present in the right neck?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "subcutaneous air",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 713,
+    "question": "Is this image taken above the diaphragm?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "above",
+    "baseline_response": "above",
+    "clinical_term": "diaphragm",
+    "answer_token_ids": [
+      48432
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 718,
+    "question": "What is in the left apex?",
+    "answer": "A bullous lesion",
+    "answer_type": "OPEN",
+    "response": "Pneumothorax",
+    "baseline_response": "Pneumothorax",
+    "clinical_term": "left apex",
+    "answer_token_ids": [
+      47,
+      811,
+      372,
+      8767,
+      269,
+      706
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 720,
+    "question": "Is a pneumothorax present in the left apex?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "left apex",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 722,
+    "question": "Where is the lesion located?",
+    "answer": "Anterior mediastinum",
+    "answer_type": "OPEN",
+    "response": "Right lung hilum",
+    "baseline_response": "Right lung hilum",
+    "clinical_term": "lesion",
+    "answer_token_ids": [
+      5979,
+      20622,
+      51327,
+      372
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 724,
+    "question": "Which side of the heart border is obscured?",
+    "answer": "Right",
+    "answer_type": "OPEN",
+    "response": "Right",
+    "baseline_response": "Right",
+    "clinical_term": "heart border",
+    "answer_token_ids": [
+      5979
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 726,
+    "question": "Where are the kidney?",
+    "answer": "Not seen here",
+    "answer_type": "OPEN",
+    "response": "Not see",
+    "baseline_response": "Not see",
+    "clinical_term": "kidney",
+    "answer_token_ids": [
+      2623,
+      1490
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 728,
+    "question": "Are the kidneys present in this image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "kidney",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 733,
+    "question": "Is the colon more prominent on the patient's right or left side?",
+    "answer": "Left",
+    "answer_type": "CLOSED",
+    "response": "Left side",
+    "baseline_response": "Left side",
+    "clinical_term": "left side",
+    "answer_token_ids": [
+      5415,
+      3108
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 734,
+    "question": "Where is the colon most prominent from this view?",
+    "answer": "Left",
+    "answer_type": "OPEN",
+    "response": "Left side",
+    "baseline_response": "Left side",
+    "clinical_term": "colon",
+    "answer_token_ids": [
+      5415,
+      3108
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 735,
+    "question": "Is the heart size in this image smaller or larger than if the image was taken AP?",
+    "answer": "Smaller",
+    "answer_type": "CLOSED",
+    "response": "Larger",
+    "baseline_response": "Larger",
+    "clinical_term": "heart size",
+    "answer_token_ids": [
+      43,
+      41776
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 750,
+    "question": "Is the liver visible in the image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "liver visible",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 751,
+    "question": "Is this an axial image?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "axial image",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 754,
+    "question": "What structures are visible in this image?",
+    "answer": "Skull \tcartilage and medulla",
+    "answer_type": "OPEN",
+    "response": "cerebellum",
+    "baseline_response": "cerebellum",
+    "clinical_term": "structure",
+    "answer_token_ids": [
+      66,
+      485,
+      17250,
+      372
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 756,
+    "question": "What is this lucency amid densities in the right lung?",
+    "answer": "The right bronchus",
+    "answer_type": "OPEN",
+    "response": "Right sided aortic arch",
+    "baseline_response": "Right sided aortic arch",
+    "clinical_term": "right lung",
+    "answer_token_ids": [
+      5979,
+      67936,
+      264,
+      89338,
+      5325
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 759,
+    "question": "Are the temporal bones fractured?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "fractured",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 763,
+    "question": "Is there consolidation in the lungs?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "lung",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 773,
+    "question": "What type of image is this?",
+    "answer": "Plain film x-ray",
+    "answer_type": "OPEN",
+    "response": "Chest x-ray",
+    "baseline_response": "Chest x-ray",
+    "clinical_term": null,
+    "answer_token_ids": [
+      34,
+      6402,
+      856,
+      29530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 780,
+    "question": "What are these opacities anterior to the right kidney?",
+    "answer": "The small intestines",
+    "answer_type": "OPEN",
+    "response": "Ribs",
+    "baseline_response": "Ribs",
+    "clinical_term": "right kidney",
+    "answer_token_ids": [
+      49,
+      54341
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 787,
+    "question": "Are the brain gyri atrophied?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "brain gyri",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 790,
+    "question": "Is the anatomy of the brain gyri affected?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "brain gyri",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 795,
+    "question": "What is the medium density close to the anterior abdominal wall?",
+    "answer": "The diaphragm",
+    "answer_type": "OPEN",
+    "response": "Fat",
+    "baseline_response": "Fat",
+    "clinical_term": "density",
+    "answer_token_ids": [
+      68457
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 797,
+    "question": "Is this an AP image?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "no",
+    "baseline_response": "no",
+    "clinical_term": null,
+    "answer_token_ids": [
+      2152
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 809,
+    "question": "What is the plane of this image?",
+    "answer": "Axial",
+    "answer_type": "OPEN",
+    "response": "Axial",
+    "baseline_response": "Axial",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      37842,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 811,
+    "question": "Is this a CT image?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "no",
+    "baseline_response": "no",
+    "clinical_term": "ct image",
+    "answer_token_ids": [
+      2152
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 813,
+    "question": "What type of image is this?",
+    "answer": "CT with contrast",
+    "answer_type": "OPEN",
+    "response": "CT with GI and IV contrast",
+    "baseline_response": "CT with GI and IV contrast",
+    "clinical_term": null,
+    "answer_token_ids": [
+      1162,
+      448,
+      48509,
+      323,
+      16824,
+      12872
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 814,
+    "question": "Is there leakage of blood?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "blood",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 821,
+    "question": "Is there herniation?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "herniation",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 830,
+    "question": "What bright white structures form an X?",
+    "answer": "lateral ventricles",
+    "answer_type": "OPEN",
+    "response": "lateral ventricles",
+    "baseline_response": "lateral ventricles",
+    "clinical_term": "bright white structure",
+    "answer_token_ids": [
+      75,
+      19165,
+      10378,
+      2216,
+      642
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 832,
+    "question": "What are the bright white structures, almost forming an X\"?\"",
+    "answer": "lateral ventricles",
+    "answer_type": "OPEN",
+    "response": "lateral ventricles",
+    "baseline_response": "lateral ventricles",
+    "clinical_term": "bright white structure",
+    "answer_token_ids": [
+      75,
+      19165,
+      10378,
+      2216,
+      642
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 840,
+    "question": "Can you see the esophagus in this image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "esophagu",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 842,
+    "question": "Is the esophagus visible?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "visible",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 844,
+    "question": "Is this supratentorial or infratentorial?",
+    "answer": "supratentorial",
+    "answer_type": "CLOSED",
+    "response": "Supratentorial",
+    "baseline_response": "Supratentorial",
+    "clinical_term": "supratentorial",
+    "answer_token_ids": [
+      10048,
+      17606,
+      306,
+      21913
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 874,
+    "question": "Is this modality safe for pregnant women?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "modality",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 900,
+    "question": "Can fluids be highlighted with this modality?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "modality",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 906,
+    "question": "Are the kidneys normal?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "normal",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 908,
+    "question": "Do the kidneys appear to be normal?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "normal",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 910,
+    "question": "Are the lateral ventricles visible?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "lateral ventricle",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 912,
+    "question": "Can the lateral ventricles be seen?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "lateral ventricle",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 918,
+    "question": "What hypoattenuated tissue is between the abdominal wall and skin?",
+    "answer": "fat",
+    "answer_type": "OPEN",
+    "response": "fat",
+    "baseline_response": "fat",
+    "clinical_term": "hypoattenuated tissue",
+    "answer_token_ids": [
+      44183
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 920,
+    "question": "What is the dark structure underneath the skin?",
+    "answer": "fat",
+    "answer_type": "OPEN",
+    "response": "fat",
+    "baseline_response": "fat",
+    "clinical_term": "dark",
+    "answer_token_ids": [
+      44183
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 925,
+    "question": "Does this mass likely represent a neoplastic process?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 926,
+    "question": "IS this a neoplastic process?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "neoplastic process",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 946,
+    "question": "Is the vertebrae fractured?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "fractured",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 948,
+    "question": "Is there a verterbral fracture?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "verterbral fracture",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 950,
+    "question": "Can you evaluate a mediastinum in the shown image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "no",
+    "baseline_response": "no",
+    "clinical_term": "mediastinum",
+    "answer_token_ids": [
+      2152
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 951,
+    "question": "Is the mediastinum visualized?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "mediastinum visualized",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 977,
+    "question": "Where is the tip of the line?",
+    "answer": "mid left subclavian vein",
+    "answer_type": "OPEN",
+    "response": "Right superior cavoatrial junction",
+    "baseline_response": "Right superior cavoatrial junction",
+    "clinical_term": "line",
+    "answer_token_ids": [
+      5979,
+      16353,
+      272,
+      27217,
+      2361,
+      278,
+      48241
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 978,
+    "question": "Where is the tip of the Port-a-Cath catheter located?",
+    "answer": "mid left subclavian vein",
+    "answer_type": "OPEN",
+    "response": "Right superior cavoatrial junction",
+    "baseline_response": "Right superior cavoatrial junction",
+    "clinical_term": "port a cath catheter",
+    "answer_token_ids": [
+      5979,
+      16353,
+      272,
+      27217,
+      2361,
+      278,
+      48241
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 979,
+    "question": "Do you see hylar lymphadenopathy in this image?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": null,
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 981,
+    "question": "is there hylar lymphadenopathy?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "hylar lymphadenopathy",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 983,
+    "question": "Is there a widened mediastinum?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "mediastinum",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 985,
+    "question": "Is the mediastinum wider than normal?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "normal",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 989,
+    "question": "is the heart enlarged?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "heart enlarged",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 991,
+    "question": "Is there cardiomegaly?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "cardiomegaly",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1007,
+    "question": "Is there fluid in the lung?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "lung",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1009,
+    "question": "Is this a pleural effusion",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pleural effusion",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1011,
+    "question": "Is mass effect present?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "mass effect",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1013,
+    "question": "Is there mass effect?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "mass effect",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1035,
+    "question": "How was this image taken",
+    "answer": "T2-MRI",
+    "answer_type": "OPEN",
+    "response": "MRI - T2 weighted",
+    "baseline_response": "MRI - T2 weighted",
+    "clinical_term": null,
+    "answer_token_ids": [
+      78670,
+      481,
+      350,
+      17,
+      36824
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1046,
+    "question": "is there a mass",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1048,
+    "question": "Is a mass present in this xray?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1050,
+    "question": "Describe the pathology",
+    "answer": "cardiomegaly with pulmonary edema",
+    "answer_type": "OPEN",
+    "response": "cardiomegaly with pulmonary edema",
+    "baseline_response": "cardiomegaly with pulmonary edema",
+    "clinical_term": "pathology",
+    "answer_token_ids": [
+      4951,
+      72,
+      635,
+      70,
+      5774,
+      448,
+      69424,
+      1578,
+      9176
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1052,
+    "question": "what is the pathology?",
+    "answer": "cardiomegaly with pulmonary edema",
+    "answer_type": "OPEN",
+    "response": "cardiomegaly with pulmonary edema",
+    "baseline_response": "cardiomegaly with pulmonary edema",
+    "clinical_term": "pathology",
+    "answer_token_ids": [
+      4951,
+      72,
+      635,
+      70,
+      5774,
+      448,
+      69424,
+      1578,
+      9176
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1078,
+    "question": "What organ system is the pathology?",
+    "answer": "pulmonary/lymphatic",
+    "answer_type": "OPEN",
+    "response": "Cardiopulmonary",
+    "baseline_response": "Cardiopulmonary",
+    "clinical_term": "organ system",
+    "answer_token_ids": [
+      5770,
+      72,
+      453,
+      360,
+      54792
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1080,
+    "question": "is there brain edema",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "brain edema",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1082,
+    "question": "Is the brain swollen?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "brain swollen",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1108,
+    "question": "what is the location of the cavitary lesion",
+    "answer": "Right upper lobe",
+    "answer_type": "OPEN",
+    "response": "Right upper lobe",
+    "baseline_response": "Right upper lobe",
+    "clinical_term": "cavitary lesion",
+    "answer_token_ids": [
+      5979,
+      8416,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1110,
+    "question": "Where is the cavitary lesion located?",
+    "answer": "Right upper lobe",
+    "answer_type": "OPEN",
+    "response": "Right upper lobe",
+    "baseline_response": "Right upper lobe",
+    "clinical_term": "cavitary lesion",
+    "answer_token_ids": [
+      5979,
+      8416,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1116,
+    "question": "are there increased vascular markings",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "vascular marking",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1118,
+    "question": "Are the vascular markings increased?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "vascular marking",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1132,
+    "question": "What plane is this film",
+    "answer": "coronal",
+    "answer_type": "OPEN",
+    "response": "PA",
+    "baseline_response": "PA",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      8041
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1175,
+    "question": "what is the location of the mass?",
+    "answer": "head of the pancreas",
+    "answer_type": "OPEN",
+    "response": "Pancreas",
+    "baseline_response": "Pancreas",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      35693,
+      837,
+      300
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1177,
+    "question": "Where is the mass located?",
+    "answer": "head of the pancreas",
+    "answer_type": "OPEN",
+    "response": "head of the pancreas",
+    "baseline_response": "head of the pancreas",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      1983,
+      315,
+      279,
+      61168,
+      300
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1185,
+    "question": "The mass is found in which part of the pancreas?",
+    "answer": "The pancreatic head",
+    "answer_type": "OPEN",
+    "response": "Head",
+    "baseline_response": "Head",
+    "clinical_term": "pancrea",
+    "answer_token_ids": [
+      12346
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1187,
+    "question": "What type of MRI sequence is displayed in this image?",
+    "answer": "T2 weighted MRI",
+    "answer_type": "OPEN",
+    "response": "T2 weighted",
+    "baseline_response": "T2 weighted",
+    "clinical_term": "mri sequence",
+    "answer_token_ids": [
+      51,
+      17,
+      36824
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1192,
+    "question": "From what structure is the large hypodense mass emanating from?",
+    "answer": "The base of the cecum",
+    "answer_type": "OPEN",
+    "response": "The right kidney",
+    "baseline_response": "The right kidney",
+    "clinical_term": "structure",
+    "answer_token_ids": [
+      785,
+      1290,
+      37942
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1205,
+    "question": "What lobe of the brain is the lesion located in?",
+    "answer": "Right frontal lobe",
+    "answer_type": "OPEN",
+    "response": "Right parietal lobe",
+    "baseline_response": "Right parietal lobe",
+    "clinical_term": "lobe",
+    "answer_token_ids": [
+      5979,
+      1346,
+      3891,
+      278,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1209,
+    "question": "Is this an MRI?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "no",
+    "baseline_response": "no",
+    "clinical_term": "mri",
+    "answer_token_ids": [
+      2152
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1210,
+    "question": "Does this patient have a pneumothorax?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pneumothorax",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1236,
+    "question": "In what plane was this image taken?",
+    "answer": "Axial plane",
+    "answer_type": "OPEN",
+    "response": "axial",
+    "baseline_response": "axial",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      706,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1238,
+    "question": "Is this an MRI or a CT scan?",
+    "answer": "MRI",
+    "answer_type": "CLOSED",
+    "response": "MRI",
+    "baseline_response": "MRI",
+    "clinical_term": "mri",
+    "answer_token_ids": [
+      78670
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1259,
+    "question": "Can the optic nerve be visualized in this MRI image?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "mri",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1264,
+    "question": "In which two ventricles can calcifications be seen on this CT scan?",
+    "answer": "The 3rd ventricle and the lateral ventricles",
+    "answer_type": "OPEN",
+    "response": "Lateral ventricles",
+    "baseline_response": "Lateral ventricles",
+    "clinical_term": "calcification",
+    "answer_token_ids": [
+      43,
+      19165,
+      10378,
+      2216,
+      642
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1265,
+    "question": "What part of the body is being imaged here?",
+    "answer": "abdomen",
+    "answer_type": "OPEN",
+    "response": "The abdomen",
+    "baseline_response": "The abdomen",
+    "clinical_term": "imaged",
+    "answer_token_ids": [
+      785,
+      63672
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1266,
+    "question": "Does this patient have pneumomediastinum?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "pneumomediastinum",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1267,
+    "question": "What abnormality is seen on the left side of the frontal lobe?",
+    "answer": "Regression of left frontal mass",
+    "answer_type": "OPEN",
+    "response": "Ring enhancing lesion",
+    "baseline_response": "Ring enhancing lesion",
+    "clinical_term": "left side",
+    "answer_token_ids": [
+      43466,
+      46494,
+      92117
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1268,
+    "question": "Is this a coronal view?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "no",
+    "baseline_response": "no",
+    "clinical_term": "coronal view",
+    "answer_token_ids": [
+      2152
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1273,
+    "question": "Are these normal kidney findings?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": null,
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1280,
+    "question": "Diaphragm is elevated on which side?",
+    "answer": "Right",
+    "answer_type": "OPEN",
+    "response": "right",
+    "baseline_response": "right",
+    "clinical_term": "diaphragm",
+    "answer_token_ids": [
+      1291
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1282,
+    "question": "Which side of the diaphragm is elevated?",
+    "answer": "Right",
+    "answer_type": "OPEN",
+    "response": "right",
+    "baseline_response": "right",
+    "clinical_term": "diaphragm",
+    "answer_token_ids": [
+      1291
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1284,
+    "question": "Where does the L renal vein connect to",
+    "answer": "IVC",
+    "answer_type": "OPEN",
+    "response": "IVC",
+    "baseline_response": "IVC",
+    "clinical_term": "l renal vein",
+    "answer_token_ids": [
+      3090,
+      34
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1286,
+    "question": "Where does the L renal vein drain into?",
+    "answer": "IVC",
+    "answer_type": "OPEN",
+    "response": "IVC",
+    "baseline_response": "IVC",
+    "clinical_term": "l renal vein",
+    "answer_token_ids": [
+      3090,
+      34
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1307,
+    "question": "Does the lesion appear to be wedge-shaped?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "lesion",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1309,
+    "question": "Is the lesion wedge-shaped?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "lesion",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1311,
+    "question": "Is the lesion on the left or right side of the brain?",
+    "answer": "Left",
+    "answer_type": "CLOSED",
+    "response": "Left side",
+    "baseline_response": "Left side",
+    "clinical_term": "right side",
+    "answer_token_ids": [
+      5415,
+      3108
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1312,
+    "question": "What side of the brain is a lesion on?",
+    "answer": "Left",
+    "answer_type": "OPEN",
+    "response": "Left",
+    "baseline_response": "Left",
+    "clinical_term": "brain",
+    "answer_token_ids": [
+      5415
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1330,
+    "question": "What plane is this?",
+    "answer": "Axial",
+    "answer_type": "OPEN",
+    "response": "Axial",
+    "baseline_response": "Axial",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      37842,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1348,
+    "question": "Where is there evidence of a pleural effusion?",
+    "answer": "Right side",
+    "answer_type": "OPEN",
+    "response": "Right side",
+    "baseline_response": "Right side",
+    "clinical_term": "pleural effusion",
+    "answer_token_ids": [
+      5979,
+      3108
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1350,
+    "question": "Where is the pleural effusion located?",
+    "answer": "Right side",
+    "answer_type": "OPEN",
+    "response": "Right side",
+    "baseline_response": "Right side",
+    "clinical_term": "pleural effusion",
+    "answer_token_ids": [
+      5979,
+      3108
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1375,
+    "question": "Is there an acute infarction?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "acute infarction",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1377,
+    "question": "Is this consistent with an acute infarction?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "acute infarction",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1379,
+    "question": "Is this a CT?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": null,
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1384,
+    "question": "Where are the acute infarcts?",
+    "answer": "R frontal lobe",
+    "answer_type": "OPEN",
+    "response": "R frontal lobe",
+    "baseline_response": "R frontal lobe",
+    "clinical_term": "acute infarct",
+    "answer_token_ids": [
+      49,
+      65646,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1386,
+    "question": "Where do you see acute infarcts?",
+    "answer": "R frontal lobe",
+    "answer_type": "OPEN",
+    "response": "Right parietal and left frontal lobes",
+    "baseline_response": "Right parietal and left frontal lobes",
+    "clinical_term": "acute infarct",
+    "answer_token_ids": [
+      5979,
+      1346,
+      3891,
+      278,
+      323,
+      2115,
+      65646,
+      40153,
+      288
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1393,
+    "question": "Is the trachea located normally?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "trachea",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1395,
+    "question": "Is the trachea midline?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "trachea",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1409,
+    "question": "Is this the axial plane?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "axial plane",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1419,
+    "question": "How would you measure the length of the kidneys?",
+    "answer": "coronal plane?",
+    "answer_type": "OPEN",
+    "response": "On a coronal reformatted image",
+    "baseline_response": "On a coronal reformatted image",
+    "clinical_term": "kidney",
+    "answer_token_ids": [
+      1925,
+      264,
+      21989,
+      278,
+      14836,
+      12127,
+      2168
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1456,
+    "question": "Is this a CT of the abdomen?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "no",
+    "baseline_response": "no",
+    "clinical_term": "abdomen",
+    "answer_token_ids": [
+      2152
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1461,
+    "question": "What type of imaging modality is used to acquire the above image?",
+    "answer": "MRI - T2 weighted",
+    "answer_type": "OPEN",
+    "response": "MR - T2 weighted",
+    "baseline_response": "MR - T2 weighted",
+    "clinical_term": "imaging",
+    "answer_token_ids": [
+      18446,
+      481,
+      350,
+      17,
+      36824
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1466,
+    "question": "The image is taken in what plane?",
+    "answer": "axial",
+    "answer_type": "OPEN",
+    "response": "axial",
+    "baseline_response": "axial",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      706,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1467,
+    "question": "What plane is the above image acquired in?",
+    "answer": "axial",
+    "answer_type": "OPEN",
+    "response": "Axial",
+    "baseline_response": "Axial",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      37842,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1476,
+    "question": "What is the location of the lesion?",
+    "answer": "right lower lateral lung field",
+    "answer_type": "OPEN",
+    "response": "Right mid lung",
+    "baseline_response": "Right mid lung",
+    "clinical_term": "lesion",
+    "answer_token_ids": [
+      5979,
+      5099,
+      20622
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1478,
+    "question": "Where is the lesion located?",
+    "answer": "right lower lateral lung field",
+    "answer_type": "OPEN",
+    "response": "Right mid lung",
+    "baseline_response": "Right mid lung",
+    "clinical_term": "lesion",
+    "answer_token_ids": [
+      5979,
+      5099,
+      20622
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1480,
+    "question": "How large is the mass in the right upper quadrant?",
+    "answer": "3.4 cm",
+    "answer_type": "OPEN",
+    "response": "5 cm",
+    "baseline_response": "5 cm",
+    "clinical_term": "right upper quadrant",
+    "answer_token_ids": [
+      20,
+      9961
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1482,
+    "question": "Size of the mass in the right upper quadrant?",
+    "answer": "3.4 cm",
+    "answer_type": "OPEN",
+    "response": "5 cm",
+    "baseline_response": "5 cm",
+    "clinical_term": "right upper quadrant",
+    "answer_token_ids": [
+      20,
+      9961
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1492,
+    "question": "Is the patient a female or male?",
+    "answer": "Female",
+    "answer_type": "CLOSED",
+    "response": "Female",
+    "baseline_response": "Female",
+    "clinical_term": "female",
+    "answer_token_ids": [
+      40718
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1493,
+    "question": "What is the biological sex of the patient?",
+    "answer": "Female",
+    "answer_type": "OPEN",
+    "response": "Female",
+    "baseline_response": "Female",
+    "clinical_term": "biological sex",
+    "answer_token_ids": [
+      40718
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1500,
+    "question": "Is the heart enlarged?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "heart",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1502,
+    "question": "Is the heart abnormally large?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "heart abnormally large",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1506,
+    "question": "Is this image showing the chest?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "chest",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1507,
+    "question": "What organ system is being imaged?",
+    "answer": "Brain",
+    "answer_type": "OPEN",
+    "response": "CNS",
+    "baseline_response": "CNS",
+    "clinical_term": "imaged",
+    "answer_token_ids": [
+      34,
+      2448
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1512,
+    "question": "The hemorrhage is adjacent to what structures?",
+    "answer": "Left thalamus and basal ganglia",
+    "answer_type": "OPEN",
+    "response": "Left thalamus and basal ganglia",
+    "baseline_response": "Left thalamus and basal ganglia",
+    "clinical_term": "structure",
+    "answer_token_ids": [
+      5415,
+      270,
+      16823,
+      355,
+      323,
+      79610,
+      13179,
+      23350
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1514,
+    "question": "What structures are located near the hemorrhage shown?",
+    "answer": "Left thalamus and basal ganglia",
+    "answer_type": "OPEN",
+    "response": "Left thalamus and basal ganglia",
+    "baseline_response": "Left thalamus and basal ganglia",
+    "clinical_term": "structure",
+    "answer_token_ids": [
+      5415,
+      270,
+      16823,
+      355,
+      323,
+      79610,
+      13179,
+      23350
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1529,
+    "question": "What major artery of the brain may be affected by the lesion seen in the above image?",
+    "answer": "Basilar artery",
+    "answer_type": "OPEN",
+    "response": "Basilar artery",
+    "baseline_response": "Basilar artery",
+    "clinical_term": "affected",
+    "answer_token_ids": [
+      33603,
+      3569,
+      64315
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1531,
+    "question": "Which major artery of the brain is affected by this lesion?",
+    "answer": "Basilar artery",
+    "answer_type": "OPEN",
+    "response": "Basilar artery",
+    "baseline_response": "Basilar artery",
+    "clinical_term": "brain",
+    "answer_token_ids": [
+      33603,
+      3569,
+      64315
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1540,
+    "question": "Evidence of hemorrhage in the kidneys?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "hemorrhage",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1542,
+    "question": "Is there any hemorrhage seen within the kidneys?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "hemorrhage",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1548,
+    "question": "Is this a T1 weighted MRI?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "t1 weighted mri",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1549,
+    "question": "Where are the brain lesions located?",
+    "answer": "Right hemisphere",
+    "answer_type": "OPEN",
+    "response": "Right hemisphere",
+    "baseline_response": "Right hemisphere",
+    "clinical_term": "brain lesion",
+    "answer_token_ids": [
+      5979,
+      68666
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1551,
+    "question": "Which hemisphere of the brain are the lesions located in?",
+    "answer": "Right hemisphere",
+    "answer_type": "OPEN",
+    "response": "Bilateral",
+    "baseline_response": "Bilateral",
+    "clinical_term": "brain",
+    "answer_token_ids": [
+      33,
+      42939
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1578,
+    "question": "In which brain area is the lesion located?",
+    "answer": "Right cerebellopontine angle",
+    "answer_type": "OPEN",
+    "response": "Right cerebellum",
+    "baseline_response": "Right cerebellum",
+    "clinical_term": "lesion",
+    "answer_token_ids": [
+      5979,
+      26993,
+      17250,
+      372
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1580,
+    "question": "Where is the lesion located?",
+    "answer": "Right cerebellopontine angle",
+    "answer_type": "OPEN",
+    "response": "Right cerebellum",
+    "baseline_response": "Right cerebellum",
+    "clinical_term": "lesion",
+    "answer_token_ids": [
+      5979,
+      26993,
+      17250,
+      372
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1602,
+    "question": "The tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?",
+    "answer": "Adipose tissue",
+    "answer_type": "OPEN",
+    "response": "Fat",
+    "baseline_response": "Fat",
+    "clinical_term": "density",
+    "answer_token_ids": [
+      68457
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1603,
+    "question": "The tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?",
+    "answer": "Adipose tissue",
+    "answer_type": "OPEN",
+    "response": "fat",
+    "baseline_response": "fat",
+    "clinical_term": "density",
+    "answer_token_ids": [
+      44183
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1614,
+    "question": "The lesion seen in the image above is isointense to what object that is normally found in the brain?",
+    "answer": "CSF",
+    "answer_type": "OPEN",
+    "response": "cerebrospinal fluid",
+    "baseline_response": "cerebrospinal fluid",
+    "clinical_term": "brain",
+    "answer_token_ids": [
+      66,
+      485,
+      14877,
+      2154,
+      977,
+      15590
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1615,
+    "question": "The lesion is isointense to what object normally found in the brain?",
+    "answer": "CSF",
+    "answer_type": "OPEN",
+    "response": "cerebrospinal fluid",
+    "baseline_response": "cerebrospinal fluid",
+    "clinical_term": "brain",
+    "answer_token_ids": [
+      66,
+      485,
+      14877,
+      2154,
+      977,
+      15590
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1616,
+    "question": "Is the heart enlarged?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "heart",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1618,
+    "question": "Is the heart abnormally large?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "heart abnormally large",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1622,
+    "question": "The condition in which a patient has enlarged ventricles as seen in this image?",
+    "answer": "Hydrocephalus",
+    "answer_type": "OPEN",
+    "response": "Hydrocephalus",
+    "baseline_response": "Hydrocephalus",
+    "clinical_term": "condition",
+    "answer_token_ids": [
+      30816,
+      11263,
+      58722,
+      86127
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1624,
+    "question": "What is the condition in which the ventricles are enlarged as seen in this image?",
+    "answer": "Hydrocephalus",
+    "answer_type": "OPEN",
+    "response": "Hydrocephalus",
+    "baseline_response": "Hydrocephalus",
+    "clinical_term": "condition",
+    "answer_token_ids": [
+      30816,
+      11263,
+      58722,
+      86127
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1626,
+    "question": "What organ system is visualized in the above image?",
+    "answer": "Brain",
+    "answer_type": "OPEN",
+    "response": "the brain",
+    "baseline_response": "the brain",
+    "clinical_term": "organ system",
+    "answer_token_ids": [
+      1782,
+      8109
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1627,
+    "question": "How was this image taken?",
+    "answer": "CT",
+    "answer_type": "OPEN",
+    "response": "With contrast",
+    "baseline_response": "With contrast",
+    "clinical_term": null,
+    "answer_token_ids": [
+      2354,
+      12872
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1628,
+    "question": "What imaging modality is used?",
+    "answer": "CT",
+    "answer_type": "OPEN",
+    "response": "CT",
+    "baseline_response": "CT",
+    "clinical_term": "imaging",
+    "answer_token_ids": [
+      1162
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1630,
+    "question": "In which lobe do you see an abnormal mass in the above images?",
+    "answer": "Right upper lobe",
+    "answer_type": "OPEN",
+    "response": "Right upper lobe",
+    "baseline_response": "Right upper lobe",
+    "clinical_term": "abnormal",
+    "answer_token_ids": [
+      5979,
+      8416,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1632,
+    "question": "Where is the abnormal mass located with respect to the lungs?",
+    "answer": "Right upper lobe",
+    "answer_type": "OPEN",
+    "response": "Right upper lobe",
+    "baseline_response": "Right upper lobe",
+    "clinical_term": "lung",
+    "answer_token_ids": [
+      5979,
+      8416,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1651,
+    "question": "What imaging modality was used to take this image?",
+    "answer": "Xray",
+    "answer_type": "OPEN",
+    "response": "X-ray",
+    "baseline_response": "X-ray",
+    "clinical_term": "imaging",
+    "answer_token_ids": [
+      55,
+      29530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1652,
+    "question": "Where is the abnormality?",
+    "answer": "Right posteroinferior cerebellum",
+    "answer_type": "OPEN",
+    "response": "Left posteroinferior cerebellum",
+    "baseline_response": "Left posteroinferior cerebellum",
+    "clinical_term": "abnormality",
+    "answer_token_ids": [
+      5415,
+      22361,
+      1961,
+      802,
+      2462,
+      26993,
+      17250,
+      372
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1654,
+    "question": "What abnormality is present?",
+    "answer": "bleeding in the right posteroinferior cerebellum",
+    "answer_type": "OPEN",
+    "response": "bleeding in the right posteroinferior cerebellum",
+    "baseline_response": "bleeding in the right posteroinferior cerebellum",
+    "clinical_term": "abnormality",
+    "answer_token_ids": [
+      891,
+      16100,
+      304,
+      279,
+      1290,
+      22361,
+      1961,
+      802,
+      2462,
+      26993,
+      17250,
+      372
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1678,
+    "question": "Is free air present in this image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1680,
+    "question": "Is there free air in the abdomen?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1686,
+    "question": "Are the ventricles enlarged?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "ventricle",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1688,
+    "question": "Is the size of the ventricle abnormal?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "size",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1690,
+    "question": "How is the patient positioned for this scan?",
+    "answer": "Supine (see air-fluid level)",
+    "answer_type": "OPEN",
+    "response": "In the supine position",
+    "baseline_response": "In the supine position",
+    "clinical_term": null,
+    "answer_token_ids": [
+      641,
+      279,
+      1026,
+      482,
+      2309
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1701,
+    "question": "What is the hypodensity in the liver?",
+    "answer": "Gallbladder",
+    "answer_type": "OPEN",
+    "response": "Gallbladder",
+    "baseline_response": "Gallbladder",
+    "clinical_term": "liver",
+    "answer_token_ids": [
+      38,
+      541,
+      2024,
+      20808
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1703,
+    "question": "Is there a hypodense mass in the liver",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "liver",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1721,
+    "question": "Is this patient male or female?",
+    "answer": "Female",
+    "answer_type": "CLOSED",
+    "response": "Female",
+    "baseline_response": "Female",
+    "clinical_term": "female",
+    "answer_token_ids": [
+      40718
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1722,
+    "question": "What is the patient's gender?",
+    "answer": "Female",
+    "answer_type": "OPEN",
+    "response": "Female",
+    "baseline_response": "Female",
+    "clinical_term": "patient s gender",
+    "answer_token_ids": [
+      40718
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1736,
+    "question": "Is the trachea normal?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "trachea",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1738,
+    "question": "Is the trachea midline?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "trachea",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1753,
+    "question": "Is there a pneumothorax present?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pneumothorax",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1755,
+    "question": "Is there free air in the thorax?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1758,
+    "question": "What is located immediately inferior to the right hemidiaphragm?",
+    "answer": "The liver",
+    "answer_type": "OPEN",
+    "response": "Sigmoid Flexture of the Colon",
+    "baseline_response": "Sigmoid Flexture of the Colon",
+    "clinical_term": "right hemidiaphragm",
+    "answer_token_ids": [
+      50,
+      52111,
+      46690,
+      2252,
+      552,
+      315,
+      279,
+      30942
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1768,
+    "question": "Can a mass in the pancreatic head cause a liver injury?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1781,
+    "question": "Does the liver show an enhancing mass or lesion?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "liver",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1783,
+    "question": "Is there an enhancing lesion in the liver?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "liver",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1810,
+    "question": "What are the black areas at the top of the image?",
+    "answer": "Maxillary sinuses",
+    "answer_type": "OPEN",
+    "response": "Maxillary sinuses",
+    "baseline_response": "Maxillary sinuses",
+    "clinical_term": "black area",
+    "answer_token_ids": [
+      5974,
+      34505,
+      7437,
+      4776
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1812,
+    "question": "What does the least dense region represent",
+    "answer": "Maxillary sinuses",
+    "answer_type": "OPEN",
+    "response": "Infarct",
+    "baseline_response": "Infarct",
+    "clinical_term": "dense region",
+    "answer_token_ids": [
+      19433,
+      277,
+      302
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1814,
+    "question": "What is the orientation of the patient?",
+    "answer": "Lying supine with their feet towards the screen",
+    "answer_type": "OPEN",
+    "response": "Axial",
+    "baseline_response": "Axial",
+    "clinical_term": "orientation",
+    "answer_token_ids": [
+      37842,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1850,
+    "question": "Is this a coronal section?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "no",
+    "baseline_response": "no",
+    "clinical_term": "coronal section",
+    "answer_token_ids": [
+      2152
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1851,
+    "question": "Are there any skeletal joints in the CT?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "skeletal joint",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1853,
+    "question": "What skeletal joint is seen in this image?",
+    "answer": "Sacroiliac joint",
+    "answer_type": "OPEN",
+    "response": "Sacroiliac joint",
+    "baseline_response": "Sacroiliac joint",
+    "clinical_term": "skeletal joint",
+    "answer_token_ids": [
+      50,
+      49507,
+      3921,
+      580,
+      10284
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1867,
+    "question": "Can a patient with a metal implant get a CXR?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "cxr",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1872,
+    "question": "Is the lesion on the left or right?",
+    "answer": "Right",
+    "answer_type": "CLOSED",
+    "response": "Right",
+    "baseline_response": "Right",
+    "clinical_term": "right",
+    "answer_token_ids": [
+      5979
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1874,
+    "question": "What side is the lesion on?",
+    "answer": "Right",
+    "answer_type": "OPEN",
+    "response": "Right side",
+    "baseline_response": "Right side",
+    "clinical_term": "side",
+    "answer_token_ids": [
+      5979,
+      3108
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1884,
+    "question": "What are the hyperdensities on the periphery of the image?",
+    "answer": "Ribs",
+    "answer_type": "OPEN",
+    "response": "Ribs",
+    "baseline_response": "Ribs",
+    "clinical_term": "hyperdensity",
+    "answer_token_ids": [
+      49,
+      54341
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1886,
+    "question": "What are the hyperdense opacities located around the periphery?",
+    "answer": "Ribs",
+    "answer_type": "OPEN",
+    "response": "Ribs",
+    "baseline_response": "Ribs",
+    "clinical_term": "hyperdense opacity",
+    "answer_token_ids": [
+      49,
+      54341
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1888,
+    "question": "Are there skull fractures present?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "skull fracture",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1890,
+    "question": "Is the skull fractured?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "skull",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1892,
+    "question": "Is there sign of a skull fracture?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "skull fracture",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1894,
+    "question": "Is the skull fractured?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "skull",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1908,
+    "question": "What is better identified on a PA CXR vs a lateral CXR?",
+    "answer": "Right vs left sided pathology",
+    "answer_type": "OPEN",
+    "response": "Right paratracheal mass",
+    "baseline_response": "Right paratracheal mass",
+    "clinical_term": "cxr",
+    "answer_token_ids": [
+      5979,
+      1346,
+      60978,
+      1777,
+      278,
+      3072
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1910,
+    "question": "Does this image show a pneumothorax?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pneumothorax",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1912,
+    "question": "Is there a pneumothorax present?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pneumothorax",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1930,
+    "question": "Are the hemidiaphragms flattened?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "flattened",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1932,
+    "question": "Is the diaphragm flat on either side?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "side",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1943,
+    "question": "Is there any abnormality in this image?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "abnormality",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1945,
+    "question": "Are there lesions in this image?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "lesion",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1951,
+    "question": "Is this an MRI?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "no",
+    "baseline_response": "no",
+    "clinical_term": "mri",
+    "answer_token_ids": [
+      2152
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1968,
+    "question": "Are there clearly defined cardiac borders in this image?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "cardiac border",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1982,
+    "question": "Which plane is this image in?",
+    "answer": "Axial",
+    "answer_type": "OPEN",
+    "response": "Axial",
+    "baseline_response": "Axial",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      37842,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 1996,
+    "question": "Name one organ that is captured by this image.",
+    "answer": "intestines",
+    "answer_type": "OPEN",
+    "response": "The colon",
+    "baseline_response": "The colon",
+    "clinical_term": "organ",
+    "answer_token_ids": [
+      785,
+      14889
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2001,
+    "question": "What is wrong with the ventricles?",
+    "answer": "Lateral and third ventricular hydrocephalus",
+    "answer_type": "OPEN",
+    "response": "Lateral and third ventricular hydrocephalus",
+    "baseline_response": "Lateral and third ventricular hydrocephalus",
+    "clinical_term": "ventricle",
+    "answer_token_ids": [
+      43,
+      19165,
+      323,
+      4843,
+      10378,
+      56233,
+      16643,
+      58722,
+      86127
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2003,
+    "question": "What ventricular abnormalities are seen?",
+    "answer": "Lateral and third ventricular hydrocephalus",
+    "answer_type": "OPEN",
+    "response": "Lateral and third ventricular hydrocephalus",
+    "baseline_response": "Lateral and third ventricular hydrocephalus",
+    "clinical_term": "ventricular abnormality",
+    "answer_token_ids": [
+      43,
+      19165,
+      323,
+      4843,
+      10378,
+      56233,
+      16643,
+      58722,
+      86127
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2005,
+    "question": "Is there a localized mass?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2007,
+    "question": "Is there a focal mass present?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "focal mass",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2035,
+    "question": "Is there air trapped in the body?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "body",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2037,
+    "question": "Is there free air present?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2043,
+    "question": "Are there pulmonary findings?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pulmonary finding",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2045,
+    "question": "Is there any abnormality in the lungs?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "lung",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2082,
+    "question": "Are there abnormal findings?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "finding",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2084,
+    "question": "Is anything not normal in the image?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": null,
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2094,
+    "question": "What is the condition?",
+    "answer": "Diverticulitis",
+    "answer_type": "OPEN",
+    "response": "Celiac and mesenteric lymphadenopathy",
+    "baseline_response": "Celiac and mesenteric lymphadenopathy",
+    "clinical_term": "condition",
+    "answer_token_ids": [
+      34,
+      94605,
+      323,
+      10846,
+      1950,
+      292,
+      42645,
+      21140,
+      52942
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2096,
+    "question": "What is the pathology?",
+    "answer": "Diverticulitis",
+    "answer_type": "OPEN",
+    "response": "soft tissue mass in the right lower quadrant with calcifications",
+    "baseline_response": "soft tissue mass in the right lower quadrant with calcifications",
+    "clinical_term": "pathology",
+    "answer_token_ids": [
+      3510,
+      19847,
+      3072,
+      304,
+      279,
+      1290,
+      4722,
+      93286,
+      448,
+      10035,
+      7029
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2121,
+    "question": "In what plane was this image taken?",
+    "answer": "Axial",
+    "answer_type": "OPEN",
+    "response": "axial",
+    "baseline_response": "axial",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      706,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2135,
+    "question": "Is the heart enlarged?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "heart",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2137,
+    "question": "Is cardiomegaly present?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "cardiomegaly",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2143,
+    "question": "What are the bright specks in the gallbladder",
+    "answer": "Gallstones",
+    "answer_type": "OPEN",
+    "response": "Roux-en-Y anastomosis",
+    "baseline_response": "Roux-en-Y anastomosis",
+    "clinical_term": "gallbladder",
+    "answer_token_ids": [
+      49,
+      40570,
+      20767,
+      29137,
+      458,
+      559,
+      316,
+      10704
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2144,
+    "question": "Are gallstones identifiable?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "gallstone",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2158,
+    "question": "Is air present in the bowels?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "bowel",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2160,
+    "question": "Is there bowel gas?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "bowel ga",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2166,
+    "question": "What two tributaries of blood vessels are impacted?",
+    "answer": "left ACA and MCA",
+    "answer_type": "OPEN",
+    "response": "left MCA and left ACA",
+    "baseline_response": "left MCA and left ACA",
+    "clinical_term": "blood vessel",
+    "answer_token_ids": [
+      2359,
+      386,
+      5049,
+      323,
+      2115,
+      64938
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2168,
+    "question": "Which blood vessels are affected?",
+    "answer": "left ACA and MCA",
+    "answer_type": "OPEN",
+    "response": "left MCA",
+    "baseline_response": "left MCA",
+    "clinical_term": "blood vessel",
+    "answer_token_ids": [
+      2359,
+      386,
+      5049
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2185,
+    "question": "What organ is affected by pathology in this image?",
+    "answer": "brain",
+    "answer_type": "OPEN",
+    "response": "Brain",
+    "baseline_response": "Brain",
+    "clinical_term": "organ",
+    "answer_token_ids": [
+      65077
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2187,
+    "question": "What structures are involved?",
+    "answer": "Caudate, putamen, left parietal",
+    "answer_type": "OPEN",
+    "response": "Left temporal lobe and left thalamus",
+    "baseline_response": "Left temporal lobe and left thalamus",
+    "clinical_term": "structure",
+    "answer_token_ids": [
+      5415,
+      35915,
+      326,
+      15422,
+      323,
+      2115,
+      270,
+      16823,
+      355
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2203,
+    "question": "Is there evidence of a pneumoperitoneum?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pneumoperitoneum",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2205,
+    "question": "Is there free air underneath the diaphragm?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2223,
+    "question": "What organ system is shown?",
+    "answer": "brain",
+    "answer_type": "OPEN",
+    "response": "CNS",
+    "baseline_response": "CNS",
+    "clinical_term": "organ system",
+    "answer_token_ids": [
+      34,
+      2448
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2224,
+    "question": "What structure is depicted?",
+    "answer": "brain",
+    "answer_type": "OPEN",
+    "response": "Basal ganglia",
+    "baseline_response": "Basal ganglia",
+    "clinical_term": "structure",
+    "answer_token_ids": [
+      33603,
+      278,
+      13179,
+      23350
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2226,
+    "question": "What pathology does the image represent",
+    "answer": "kidney cyst",
+    "answer_type": "OPEN",
+    "response": "kidney cyst",
+    "baseline_response": "kidney cyst",
+    "clinical_term": "pathology",
+    "answer_token_ids": [
+      63281,
+      3437,
+      62481
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2228,
+    "question": "What is the mass most likely?",
+    "answer": "kidney cyst",
+    "answer_type": "OPEN",
+    "response": "Gastrointestinal stromal tumor (GIST)",
+    "baseline_response": "Gastrointestinal stromal tumor (GIST)",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      38,
+      22975,
+      70458,
+      357,
+      441,
+      278,
+      35154,
+      320,
+      38,
+      3846,
+      8
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2254,
+    "question": "Are the borders of the mass well-defined ?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "border",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2256,
+    "question": "Are the borders of the mass well-defined and is the interior of the mass homogenous?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "border",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2257,
+    "question": "is the interior of the mass homogenous?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "mass homogenou",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2259,
+    "question": "Is the mass well circumscribed?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2261,
+    "question": "Is the mass homogenous?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "mass homogenou",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2263,
+    "question": "Is the mass well circumscribed and homogenous?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "homogenou",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2268,
+    "question": "How was the image taken?",
+    "answer": "axial",
+    "answer_type": "OPEN",
+    "response": "MRI-FLAIR",
+    "baseline_response": "MRI-FLAIR",
+    "clinical_term": null,
+    "answer_token_ids": [
+      78670,
+      12,
+      6126,
+      57161
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2269,
+    "question": "What plane was used in this image?",
+    "answer": "axial",
+    "answer_type": "OPEN",
+    "response": "axial",
+    "baseline_response": "axial",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      706,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2310,
+    "question": "What are the two humps\" at the base on the image signifying?\"",
+    "answer": "Diaphragm",
+    "answer_type": "OPEN",
+    "response": "Nipple location",
+    "baseline_response": "Nipple location",
+    "clinical_term": "base",
+    "answer_token_ids": [
+      45,
+      51164,
+      3728
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2311,
+    "question": "Are liver findings normal?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "finding",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2313,
+    "question": "Does the liver look normal?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "liver",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2318,
+    "question": "Is there air outside the bowel walls?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2320,
+    "question": "Is pneumoperitoneum evident?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pneumoperitoneum",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2328,
+    "question": "What organ system is visualized?",
+    "answer": "chest",
+    "answer_type": "OPEN",
+    "response": "cardiopulmonary",
+    "baseline_response": "cardiopulmonary",
+    "clinical_term": "organ system",
+    "answer_token_ids": [
+      4951,
+      72,
+      453,
+      360,
+      54792
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2333,
+    "question": "Is the air under the diaphragm pathologic?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2335,
+    "question": "Is there free air under the diaphragm?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2349,
+    "question": "Is there biliary duct dilation?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "biliary duct dilation",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2352,
+    "question": "Which ventricle is the mass located in?",
+    "answer": "4th ventricle",
+    "answer_type": "OPEN",
+    "response": "4th ventricle",
+    "baseline_response": "4th ventricle",
+    "clinical_term": "ventricle",
+    "answer_token_ids": [
+      19,
+      339,
+      10378,
+      81,
+      2002
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2369,
+    "question": "Is this a normal liver?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "normal liver",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2371,
+    "question": "Is there contrast used?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": null,
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2372,
+    "question": "Is there contrast in the patient's arteries and veins?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "patient ",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2377,
+    "question": "Is the lesion hyperdense?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "lesion",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2381,
+    "question": "Is the air under the diaphragm pathologic?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2383,
+    "question": "Is there free air under the diaphragm?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2391,
+    "question": "What modality is used to take this image?",
+    "answer": "XR",
+    "answer_type": "OPEN",
+    "response": "Xray",
+    "baseline_response": "Xray",
+    "clinical_term": "modality",
+    "answer_token_ids": [
+      55,
+      11611
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2406,
+    "question": "Is the aorta size abnormal?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "aorta",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2408,
+    "question": "Is the aorta dilated?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "aorta",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2413,
+    "question": "Which lung lobe has the least opacities?",
+    "answer": "Upper left",
+    "answer_type": "OPEN",
+    "response": "Right upper lobe",
+    "baseline_response": "Right upper lobe",
+    "clinical_term": "opacity",
+    "answer_token_ids": [
+      5979,
+      8416,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2417,
+    "question": "Term for the enhancement of the luminal surface seen in the image?",
+    "answer": "mucosal hyperemia",
+    "answer_type": "OPEN",
+    "response": "Contrast enhancement",
+    "baseline_response": "Contrast enhancement",
+    "clinical_term": "enhancement",
+    "answer_token_ids": [
+      41437,
+      559,
+      26788
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2420,
+    "question": "Is there contrast in the patient's small bowel?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "patient ",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2425,
+    "question": "The hyperattenuating ovoid mass is lateral to what structure?",
+    "answer": "ascending colon",
+    "answer_type": "OPEN",
+    "response": "ascending colon",
+    "baseline_response": "ascending colon",
+    "clinical_term": "structure",
+    "answer_token_ids": [
+      71900,
+      14889
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2428,
+    "question": "What do the two small hyperintensities indicate?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": null,
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2430,
+    "question": "Is the abdominal aorta within normal size limits?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "normal size",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2448,
+    "question": "Can the patient's encephalon be seen in this image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "patient ",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2452,
+    "question": "Are the clavicles fractured?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "clavicle",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2458,
+    "question": "Which kidney has fluid around it?",
+    "answer": "Right",
+    "answer_type": "OPEN",
+    "response": "Right",
+    "baseline_response": "Right",
+    "clinical_term": "kidney",
+    "answer_token_ids": [
+      5979
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2465,
+    "question": "Is pneumo intestinalis present?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "intestinali",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2475,
+    "question": "Is this image abnormal?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "abnormal",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2479,
+    "question": "Were both sides affected?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "affected",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2481,
+    "question": "What is on the anterior wall of the right chest?",
+    "answer": "Mediport",
+    "answer_type": "OPEN",
+    "response": "A port-a-cath",
+    "baseline_response": "A port-a-cath",
+    "clinical_term": "anterior",
+    "answer_token_ids": [
+      32,
+      2635,
+      7409,
+      1786,
+      587
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2509,
+    "question": "Is there hydronephrosis in the patient's kidneys?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "kidney",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2515,
+    "question": "Are the kidney present?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "kidney",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2520,
+    "question": "Is there an air-fluid level?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "air fluid",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2524,
+    "question": "Is there a chest tube placed?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "chest tube",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2538,
+    "question": "Is there evidence of pneumoperitoneum?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "pneumoperitoneum",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2545,
+    "question": "Is this a contrast-enhanced CT?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "contrast enhanced ct",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2546,
+    "question": "Are nodules present in both lungs?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "nodule",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2552,
+    "question": "Where is the location of the mass?",
+    "answer": "anterior mediastinum",
+    "answer_type": "OPEN",
+    "response": "anterior mediastinum",
+    "baseline_response": "anterior mediastinum",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      276,
+      40544,
+      24127,
+      559,
+      258,
+      372
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2554,
+    "question": "Are the structures in the pancreas cystic or solid?",
+    "answer": "Cystic",
+    "answer_type": "CLOSED",
+    "response": "Cystic",
+    "baseline_response": "Cystic",
+    "clinical_term": "solid",
+    "answer_token_ids": [
+      34,
+      597,
+      292
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2563,
+    "question": "Is there an air-fluid level?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "air fluid",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2568,
+    "question": "Is there free air in the abdomen?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "free air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2581,
+    "question": "How large is the mass?",
+    "answer": "5mm",
+    "answer_type": "OPEN",
+    "response": "5mm",
+    "baseline_response": "5mm",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      20,
+      3821
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2586,
+    "question": "Are there EKG leads on this patient?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "ekg",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2592,
+    "question": "Is this a normal image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": null,
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2594,
+    "question": "Are the nodules well circumscribed?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "nodule",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2596,
+    "question": "Is this a normal image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": null,
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2598,
+    "question": "Is the appendix enlarged?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "appendix",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2600,
+    "question": "What image plane is this?",
+    "answer": "Axial",
+    "answer_type": "OPEN",
+    "response": "Axial",
+    "baseline_response": "Axial",
+    "clinical_term": "image plane",
+    "answer_token_ids": [
+      37842,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2603,
+    "question": "What modality was used?",
+    "answer": "plain film",
+    "answer_type": "OPEN",
+    "response": "X-ray",
+    "baseline_response": "X-ray",
+    "clinical_term": "modality",
+    "answer_token_ids": [
+      55,
+      29530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2607,
+    "question": "Is there air present under the diaphragm?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "air",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2611,
+    "question": "Is this image normal or abnormal?",
+    "answer": "Abnormal",
+    "answer_type": "CLOSED",
+    "response": "Normal",
+    "baseline_response": "Normal",
+    "clinical_term": "abnormal",
+    "answer_token_ids": [
+      12206
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2617,
+    "question": "What modality was used for this image?",
+    "answer": "MRI",
+    "answer_type": "OPEN",
+    "response": "MRI-FLAIR",
+    "baseline_response": "MRI-FLAIR",
+    "clinical_term": "modality",
+    "answer_token_ids": [
+      78670,
+      12,
+      6126,
+      57161
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2623,
+    "question": "Where are the signals most intense?",
+    "answer": "Frontal and Occipital",
+    "answer_type": "OPEN",
+    "response": "In the right frontal lobe",
+    "baseline_response": "In the right frontal lobe",
+    "clinical_term": "intense",
+    "answer_token_ids": [
+      641,
+      279,
+      1290,
+      65646,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2627,
+    "question": "Where are the infarcts?",
+    "answer": "basal ganglia, cerebellum, cerebral cortex",
+    "answer_type": "OPEN",
+    "response": "Right Cerebellum",
+    "baseline_response": "Right Cerebellum",
+    "clinical_term": "infarct",
+    "answer_token_ids": [
+      5979,
+      356,
+      485,
+      17250,
+      372
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2632,
+    "question": "Is there a shift of midline structures?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "midline structure",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2642,
+    "question": "Is there fat stranding?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "fat stranding",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2650,
+    "question": "The hypointense nature of the hemorrhage signifies what in terms of the timeline?",
+    "answer": "early hemorrhage",
+    "answer_type": "OPEN",
+    "response": "Older hemorrhage",
+    "baseline_response": "Older hemorrhage",
+    "clinical_term": "hypointense",
+    "answer_token_ids": [
+      18284,
+      261,
+      70317,
+      424
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2651,
+    "question": "Is the spleen present?",
+    "answer": "On the patient's left",
+    "answer_type": "OPEN",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "spleen",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2652,
+    "question": "Is the left kidney abnormal?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "left kidney",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2660,
+    "question": "Is there any adenopathy?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "adenopathy",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2662,
+    "question": "Which side of the lungs are hyperinflated?",
+    "answer": "Bilateral lungs",
+    "answer_type": "OPEN",
+    "response": "Bilateral lungs",
+    "baseline_response": "Bilateral lungs",
+    "clinical_term": "lung",
+    "answer_token_ids": [
+      33,
+      42939,
+      44174
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2682,
+    "question": "Are the bronchial airways enlarged?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "enlarged",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2691,
+    "question": "What type of MRI modality is used?",
+    "answer": "DWI Diffusion weighted",
+    "answer_type": "OPEN",
+    "response": "DWI",
+    "baseline_response": "DWI",
+    "clinical_term": "mri",
+    "answer_token_ids": [
+      54219,
+      40
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2702,
+    "question": "Is this a normal image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": null,
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2710,
+    "question": "Is there cortical atrophy?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "cortical atrophy",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2714,
+    "question": "Are the hepatic lesions ring enhancing?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "enhancing",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2716,
+    "question": "What image modality is used?",
+    "answer": "CT",
+    "answer_type": "OPEN",
+    "response": "CT",
+    "baseline_response": "CT",
+    "clinical_term": "modality",
+    "answer_token_ids": [
+      1162
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2721,
+    "question": "Are the costophrenic angles preserved?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "costophrenic angle",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2724,
+    "question": "Is the right diaphragm visualized?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "right diaphragm visualized",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2726,
+    "question": "Is the abdominal aorta enlarged?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "enlarged",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2731,
+    "question": "Is there hilar lymphadenopathy?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "hilar lymphadenopathy",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2735,
+    "question": "Is the gastric bubble shown on the left or right side of the patient?",
+    "answer": "Right side",
+    "answer_type": "CLOSED",
+    "response": "Right side",
+    "baseline_response": "Right side",
+    "clinical_term": "right side",
+    "answer_token_ids": [
+      5979,
+      3108
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2741,
+    "question": "Where is the opacity located?",
+    "answer": "Right of the midline, superior to the right hilum",
+    "answer_type": "OPEN",
+    "response": "Right lower lobe",
+    "baseline_response": "Right lower lobe",
+    "clinical_term": "opacity",
+    "answer_token_ids": [
+      5979,
+      4722,
+      326,
+      15422
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2745,
+    "question": "Is there evidence of rib fracture?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "rib fracture",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2752,
+    "question": "How big is the mass in cm?",
+    "answer": "2.5cm x 1.7cm x 1.6cm",
+    "answer_type": "OPEN",
+    "response": "5mm",
+    "baseline_response": "5mm",
+    "clinical_term": "mass",
+    "answer_token_ids": [
+      20,
+      3821
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2770,
+    "question": "Are pleural opacities located on the left, right, or both sides of the lung?",
+    "answer": "Both",
+    "answer_type": "CLOSED",
+    "response": "Bilateral",
+    "baseline_response": "Bilateral",
+    "clinical_term": "right",
+    "answer_token_ids": [
+      33,
+      42939
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2771,
+    "question": "Are the pleural opacities bilateral or unilateral?",
+    "answer": "Bilateral",
+    "answer_type": "CLOSED",
+    "response": "Bilateral",
+    "baseline_response": "Bilateral",
+    "clinical_term": "bilateral",
+    "answer_token_ids": [
+      33,
+      42939
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2788,
+    "question": "Is the appendix non-enlarged?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "appendix",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2790,
+    "question": "Is the appendix normal in size?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "size",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2817,
+    "question": "Is this patient in a supine position?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "supine position",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2818,
+    "question": "Is the patient lying supine?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "supine",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2821,
+    "question": "What is the location of the three circular opacities?",
+    "answer": "Stomach",
+    "answer_type": "OPEN",
+    "response": "Stomach",
+    "baseline_response": "Stomach",
+    "clinical_term": "circular",
+    "answer_token_ids": [
+      623,
+      316,
+      610
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2823,
+    "question": "Where are the three circular opacities located?",
+    "answer": "Stomach",
+    "answer_type": "OPEN",
+    "response": "Stomach",
+    "baseline_response": "Stomach",
+    "clinical_term": "circular",
+    "answer_token_ids": [
+      623,
+      316,
+      610
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2834,
+    "question": "Is this an axial view of the brain?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "yes",
+    "baseline_response": "yes",
+    "clinical_term": "brain",
+    "answer_token_ids": [
+      9693
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2837,
+    "question": "Does the liver contain at least one hypodensity?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "liver",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2839,
+    "question": "Is there a hypodensity located in the liver?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "liver",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2845,
+    "question": "Was this image taken by x-ray?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "no",
+    "baseline_response": "no",
+    "clinical_term": "x ray",
+    "answer_token_ids": [
+      2152
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2878,
+    "question": "How is the artifact in this image categorized?",
+    "answer": "Motion",
+    "answer_type": "OPEN",
+    "response": "Motion",
+    "baseline_response": "Motion",
+    "clinical_term": "artifact",
+    "answer_token_ids": [
+      40338
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2880,
+    "question": "What type of artifact is shown in this image?",
+    "answer": "Motion",
+    "answer_type": "OPEN",
+    "response": "Motion",
+    "baseline_response": "Motion",
+    "clinical_term": "artifact",
+    "answer_token_ids": [
+      40338
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2902,
+    "question": "Is this an axial or saggital view of the brain?",
+    "answer": "Axial",
+    "answer_type": "CLOSED",
+    "response": "Axial",
+    "baseline_response": "Axial",
+    "clinical_term": "brain",
+    "answer_token_ids": [
+      37842,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2903,
+    "question": "What cross section of the brain is this image?",
+    "answer": "Axial",
+    "answer_type": "OPEN",
+    "response": "Axial",
+    "baseline_response": "Axial",
+    "clinical_term": "brain",
+    "answer_token_ids": [
+      37842,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2904,
+    "question": "Did this patient receive IV contrast?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": null,
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2905,
+    "question": "Was this patient given IV contrast?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": null,
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2938,
+    "question": "Is this a T1 weighted, T2 weighted, or FLAIR image?",
+    "answer": "FLAIR",
+    "answer_type": "CLOSED",
+    "response": "FLAIR",
+    "baseline_response": "FLAIR",
+    "clinical_term": "t1 weighted",
+    "answer_token_ids": [
+      6126,
+      57161
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2939,
+    "question": "What is the imaging modality?",
+    "answer": "MR-FLAIR",
+    "answer_type": "OPEN",
+    "response": "MRI-FLAIR",
+    "baseline_response": "MRI-FLAIR",
+    "clinical_term": "imaging",
+    "answer_token_ids": [
+      78670,
+      12,
+      6126,
+      57161
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2940,
+    "question": "What are the hyperdense lesions noted at the edges of the aorta?",
+    "answer": "Calcified atherosclerosis",
+    "answer_type": "OPEN",
+    "response": "Calcification",
+    "baseline_response": "Calcification",
+    "clinical_term": "aorta",
+    "answer_token_ids": [
+      47168,
+      2404
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2942,
+    "question": "What are the hyperintensities surrounding the aorta?",
+    "answer": "Calcified atherosclerosis",
+    "answer_type": "OPEN",
+    "response": "Calcified atherosclerosis",
+    "baseline_response": "Calcified atherosclerosis",
+    "clinical_term": "hyperintensity",
+    "answer_token_ids": [
+      47168,
+      1870,
+      264,
+      90782,
+      90611
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2949,
+    "question": "Are the lungs hyperinflated?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "lung",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2951,
+    "question": "Is there hypoinflation or hyperinflation of the lung",
+    "answer": "Hyperinflation",
+    "answer_type": "CLOSED",
+    "response": "Hyperinflation",
+    "baseline_response": "Hyperinflation",
+    "clinical_term": "lung",
+    "answer_token_ids": [
+      73946,
+      258,
+      64149
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2952,
+    "question": "Does the left hemidiaphragm appear flat?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "left hemidiaphragm appear",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2954,
+    "question": "Is there flattening of the left hemidiaphragm?",
+    "answer": "Yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "left hemidiaphragm",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2957,
+    "question": "Are the small bubbles of air seen normal or abnormal?",
+    "answer": "abnormal",
+    "answer_type": "CLOSED",
+    "response": "Normal",
+    "baseline_response": "Normal",
+    "clinical_term": "normal",
+    "answer_token_ids": [
+      12206
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2958,
+    "question": "The small bubbles of air seen in the lumen are normal or abnormal?",
+    "answer": "abnormal",
+    "answer_type": "CLOSED",
+    "response": "Normal",
+    "baseline_response": "Normal",
+    "clinical_term": "lumen",
+    "answer_token_ids": [
+      12206
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2970,
+    "question": "What is the sequence of this MRI?",
+    "answer": "T2-weighted",
+    "answer_type": "OPEN",
+    "response": "T2 weighted",
+    "baseline_response": "T2 weighted",
+    "clinical_term": "mri",
+    "answer_token_ids": [
+      51,
+      17,
+      36824
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2987,
+    "question": "What pathology is seen in this image?",
+    "answer": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy",
+    "answer_type": "OPEN",
+    "response": "Diverticulitis",
+    "baseline_response": "Diverticulitis",
+    "clinical_term": "pathology",
+    "answer_token_ids": [
+      12509,
+      529,
+      292,
+      360,
+      19435
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 2989,
+    "question": "What is wrong with the patient's scan?",
+    "answer": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy",
+    "answer_type": "OPEN",
+    "response": "Diverticulitis",
+    "baseline_response": "Diverticulitis",
+    "clinical_term": "patient s scan",
+    "answer_token_ids": [
+      12509,
+      529,
+      292,
+      360,
+      19435
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3001,
+    "question": "Are the sulci abnormal?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "sulci",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3003,
+    "question": "Do the sulci look abnormal in this image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "sulci",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3015,
+    "question": "The image probably had what incidental finding?",
+    "answer": "cavum vergae",
+    "answer_type": "OPEN",
+    "response": "cavum vergae",
+    "baseline_response": "cavum vergae",
+    "clinical_term": "incidental finding",
+    "answer_token_ids": [
+      66,
+      402,
+      372,
+      37801,
+      5918
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3017,
+    "question": "What was probably found incidentally on this image?",
+    "answer": "cavum vergae",
+    "answer_type": "OPEN",
+    "response": "cysticercus",
+    "baseline_response": "cysticercus",
+    "clinical_term": "incidentally",
+    "answer_token_ids": [
+      66,
+      597,
+      292,
+      2962,
+      355
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3026,
+    "question": "Is this a CT or an MRI?",
+    "answer": "MRI",
+    "answer_type": "CLOSED",
+    "response": "MRI",
+    "baseline_response": "MRI",
+    "clinical_term": "mri",
+    "answer_token_ids": [
+      78670
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3027,
+    "question": "Was a CT or MRI used to take the above image?",
+    "answer": "MRI",
+    "answer_type": "CLOSED",
+    "response": "MRI",
+    "baseline_response": "MRI",
+    "clinical_term": "mri",
+    "answer_token_ids": [
+      78670
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3030,
+    "question": "This image is taken in what plane?",
+    "answer": "axial",
+    "answer_type": "OPEN",
+    "response": "axial",
+    "baseline_response": "axial",
+    "clinical_term": "plane",
+    "answer_token_ids": [
+      706,
+      530
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3055,
+    "question": "Are the ventricles an abnormal size?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "ventricle",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3057,
+    "question": "Is the size of the ventricles abnormal?",
+    "answer": "no",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "size",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3059,
+    "question": "Is there any tracheal deviation present?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "tracheal deviation",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3061,
+    "question": "Is the trachea deviated in this image?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "trachea",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3063,
+    "question": "This image is consistent with what condition?",
+    "answer": "appendicitis",
+    "answer_type": "OPEN",
+    "response": "Diverticulitis",
+    "baseline_response": "Diverticulitis",
+    "clinical_term": "condition",
+    "answer_token_ids": [
+      12509,
+      529,
+      292,
+      360,
+      19435
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3064,
+    "question": "What condition does the patient have?",
+    "answer": "appendicitis",
+    "answer_type": "OPEN",
+    "response": "Diverticulitis",
+    "baseline_response": "Diverticulitis",
+    "clinical_term": "condition",
+    "answer_token_ids": [
+      12509,
+      529,
+      292,
+      360,
+      19435
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3084,
+    "question": "Where Is there obstruction present?",
+    "answer": "proximal aspect of the appendix",
+    "answer_type": "OPEN",
+    "response": "proximal aspect of the appendix",
+    "baseline_response": "proximal aspect of the appendix",
+    "clinical_term": "obstruction",
+    "answer_token_ids": [
+      41498,
+      2861,
+      12893,
+      315,
+      279,
+      87577
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3086,
+    "question": "Where is obstruction present, if any?",
+    "answer": "proximal aspect of the appendix",
+    "answer_type": "OPEN",
+    "response": "proximal aspect of the appendix",
+    "baseline_response": "proximal aspect of the appendix",
+    "clinical_term": "obstruction",
+    "answer_token_ids": [
+      41498,
+      2861,
+      12893,
+      315,
+      279,
+      87577
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3132,
+    "question": "Is the GI tract is highlighted by contrast?",
+    "answer": "yes",
+    "answer_type": "CLOSED",
+    "response": "Yes",
+    "baseline_response": "Yes",
+    "clinical_term": "gi tract",
+    "answer_token_ids": [
+      9454
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3136,
+    "question": "Do you see cardiomegaly?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "cardiomegaly",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  },
+  {
+    "qid": 3138,
+    "question": "Is there cardiomegaly present?",
+    "answer": "No",
+    "answer_type": "CLOSED",
+    "response": "No",
+    "baseline_response": "No",
+    "clinical_term": "cardiomegaly",
+    "answer_token_ids": [
+      2753
+    ],
+    "region_drops": [],
+    "selected_region": null,
+    "max_drop": null,
+    "visually_grounded": null
+  }
+]

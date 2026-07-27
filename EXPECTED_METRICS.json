@@ -1,0 +1,13 @@
+{
+  "primary_protocol": "original VQA-RAD answer_type labels",
+  "exact": {
+    "OPEN": {"correct": 110, "total": 179, "accuracy": 0.6145251396648045},
+    "CLOSED": {"correct": 232, "total": 272, "accuracy": 0.8529411764705882},
+    "OVERALL": {"correct": 342, "total": 451, "accuracy": 0.7583148558758315}
+  },
+  "semantic": {
+    "OPEN": {"correct": 132, "total": 179, "accuracy": 0.7374301675977654},
+    "CLOSED": {"correct": 233, "total": 272, "accuracy": 0.8566176470588235},
+    "OVERALL": {"correct": 365, "total": 451, "accuracy": 0.8093126385809313}
+  }
+}

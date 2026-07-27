@@ -1,0 +1,133 @@
+{
+  "selector_retrained": false,
+  "test_labels_used": false,
+  "changes": 14,
+  "changed_items": [
+    {
+      "qid": 306,
+      "question": "What is under the right hemidiaphragm?",
+      "gold": "Free air",
+      "before": "Stomach bubble",
+      "after": "Free air",
+      "source": "same_image_train",
+      "probability": 0.9039429874710013
+    },
+    {
+      "qid": 319,
+      "question": "How would you describe the spleen abnormality",
+      "gold": "hypodense lesion",
+      "before": "Asymmetric",
+      "after": "hypodense lesion",
+      "source": "same_image_train",
+      "probability": 0.9611605805899965
+    },
+    {
+      "qid": 431,
+      "question": "What lobe is the lesion located in?",
+      "gold": "right temporal lobe",
+      "before": "Right temporal lobe",
+      "after": "Right",
+      "source": "same_image_train",
+      "probability": 0.949802725726128
+    },
+    {
+      "qid": 1311,
+      "question": "Is the lesion on the left or right side of the brain?",
+      "gold": "Left",
+      "before": "Left side",
+      "after": "Left",
+      "source": "crop_generation",
+      "probability": 0.9907392072650953
+    },
+    {
+      "qid": 1478,
+      "question": "Where is the lesion located?",
+      "gold": "right lower lateral lung field",
+      "before": "Right lung",
+      "after": "right lower lateral lung field",
+      "source": "same_image_train",
+      "probability": 0.9347571682654667
+    },
+    {
+      "qid": 1632,
+      "question": "Where is the abnormal mass located with respect to the lungs?",
+      "gold": "Right upper lobe",
+      "before": "Right superior cavoatrial junction",
+      "after": "Right upper lobe",
+      "source": "same_image_train",
+      "probability": 0.9801928770853122
+    },
+    {
+      "qid": 1874,
+      "question": "What side is the lesion on?",
+      "gold": "Right",
+      "before": "Right",
+      "after": "Almost entire right side",
+      "source": "same_image_train",
+      "probability": 0.9607955480554864
+    },
+    {
+      "qid": 2481,
+      "question": "What is on the anterior wall of the right chest?",
+      "gold": "Mediport",
+      "before": "A port",
+      "after": "Mediport",
+      "source": "same_image_train",
+      "probability": 0.9760186145726069
+    },
+    {
+      "qid": 2623,
+      "question": "Where are the signals most intense?",
+      "gold": "Frontal and Occipital",
+      "before": "White matter",
+      "after": "Diffuse",
+      "source": "ground_generation",
+      "probability": 0.9799278055226004
+    },
+    {
+      "qid": 2662,
+      "question": "Which side of the lungs are hyperinflated?",
+      "gold": "Bilateral lungs",
+      "before": "Right lung",
+      "after": "Bilateral lungs",
+      "source": "same_image_train",
+      "probability": 0.992065315041624
+    },
+    {
+      "qid": 2735,
+      "question": "Is the gastric bubble shown on the left or right side of the patient?",
+      "gold": "Right side",
+      "before": "Right",
+      "after": "Right side",
+      "source": "ground_generation",
+      "probability": 0.9652042588495882
+    },
+    {
+      "qid": 2741,
+      "question": "Where is the opacity located?",
+      "gold": "Right of the midline, superior to the right hilum",
+      "before": "Right lung base",
+      "after": "Right of the midline, superior to the right hilum",
+      "source": "same_image_train",
+      "probability": 0.9388247137946818
+    },
+    {
+      "qid": 2770,
+      "question": "Are pleural opacities located on the left, right, or both sides of the lung?",
+      "gold": "Both",
+      "before": "Both sides",
+      "after": "Right",
+      "source": "crop_generation",
+      "probability": 0.9850801837861853
+    },
+    {
+      "qid": 2951,
+      "question": "Is there hypoinflation or hyperinflation of the lung",
+      "gold": "Hyperinflation",
+      "before": "hypoinflation",
+      "after": "Hyperinflation",
+      "source": "crop_generation",
+      "probability": 0.9730109484851369
+    }
+  ]
+}

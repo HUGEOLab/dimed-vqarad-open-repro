@@ -1,0 +1,12 @@
+torch==2.10.0
+transformers==5.12.1
+peft==0.18.1
+bitsandbytes==0.49.2
+accelerate==1.13.0
+scikit-learn==1.7.2
+joblib==1.5.3
+numpy==1.26.4
+Pillow==12.2.0
+safetensors==0.7.0
+# GPU feature extraction used flash-attn 2.8.3+cu126torch2.10.
+# Install a wheel matching the local CUDA/PyTorch build separately.

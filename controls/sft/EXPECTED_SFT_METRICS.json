@@ -1,0 +1,18 @@
+{
+  "protocol": "classic VQA-RAD original answer_type; normalized exact and frozen Qwen3-VL semantic judge",
+  "conventional_sft": {
+    "exact": {"overall": 0.5365853658536586, "open": 0.1787709497206704, "closed": 0.7720588235294118},
+    "semantic": {"overall": 0.6674057649667405, "open": 0.4860335195530726, "closed": 0.7867647058823529}
+  },
+  "matched_sft_stage1": {
+    "exact": {"overall": 0.6917960088691796, "open": 0.4581005586592179, "closed": 0.8455882352941176}
+  },
+  "matched_sft_final": {
+    "exact": {"overall": 0.7006651884700665, "open": 0.4692737430167598, "closed": 0.8529411764705882},
+    "semantic": {"overall": 0.7804878048780488, "open": 0.6536312849162011, "closed": 0.8639705882352942}
+  },
+  "method_model_only": {
+    "exact": {"overall": 0.738359201773836, "open": 0.5810055865921788, "closed": 0.8419117647058824},
+    "semantic": {"overall": 0.7960088691796009, "open": 0.7039106145251397, "closed": 0.8566176470588235}
+  }
+}

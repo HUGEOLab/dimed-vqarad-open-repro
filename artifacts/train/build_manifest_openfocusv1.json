@@ -1,0 +1,24 @@
+{
+  "version": "openfocusv1",
+  "source_split": "/home/vscode/D241411/data/vqa_rad/classic_3064_451/trainset.json",
+  "test_labels_used_for_training_policy": false,
+  "open_train_rows": 1241,
+  "ground_rows": 373,
+  "ground_unique_qids": 373,
+  "ground_route_counts": {
+    "local_ctgm": 265,
+    "full_image:plane_or_sequence": 33,
+    "full_image:global_classification": 12,
+    "full_image:count_or_measurement": 29,
+    "full_image:modality": 32,
+    "full_image:position_or_orientation": 2
+  },
+  "ground_open_coverage": 0.300564,
+  "invariant_pair_groups": 296,
+  "invariant_pair_rows": 746,
+  "invariant_pair_unique_qids": 746,
+  "invariant_pair_open_coverage": 0.601128,
+  "negative_policy": "exclude with --no_neg; no OPEN answer is flipped",
+  "recommended_ground_repeat": 2,
+  "recommended_pattern_scope": "OPEN only"
+}

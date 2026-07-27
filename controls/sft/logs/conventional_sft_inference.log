@@ -1,0 +1,26 @@
+loading model
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<01:28,  8.19it/s]Loading weights:   0%|          | 2/729 [00:00<02:16,  5.31it/s]Loading weights:   2%|▏         | 12/729 [00:00<00:21, 34.02it/s]Loading weights:   3%|▎         | 24/729 [00:00<00:11, 58.83it/s]Loading weights:   5%|▌         | 40/729 [00:00<00:09, 71.59it/s]Loading weights:   8%|▊         | 57/729 [00:00<00:07, 95.64it/s]Loading weights:  10%|▉         | 70/729 [00:00<00:06, 104.66it/s]Loading weights:  11%|█         | 82/729 [00:01<00:06, 103.71it/s]Loading weights:  13%|█▎        | 94/729 [00:01<00:05, 106.04it/s]Loading weights:  15%|█▍        | 106/729 [00:01<00:05, 107.02it/s]Loading weights:  16%|█▌        | 118/729 [00:01<00:05, 106.48it/s]Loading weights:  18%|█▊        | 129/729 [00:01<00:05, 104.83it/s]Loading weights:  19%|█▉        | 141/729 [00:01<00:05, 108.74it/s]Loading weights:  21%|██        | 154/729 [00:01<00:05, 113.88it/s]Loading weights:  23%|██▎       | 166/729 [00:01<00:05, 112.38it/s]Loading weights:  24%|██▍       | 178/729 [00:01<00:04, 112.17it/s]Loading weights:  26%|██▌       | 190/729 [00:02<00:04, 112.86it/s]Loading weights:  28%|██▊       | 204/729 [00:02<00:04, 118.28it/s]Loading weights:  30%|███       | 220/729 [00:02<00:04, 122.09it/s]Loading weights:  32%|███▏      | 233/729 [00:02<00:04, 113.32it/s]Loading weights:  34%|███▎      | 246/729 [00:02<00:04, 109.61it/s]Loading weights:  36%|███▌      | 259/729 [00:02<00:04, 114.76it/s]Loading weights:  37%|███▋      | 271/729 [00:02<00:03, 115.27it/s]Loading weights:  39%|███▉      | 284/729 [00:02<00:03, 119.22it/s]Loading weights:  41%|████      | 297/729 [00:02<00:03, 118.03it/s]Loading weights:  43%|████▎     | 310/729 [00:03<00:03, 120.48it/s]Loading weights:  44%|████▍     | 323/729 [00:03<00:03, 122.06it/s]Loading weights:  47%|████▋     | 343/729 [00:03<00:02, 144.36it/s]Loading weights:  62%|██████▏   | 453/729 [00:03<00:00, 422.36it/s]Loading weights:  77%|███████▋  | 561/729 [00:03<00:00, 613.81it/s]Loading weights:  93%|█████████▎| 680/729 [00:03<00:00, 783.42it/s]Loading weights: 100%|██████████| 729/729 [00:03<00:00, 201.54it/s]
+[1/451] baseline='Yes'
+[2/451] baseline='No'
+[3/451] baseline='Yes'
+[4/451] baseline='Paient is upright.'
+[5/451] baseline='Yes'
+[25/451] baseline='Yes'
+[50/451] baseline='3'
+[75/451] baseline='No'
+[100/451] baseline='Right lung hilum'
+[125/451] baseline='Splenium of corpus callosum'
+[150/451] baseline='Yes'
+[175/451] baseline='No'
+[200/451] baseline='Right frontal lobe and right basal ganglia.'
+[225/451] baseline='No'
+[250/451] baseline='Supine.'
+[275/451] baseline='No'
+[300/451] baseline='Diverticulitis.'
+[325/451] baseline='Axial Plane'
+[350/451] baseline='Yes'
+[375/451] baseline='Transverse Plane'
+[400/451] baseline='Left lower lobe'
+[425/451] baseline='Yes'
+[450/451] baseline='No'
+DONE /home/vscode/D241411/projects/causal_grpo/reproduce_dimed/matched_sft_lingshu7_20260722/conventional_sft_model_only.json

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.safetensors
+*.tar.gz
+*.bin
+!provenance/training_args.bin

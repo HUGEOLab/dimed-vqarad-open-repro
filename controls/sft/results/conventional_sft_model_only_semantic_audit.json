@@ -1,0 +1,1607 @@
+{
+  "judge_model": "/home/vscode/.cache/huggingface/hub/models--Qwen--Qwen3-VL-8B-Instruct/snapshots/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "open_n": 200,
+  "open_correct": 101,
+  "items": [
+    {
+      "index": 3,
+      "question": "How is the patient oriented?",
+      "reference": "Posterior-Anterior",
+      "candidate": "Paient is upright.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 39,
+      "question": "Describe the lung abnormalities?",
+      "reference": "Pulmonary nodules",
+      "candidate": "Numerous bilateral pulmonary nodules, largest in the right upper lobe.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 40,
+      "question": "What abnormalities are seen within the lungs?",
+      "reference": "Pulmonary nodules",
+      "candidate": "Numerous bilateral pulmonary nodules",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 41,
+      "question": "What is under the right hemidiaphragm?",
+      "reference": "Free air",
+      "candidate": "Air.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 42,
+      "question": "What is the abnormality by the right hemidiaphragm?",
+      "reference": "Free air",
+      "candidate": "Herniated loop of bowel.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 44,
+      "question": "How would you describe the spleen abnormality",
+      "reference": "hypodense lesion",
+      "candidate": "Splenomegaly",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 45,
+      "question": "What is abnormal about the spleen?",
+      "reference": "hypodense lesion",
+      "candidate": "Infarct",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 47,
+      "question": "Which plane is this image taken?",
+      "reference": "PA",
+      "candidate": "Pa",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 48,
+      "question": "Are there multiple or just 1 metastatic focus?",
+      "reference": "one",
+      "candidate": "multiple",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 49,
+      "question": "How many lesions are in the spleen?",
+      "reference": "one",
+      "candidate": "3",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 50,
+      "question": "What is abnormal about the pancreas?",
+      "reference": "Enlarged",
+      "candidate": "Enlarged and edematous with loss of normal fat plane between pancreas and stomach.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 51,
+      "question": "Why is the pancreas abnormal?",
+      "reference": "Enlarged",
+      "candidate": "Due to pancreatitis.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 52,
+      "question": "What abnormalities are in the lung apices?",
+      "reference": "Nodular opacities",
+      "candidate": "Lung apices are not well visualized due to overlying hair.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 53,
+      "question": "What is seen in the lung apices?",
+      "reference": "Nodular opacities",
+      "candidate": "Nodular opacities",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 56,
+      "question": "How would you describe the abnormalities",
+      "reference": "Ring-enhancing lesions",
+      "candidate": "Ring-enhancing lesions with central necrosis and surrounding edema",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 58,
+      "question": "What lobe is the lesion located in?",
+      "reference": "right temporal lobe",
+      "candidate": "Right parietal lobe",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 59,
+      "question": "Where is the abnormality located?",
+      "reference": "right temporal lobe",
+      "candidate": "Right Lobe",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 60,
+      "question": "How would you describe the aortopulmonary window?",
+      "reference": "middle mogul",
+      "candidate": "Blunted.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 61,
+      "question": "What characteristic finding do you see in the aortopulmonary window?",
+      "reference": "middle mogul",
+      "candidate": "The aortopulmonary window shows a prominent bulging contour, which is indicative of an enlarged pulmonary artery or other",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 62,
+      "question": "Which sign do you see in the aortopulmonary window in this image?",
+      "reference": "middle mogul",
+      "candidate": "Vascular blurring.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 63,
+      "question": "Where is the diffuse pleural thickening?",
+      "reference": "Right lung",
+      "candidate": "Right lung apex.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 64,
+      "question": "Which lung is abnormal?",
+      "reference": "Right lung",
+      "candidate": "Right",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 70,
+      "question": "What kind of image is this?",
+      "reference": "x-ray",
+      "candidate": "X-ray",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 77,
+      "question": "How many instances of intussusception are in the image?",
+      "reference": "One",
+      "candidate": "2",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 79,
+      "question": "Which side is more clearly visualized?",
+      "reference": "Left",
+      "candidate": "Right",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 80,
+      "question": "Which lung is clearer?",
+      "reference": "Left",
+      "candidate": "Left",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 84,
+      "question": "How wide is the heart compared to the thorax?",
+      "reference": "It is less than half the width of the thorax",
+      "candidate": "50%",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 88,
+      "question": "What is the dense mass visualized in the liver?",
+      "reference": "Blood vessel",
+      "candidate": "Hepatocellular carcinoma.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 89,
+      "question": "Where is free air trapped subcutaneously in this image?",
+      "reference": "Above the clavicles bilaterally",
+      "candidate": "Right chest wall.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 91,
+      "question": "Where is the ascending colon?",
+      "reference": "Posterior to the appendix",
+      "candidate": "Right side of image.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 92,
+      "question": "What structure lies directly posterior to the appendix in this image?",
+      "reference": "Psoas muscle",
+      "candidate": "The cecum.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 94,
+      "question": "Where is the subcutaneous air collection?",
+      "reference": "On the right shoulder.",
+      "candidate": "Right chest wall.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 97,
+      "question": "What is in the left apex?",
+      "reference": "A bullous lesion",
+      "candidate": "Pneumothorax",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 99,
+      "question": "Where is the lesion located?",
+      "reference": "Anterior mediastinum",
+      "candidate": "Right lung hilum",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 100,
+      "question": "Which side of the heart border is obscured?",
+      "reference": "Right",
+      "candidate": "Right",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 101,
+      "question": "Where are the kidney?",
+      "reference": "Not seen here",
+      "candidate": "Not seen.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 103,
+      "question": "Is the colon more prominent on the patient's right or left side?",
+      "reference": "Left",
+      "candidate": "Right",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 104,
+      "question": "Where is the colon most prominent from this view?",
+      "reference": "Left",
+      "candidate": "Right side of abdomen",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 105,
+      "question": "Is the heart size in this image smaller or larger than if the image was taken AP?",
+      "reference": "Smaller",
+      "candidate": "Larger",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 108,
+      "question": "What structures are visible in this image?",
+      "reference": "Skull \tcartilage and medulla",
+      "candidate": "The cerebellum and brainstem are visible in this axial MRI scan of the posterior fossa region.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 109,
+      "question": "What is this lucency amid densities in the right lung?",
+      "reference": "The right bronchus",
+      "candidate": "Pneumothorax",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 112,
+      "question": "What type of image is this?",
+      "reference": "Plain film x-ray",
+      "candidate": "Chest x-ray.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 113,
+      "question": "What are these opacities anterior to the right kidney?",
+      "reference": "The small intestines",
+      "candidate": "Large bowel.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 116,
+      "question": "What is the medium density close to the anterior abdominal wall?",
+      "reference": "The diaphragm",
+      "candidate": "Subcutaneous fat.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 118,
+      "question": "What is the plane of this image?",
+      "reference": "Axial",
+      "candidate": "Axial",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 120,
+      "question": "What type of image is this?",
+      "reference": "CT with contrast",
+      "candidate": "CT scan",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 123,
+      "question": "What bright white structures form an X?",
+      "reference": "lateral ventricles",
+      "candidate": "Cystic spaces",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 124,
+      "question": "What are the bright white structures, almost forming an X\"?\"",
+      "reference": "lateral ventricles",
+      "candidate": "Splenium of corpus callosum",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 127,
+      "question": "Is this supratentorial or infratentorial?",
+      "reference": "supratentorial",
+      "candidate": "Supratentorial",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 134,
+      "question": "What hypoattenuated tissue is between the abdominal wall and skin?",
+      "reference": "fat",
+      "candidate": "Subcutaneous fat",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 135,
+      "question": "What is the dark structure underneath the skin?",
+      "reference": "fat",
+      "candidate": "Subcutaneous fat.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 142,
+      "question": "Where is the tip of the line?",
+      "reference": "mid left subclavian vein",
+      "candidate": "Right superior cavoatrial junction",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 143,
+      "question": "Where is the tip of the Port-a-Cath catheter located?",
+      "reference": "mid left subclavian vein",
+      "candidate": "Right superior cavoatrial junction",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 154,
+      "question": "How was this image taken",
+      "reference": "T2-MRI",
+      "candidate": "MRI.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 157,
+      "question": "Describe the pathology",
+      "reference": "cardiomegaly with pulmonary edema",
+      "candidate": "Enlarged cardiac silhouette, pulmonary vascular congestion, bilateral pleural effusions.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 158,
+      "question": "what is the pathology?",
+      "reference": "cardiomegaly with pulmonary edema",
+      "candidate": "Pulmonary edema.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 159,
+      "question": "What organ system is the pathology?",
+      "reference": "pulmonary/lymphatic",
+      "candidate": "Respiratory",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 162,
+      "question": "what is the location of the cavitary lesion",
+      "reference": "Right upper lobe",
+      "candidate": "Right upper lobe",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 163,
+      "question": "Where is the cavitary lesion located?",
+      "reference": "Right upper lobe",
+      "candidate": "Right upper lobe",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 166,
+      "question": "What plane is this film",
+      "reference": "coronal",
+      "candidate": "Pa",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 167,
+      "question": "what is the location of the mass?",
+      "reference": "head of the pancreas",
+      "candidate": "Head of the pancreas",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 168,
+      "question": "Where is the mass located?",
+      "reference": "head of the pancreas",
+      "candidate": "Head of the pancreas",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 169,
+      "question": "The mass is found in which part of the pancreas?",
+      "reference": "The pancreatic head",
+      "candidate": "Head",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 170,
+      "question": "What type of MRI sequence is displayed in this image?",
+      "reference": "T2 weighted MRI",
+      "candidate": "T2-weighted axial MRI sequence.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 171,
+      "question": "From what structure is the large hypodense mass emanating from?",
+      "reference": "The base of the cecum",
+      "candidate": "cecum",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 172,
+      "question": "What lobe of the brain is the lesion located in?",
+      "reference": "Right frontal lobe",
+      "candidate": "Right parietal lobe",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 175,
+      "question": "In what plane was this image taken?",
+      "reference": "Axial plane",
+      "candidate": "Axial Plane",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 176,
+      "question": "Is this an MRI or a CT scan?",
+      "reference": "MRI",
+      "candidate": "MRI",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 178,
+      "question": "In which two ventricles can calcifications be seen on this CT scan?",
+      "reference": "The 3rd ventricle and the lateral ventricles",
+      "candidate": "3rd and 4th ventricles",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 179,
+      "question": "What part of the body is being imaged here?",
+      "reference": "abdomen",
+      "candidate": "Abdomen",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 181,
+      "question": "What abnormality is seen on the left side of the frontal lobe?",
+      "reference": "Regression of left frontal mass",
+      "candidate": "Cystic mass with surrounding edema",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 184,
+      "question": "Diaphragm is elevated on which side?",
+      "reference": "Right",
+      "candidate": "Right",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 185,
+      "question": "Which side of the diaphragm is elevated?",
+      "reference": "Right",
+      "candidate": "Right",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 186,
+      "question": "Where does the L renal vein connect to",
+      "reference": "IVC",
+      "candidate": "IVC",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 187,
+      "question": "Where does the L renal vein drain into?",
+      "reference": "IVC",
+      "candidate": "IVC",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 190,
+      "question": "Is the lesion on the left or right side of the brain?",
+      "reference": "Left",
+      "candidate": "Left side",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 191,
+      "question": "What side of the brain is a lesion on?",
+      "reference": "Left",
+      "candidate": "Left side",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 192,
+      "question": "What plane is this?",
+      "reference": "Axial",
+      "candidate": "Axial",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 193,
+      "question": "Where is there evidence of a pleural effusion?",
+      "reference": "Right side",
+      "candidate": "Right costophrenic angle.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 194,
+      "question": "Where is the pleural effusion located?",
+      "reference": "Right side",
+      "candidate": "Right lung base",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 198,
+      "question": "Where are the acute infarcts?",
+      "reference": "R frontal lobe",
+      "candidate": "Right MCA territory.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 199,
+      "question": "Where do you see acute infarcts?",
+      "reference": "R frontal lobe",
+      "candidate": "Right frontal lobe and right basal ganglia.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 203,
+      "question": "How would you measure the length of the kidneys?",
+      "reference": "coronal plane?",
+      "candidate": "12 cm.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 205,
+      "question": "What type of imaging modality is used to acquire the above image?",
+      "reference": "MRI - T2 weighted",
+      "candidate": "MRI (Magnetic Resonance Imaging)",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 206,
+      "question": "The image is taken in what plane?",
+      "reference": "axial",
+      "candidate": "Axial Plane",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 207,
+      "question": "What plane is the above image acquired in?",
+      "reference": "axial",
+      "candidate": "Axial Plane",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 208,
+      "question": "What is the location of the lesion?",
+      "reference": "right lower lateral lung field",
+      "candidate": "Right lower lobe.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 209,
+      "question": "Where is the lesion located?",
+      "reference": "right lower lateral lung field",
+      "candidate": "Right lower lobe",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 210,
+      "question": "How large is the mass in the right upper quadrant?",
+      "reference": "3.4 cm",
+      "candidate": "5 cm",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 211,
+      "question": "Size of the mass in the right upper quadrant?",
+      "reference": "3.4 cm",
+      "candidate": "5.6cm x 4.7cm",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 212,
+      "question": "Is the patient a female or male?",
+      "reference": "Female",
+      "candidate": "FEMALE",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 213,
+      "question": "What is the biological sex of the patient?",
+      "reference": "Female",
+      "candidate": "F",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 217,
+      "question": "What organ system is being imaged?",
+      "reference": "Brain",
+      "candidate": "Head",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 218,
+      "question": "The hemorrhage is adjacent to what structures?",
+      "reference": "Left thalamus and basal ganglia",
+      "candidate": "Thalamus and midbrain",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 219,
+      "question": "What structures are located near the hemorrhage shown?",
+      "reference": "Left thalamus and basal ganglia",
+      "candidate": "Thalamus",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 220,
+      "question": "What major artery of the brain may be affected by the lesion seen in the above image?",
+      "reference": "Basilar artery",
+      "candidate": "Basilar artery",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 221,
+      "question": "Which major artery of the brain is affected by this lesion?",
+      "reference": "Basilar artery",
+      "candidate": "Basilar artery",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 225,
+      "question": "Where are the brain lesions located?",
+      "reference": "Right hemisphere",
+      "candidate": "Bilateral posterior cerebral hemispheres",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 226,
+      "question": "Which hemisphere of the brain are the lesions located in?",
+      "reference": "Right hemisphere",
+      "candidate": "Right",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 227,
+      "question": "In which brain area is the lesion located?",
+      "reference": "Right cerebellopontine angle",
+      "candidate": "Right cerebellum",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 228,
+      "question": "Where is the lesion located?",
+      "reference": "Right cerebellopontine angle",
+      "candidate": "Right cerebellum",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 229,
+      "question": "The tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?",
+      "reference": "Adipose tissue",
+      "candidate": "Fat",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 230,
+      "question": "The tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?",
+      "reference": "Adipose tissue",
+      "candidate": "Fat",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 231,
+      "question": "The lesion seen in the image above is isointense to what object that is normally found in the brain?",
+      "reference": "CSF",
+      "candidate": "Cerebrospinal fluid",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 232,
+      "question": "The lesion is isointense to what object normally found in the brain?",
+      "reference": "CSF",
+      "candidate": "Cerebrospinal fluid (CSF).",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 235,
+      "question": "The condition in which a patient has enlarged ventricles as seen in this image?",
+      "reference": "Hydrocephalus",
+      "candidate": "Hydrocephalus",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 236,
+      "question": "What is the condition in which the ventricles are enlarged as seen in this image?",
+      "reference": "Hydrocephalus",
+      "candidate": "Hydrocephalus",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 237,
+      "question": "What organ system is visualized in the above image?",
+      "reference": "Brain",
+      "candidate": "Head",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 238,
+      "question": "How was this image taken?",
+      "reference": "CT",
+      "candidate": "With contrast.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 239,
+      "question": "What imaging modality is used?",
+      "reference": "CT",
+      "candidate": "CT",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 240,
+      "question": "In which lobe do you see an abnormal mass in the above images?",
+      "reference": "Right upper lobe",
+      "candidate": "Right upper lobe",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 241,
+      "question": "Where is the abnormal mass located with respect to the lungs?",
+      "reference": "Right upper lobe",
+      "candidate": "Right Lung",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 242,
+      "question": "What imaging modality was used to take this image?",
+      "reference": "Xray",
+      "candidate": "X-Ray",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 243,
+      "question": "Where is the abnormality?",
+      "reference": "Right posteroinferior cerebellum",
+      "candidate": "Right sphenoid sinus",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 244,
+      "question": "What abnormality is present?",
+      "reference": "bleeding in the right posteroinferior cerebellum",
+      "candidate": "Blowout fracture of orbit.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 249,
+      "question": "How is the patient positioned for this scan?",
+      "reference": "Supine (see air-fluid level)",
+      "candidate": "Supine.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 250,
+      "question": "What is the hypodensity in the liver?",
+      "reference": "Gallbladder",
+      "candidate": "Fat.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 252,
+      "question": "Is this patient male or female?",
+      "reference": "Female",
+      "candidate": "FEMALE",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 253,
+      "question": "What is the patient's gender?",
+      "reference": "Female",
+      "candidate": "F",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 258,
+      "question": "What is located immediately inferior to the right hemidiaphragm?",
+      "reference": "The liver",
+      "candidate": "Stomach bubble.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 262,
+      "question": "What are the black areas at the top of the image?",
+      "reference": "Maxillary sinuses",
+      "candidate": "CSF in the ventricles.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 263,
+      "question": "What does the least dense region represent",
+      "reference": "Maxillary sinuses",
+      "candidate": "Necrosis.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 264,
+      "question": "What is the orientation of the patient?",
+      "reference": "Lying supine with their feet towards the screen",
+      "candidate": "Axial",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 267,
+      "question": "What skeletal joint is seen in this image?",
+      "reference": "Sacroiliac joint",
+      "candidate": "Sacroiliac joint",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 269,
+      "question": "Is the lesion on the left or right?",
+      "reference": "Right",
+      "candidate": "Right",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 270,
+      "question": "What side is the lesion on?",
+      "reference": "Right",
+      "candidate": "Right",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 271,
+      "question": "What are the hyperdensities on the periphery of the image?",
+      "reference": "Ribs",
+      "candidate": "Calcifications.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 272,
+      "question": "What are the hyperdense opacities located around the periphery?",
+      "reference": "Ribs",
+      "candidate": "Calcifications",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 277,
+      "question": "What is better identified on a PA CXR vs a lateral CXR?",
+      "reference": "Right vs left sided pathology",
+      "candidate": "Cardiac silhouette.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 286,
+      "question": "Which plane is this image in?",
+      "reference": "Axial",
+      "candidate": "Axial Plane",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 287,
+      "question": "Name one organ that is captured by this image.",
+      "reference": "intestines",
+      "candidate": "Small bowel",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 288,
+      "question": "What is wrong with the ventricles?",
+      "reference": "Lateral and third ventricular hydrocephalus",
+      "candidate": "Enlarged",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 289,
+      "question": "What ventricular abnormalities are seen?",
+      "reference": "Lateral and third ventricular hydrocephalus",
+      "candidate": "Ventriculomegaly",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 298,
+      "question": "What is the condition?",
+      "reference": "Diverticulitis",
+      "candidate": "Diverticulitis.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 299,
+      "question": "What is the pathology?",
+      "reference": "Diverticulitis",
+      "candidate": "Diverticulitis.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 300,
+      "question": "In what plane was this image taken?",
+      "reference": "Axial",
+      "candidate": "Axial Plane",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 303,
+      "question": "What are the bright specks in the gallbladder",
+      "reference": "Gallstones",
+      "candidate": "Cholesterol crystals",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 307,
+      "question": "What two tributaries of blood vessels are impacted?",
+      "reference": "left ACA and MCA",
+      "candidate": "ACA and MCA",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 308,
+      "question": "Which blood vessels are affected?",
+      "reference": "left ACA and MCA",
+      "candidate": "Right middle cerebral artery and its branches",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 309,
+      "question": "What organ is affected by pathology in this image?",
+      "reference": "brain",
+      "candidate": "Brain",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 310,
+      "question": "What structures are involved?",
+      "reference": "Caudate, putamen, left parietal",
+      "candidate": "Basal ganglia and thalami",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 313,
+      "question": "What organ system is shown?",
+      "reference": "brain",
+      "candidate": "Head",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 314,
+      "question": "What structure is depicted?",
+      "reference": "brain",
+      "candidate": "Corpus callosum",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 315,
+      "question": "What pathology does the image represent",
+      "reference": "kidney cyst",
+      "candidate": "Percutaneous nephrostomy.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 316,
+      "question": "What is the mass most likely?",
+      "reference": "kidney cyst",
+      "candidate": "Adrenal adenoma",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 323,
+      "question": "How was the image taken?",
+      "reference": "axial",
+      "candidate": "MRI FLAIR",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 324,
+      "question": "What plane was used in this image?",
+      "reference": "axial",
+      "candidate": "Axial Plane",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 325,
+      "question": "What are the two humps\" at the base on the image signifying?\"",
+      "reference": "Diaphragm",
+      "candidate": "Diaphragmatic domes.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 330,
+      "question": "What organ system is visualized?",
+      "reference": "chest",
+      "candidate": "Chest.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 334,
+      "question": "Which ventricle is the mass located in?",
+      "reference": "4th ventricle",
+      "candidate": "4th ventricle",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 341,
+      "question": "What modality is used to take this image?",
+      "reference": "XR",
+      "candidate": "X-Ray.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 344,
+      "question": "Which lung lobe has the least opacities?",
+      "reference": "Upper left",
+      "candidate": "Right upper lobe",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 345,
+      "question": "Term for the enhancement of the luminal surface seen in the image?",
+      "reference": "mucosal hyperemia",
+      "candidate": "Targetoid appearance",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 347,
+      "question": "The hyperattenuating ovoid mass is lateral to what structure?",
+      "reference": "ascending colon",
+      "candidate": "Aorta.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 352,
+      "question": "Which kidney has fluid around it?",
+      "reference": "Right",
+      "candidate": "Right",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 356,
+      "question": "What is on the anterior wall of the right chest?",
+      "reference": "Mediport",
+      "candidate": "Chest port",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 364,
+      "question": "Where is the location of the mass?",
+      "reference": "anterior mediastinum",
+      "candidate": "Left paratracheal region.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 365,
+      "question": "Are the structures in the pancreas cystic or solid?",
+      "reference": "Cystic",
+      "candidate": "Cystic",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 368,
+      "question": "How large is the mass?",
+      "reference": "5mm",
+      "candidate": "10 cm",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 374,
+      "question": "What image plane is this?",
+      "reference": "Axial",
+      "candidate": "Transverse Plane",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 375,
+      "question": "What modality was used?",
+      "reference": "plain film",
+      "candidate": "X-Ray",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 377,
+      "question": "Is this image normal or abnormal?",
+      "reference": "Abnormal",
+      "candidate": "Normal",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 378,
+      "question": "What modality was used for this image?",
+      "reference": "MRI",
+      "candidate": "MRI FLAIR.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 379,
+      "question": "Where are the signals most intense?",
+      "reference": "Frontal and Occipital",
+      "candidate": "Corpus callosum",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 380,
+      "question": "Where are the infarcts?",
+      "reference": "basal ganglia, cerebellum, cerebral cortex",
+      "candidate": "Right cerebellum, right pons, left cerebellum, left pons.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 383,
+      "question": "The hypointense nature of the hemorrhage signifies what in terms of the timeline?",
+      "reference": "early hemorrhage",
+      "candidate": "Subacute",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 384,
+      "question": "Is the spleen present?",
+      "reference": "On the patient's left",
+      "candidate": "No",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 387,
+      "question": "Which side of the lungs are hyperinflated?",
+      "reference": "Bilateral lungs",
+      "candidate": "Left lung",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 389,
+      "question": "What type of MRI modality is used?",
+      "reference": "DWI Diffusion weighted",
+      "candidate": "Diffusion weighted imaging (DWI).",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 393,
+      "question": "What image modality is used?",
+      "reference": "CT",
+      "candidate": "CT",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 398,
+      "question": "Is the gastric bubble shown on the left or right side of the patient?",
+      "reference": "Right side",
+      "candidate": "Right",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 399,
+      "question": "Where is the opacity located?",
+      "reference": "Right of the midline, superior to the right hilum",
+      "candidate": "Left lower lobe",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 401,
+      "question": "How big is the mass in cm?",
+      "reference": "2.5cm x 1.7cm x 1.6cm",
+      "candidate": "3.5 cm",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 402,
+      "question": "Are pleural opacities located on the left, right, or both sides of the lung?",
+      "reference": "Both",
+      "candidate": "both sides",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 403,
+      "question": "Are the pleural opacities bilateral or unilateral?",
+      "reference": "Bilateral",
+      "candidate": "Bilateral",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 408,
+      "question": "What is the location of the three circular opacities?",
+      "reference": "Stomach",
+      "candidate": "Right lower lung zone.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 409,
+      "question": "Where are the three circular opacities located?",
+      "reference": "Stomach",
+      "candidate": "Left upper quadrant.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 414,
+      "question": "How is the artifact in this image categorized?",
+      "reference": "Motion",
+      "candidate": "Pseudo mass artifact.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 415,
+      "question": "What type of artifact is shown in this image?",
+      "reference": "Motion",
+      "candidate": "Ghosting.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 416,
+      "question": "Is this an axial or saggital view of the brain?",
+      "reference": "Axial",
+      "candidate": "Axial",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 417,
+      "question": "What cross section of the brain is this image?",
+      "reference": "Axial",
+      "candidate": "Transverse Plane",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 420,
+      "question": "Is this a T1 weighted, T2 weighted, or FLAIR image?",
+      "reference": "FLAIR",
+      "candidate": "T1",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 421,
+      "question": "What is the imaging modality?",
+      "reference": "MR-FLAIR",
+      "candidate": "MRI FLAIR",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 422,
+      "question": "What are the hyperdense lesions noted at the edges of the aorta?",
+      "reference": "Calcified atherosclerosis",
+      "candidate": "Calcifications",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 423,
+      "question": "What are the hyperintensities surrounding the aorta?",
+      "reference": "Calcified atherosclerosis",
+      "candidate": "Calcifications",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 425,
+      "question": "Is there hypoinflation or hyperinflation of the lung",
+      "reference": "Hyperinflation",
+      "candidate": "Hyperinflated",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 428,
+      "question": "Are the small bubbles of air seen normal or abnormal?",
+      "reference": "abnormal",
+      "candidate": "Normal",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 429,
+      "question": "The small bubbles of air seen in the lumen are normal or abnormal?",
+      "reference": "abnormal",
+      "candidate": "Normal",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 430,
+      "question": "What is the sequence of this MRI?",
+      "reference": "T2-weighted",
+      "candidate": "T2.",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 431,
+      "question": "What pathology is seen in this image?",
+      "reference": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy",
+      "candidate": "Diverticulitis.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 432,
+      "question": "What is wrong with the patient's scan?",
+      "reference": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy",
+      "candidate": "Small bowel lymphoma.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 435,
+      "question": "The image probably had what incidental finding?",
+      "reference": "cavum vergae",
+      "candidate": "Arachnoid cyst.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 436,
+      "question": "What was probably found incidentally on this image?",
+      "reference": "cavum vergae",
+      "candidate": "Arachnoid cyst.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 437,
+      "question": "Is this a CT or an MRI?",
+      "reference": "MRI",
+      "candidate": "MRI",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 438,
+      "question": "Was a CT or MRI used to take the above image?",
+      "reference": "MRI",
+      "candidate": "MRI",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 439,
+      "question": "This image is taken in what plane?",
+      "reference": "axial",
+      "candidate": "Axial Plane",
+      "equivalent": true,
+      "judge_raw": "1"
+    },
+    {
+      "index": 444,
+      "question": "This image is consistent with what condition?",
+      "reference": "appendicitis",
+      "candidate": "Crohn disease",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 445,
+      "question": "What condition does the patient have?",
+      "reference": "appendicitis",
+      "candidate": "Crohn's disease",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 446,
+      "question": "Where Is there obstruction present?",
+      "reference": "proximal aspect of the appendix",
+      "candidate": "Small bowel.",
+      "equivalent": false,
+      "judge_raw": "0"
+    },
+    {
+      "index": 447,
+      "question": "Where is obstruction present, if any?",
+      "reference": "proximal aspect of the appendix",
+      "candidate": "Small bowel.",
+      "equivalent": false,
+      "judge_raw": "0"
+    }
+  ]
+}
