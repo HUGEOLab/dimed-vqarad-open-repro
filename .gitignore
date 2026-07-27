@@ -5,3 +5,4 @@ __pycache__/
 *.bin
 !provenance/training_args.bin
 work/from_base/
+work/ctgm/

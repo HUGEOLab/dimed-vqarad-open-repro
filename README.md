@@ -18,9 +18,9 @@ deterministic anchor anyone can recompute without a GPU. Model-judge scores are
 not official exact-match scores; cite them with the judge identity and prompt.
 
 **Weights are not in this repository** — each LoRA adapter is 182 MB, over
-GitHub's per-file limit. You do not need them: step 4 trains both stages from the
-bare base model using only the corpora shipped here. Steps 1-3 need no GPU at
-all. Steps 5-7 are optional variants.
+GitHub's per-file limit. You do not need them: step 5 trains both stages from the
+bare base model using only the corpora shipped here. Steps 1-4 need no GPU at
+all. Steps 6-8 are optional variants.
 
 ---
 
@@ -67,7 +67,7 @@ published intermediates, and the selection and scoring logic is what is describe
 What it does not establish: that the model produces those 451 answers, or that
 the judge produces those 200 decisions. Its inputs and its reference output come
 from the same frozen run, so it is an integrity check, not evidence about the
-model. For that, train and score the model yourself in step 4.
+model. For that, train and score the model yourself in step 5.
 
 ## Step 3 — Reproduce the ordinary-SFT comparison (no GPU)
 
@@ -86,7 +86,39 @@ semantic difference is smaller and not significant at alpha 0.05 in the paired
 test. This package does not claim CTGM alone causes the full gap. Details in
 `controls/sft/README.md`.
 
-## Step 4 — Train from the bare base model, then score (GPU, no shipped weights)
+## Step 4 — Rebuild the CTGM / de-confounding corpora (no GPU, no model)
+
+Regenerates every training corpus from the shipped BiomedCLIP region scores, then
+checks the result against the corpora this package ships.
+
+```bash
+bash run_build_ctgm.sh /path/to/VQA-RAD-dir
+```
+
+Ends with `PASS: every CTGM corpus rebuilds byte-for-byte from the shipped region scores.`
+It rebuilds and byte-compares all five: `ctgm_train_cleanv3` (786 rows),
+`semantic_negatives_cleanv3` (595), `ctgm_train_openfocusv1` (373),
+`open_invariant_pairs_openfocusv1` (746), `ctgm_test_selectivev5` (451).
+
+The chain, in `scripts/ctgm/`:
+
+| Stage | Does | Needs |
+|---|---|---|
+| `build_test_regions.py` | question clinical term to image patch alignment, writes `ctgm_*_min2.jsonl` | **BiomedCLIP** |
+| `build_clean_v2.py` | high-precision region filter, seeded cross-organ negatives | images only |
+| `build_clean_v3.py` | stricter score and top1-top3 margin gate, 3x box expansion | images only |
+| `build_selective_v5.py` | route CTGM only to localizable questions | nothing |
+| `build_openfocus_v1.py` | OPEN-focused branch and invariant OPEN pairs | trainset.json |
+| `rewrite_patterns_lingshu.py` | question-pattern perturbation corpus | **Lingshu-7B** |
+
+`run_build_ctgm.sh` runs the four middle stages, which need no model at all,
+starting from the shipped `artifacts/ctgm/ctgm_{train,test}_min2.jsonl`. The two
+model-dependent ends are shipped for audit and to rerun on other data, but are not
+part of the byte-for-byte check: `build_test_regions.py` needs BiomedCLIP, and
+`rewrite_patterns_lingshu.py` needs the base model. Negative construction is
+seeded (`random.Random(42)`), so the chain is deterministic.
+
+## Step 5 — Train from the bare base model, then score (GPU, no shipped weights)
 
 This is the full path: it trains both LoRA stages yourself and scores the model
 you trained. It needs no adapter from us.
@@ -144,7 +176,7 @@ be verified. Expect the reported semantic numbers to within about a point on
 OPEN. Our own bare-base run landed at OPEN 73.18% and overall 80.93% semantic,
 against the 73.74% / 80.93% above.
 
-## Step 5 — Inference only, from a shipped adapter (GPU + weights)
+## Step 6 — Inference only, from a shipped adapter (GPU + weights)
 
 If you obtained `openfocusv2_final` separately, place it at
 `artifacts/adapters/openfocusv2_final/` and skip training:
@@ -157,7 +189,7 @@ Regenerates all 451 baseline answers, the 60 local CTGM feature rows, both
 verifier stages, and `work/full/exact_metrics.json`. Generation is greedy.
 Roughly 15-25 minutes on one NVIDIA A40.
 
-## Step 6 — Re-run the semantic judge (GPU)
+## Step 7 — Re-run the semantic judge (GPU)
 
 Skip this if you only want the reported numbers. The frozen per-row judge
 decisions ship in
@@ -181,9 +213,9 @@ accepts standard abbreviations and synonyms, and rejects wrong laterality,
 anatomy, location, modality, sequence, measurement, polarity, or an omitted
 required finding.
 
-## Step 7 — Stage 2 only, from a shipped e2 adapter (GPU + weights)
+## Step 8 — Stage 2 only, from a shipped e2 adapter (GPU + weights)
 
-Step 4 already covers this. Use this variant only if you obtained `e2_final`
+Step 5 already covers this. Use this variant only if you obtained `e2_final`
 separately and want to retrain just the OPEN-focused continuation; place it at
 `artifacts/adapters/e2_final/`.
 
@@ -206,7 +238,7 @@ also starts from the bare base model and needs no shipped adapter.
 - **Bitwise reproducible:** the verifier stages and both scorers, given the frozen
   intermediates (step 2).
 - **Reproducible as a method, not bitwise:** training either stage from the bare
-  base model (step 4). CUDA kernels are not bitwise deterministic across hardware,
+  base model (step 5). CUDA kernels are not bitwise deterministic across hardware,
   and the historical stage-1 CTGM snapshot was not retained, so
   `scripts/build_e2_corpus.py` reconstructs it by a rule inferred from the recorded
   row and step counts. Content identity with the original snapshot is unverified.
